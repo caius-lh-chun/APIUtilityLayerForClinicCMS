@@ -1,0 +1,4361 @@
+,filename,data_schema_pdf
+0,AIA hospital OPCLMF03.pdf.coredownload.inline.pdf,"{
+  ""0"": [
+    {
+      ""xref"": 449,
+      ""name"": ""ChkCC agent"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the claimant to indicate disagreement with the arrangement of allowing their AIA financial planner/broker/IFA to view claim information for follow-up purposes. Checking this box opts out of this arrangement.""
+    },
+    {
+      ""xref"": 450,
+      ""name"": ""rbServicing Agent as policy record"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A radio button to indicate who will follow up on the claim. This option selects 'By Servicing Agent as policy record', meaning the agent recorded on the policy will handle the follow-up.""
+    },
+    {
+      ""xref"": 451,
+      ""name"": ""txtANG"",
+      ""label"": ""TR MembershipNo"",
+      ""max_length"": 7,
+      ""description"": ""A text field for entering the numerical portion of the 'TR Membership Number' when the 'ANG' type is selected.""
+    },
+    {
+      ""xref"": 452,
+      ""name"": ""chkANG"",
+      ""label"": ""TRMembershipnumber"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to select 'ANG' as the type for the 'TR Membership Number'.""
+    },
+    {
+      ""xref"": 453,
+      ""name"": ""txtIA"",
+      ""label"": ""TR MembershipNo"",
+      ""max_length"": 6,
+      ""description"": ""A text field for entering the numerical portion of the 'TR Membership Number' when the 'IA' type is selected.""
+    },
+    {
+      ""xref"": 454,
+      ""name"": ""chkIA"",
+      ""label"": ""TRMembershipnumber"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to select 'IA' as the type for the 'TR Membership Number'.""
+    },
+    {
+      ""xref"": 455,
+      ""name"": ""txtAgtTel"",
+      ""label"": ""Agent's Tel. No"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the 'Agent / TR's Tel. No.'. This is the telephone number of the agent or TR (\u696d\u52d9\u4ee3\u8868), required if the 'By other agent/broker' option is selected.""
+    },
+    {
+      ""xref"": 456,
+      ""name"": ""txtAgtName"",
+      ""label"": ""Agent's Name"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the 'Agent / TR's Name'. This is the name of the agent or TR (\u696d\u52d9\u4ee3\u8868), required if the 'By other agent/broker' option is selected.""
+    },
+    {
+      ""xref"": 457,
+      ""name"": ""txtAgyCode"",
+      ""label"": null,
+      ""max_length"": 5,
+      ""description"": ""A text field for entering the 'Agency Code'. This is the code for the agent's agency, required if the 'By other agent/broker' option is selected.""
+    },
+    {
+      ""xref"": 458,
+      ""name"": ""txtAgtCode"",
+      ""label"": ""Agent Code"",
+      ""max_length"": 5,
+      ""description"": ""A text field for entering the 'Agent / Broker Code'. This is the code for the specific agent or broker, required if the 'By other agent/broker' option is selected.""
+    },
+    {
+      ""xref"": 459,
+      ""name"": ""txtAgyBrokerName"",
+      ""label"": ""Agency/Broker Name"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the 'Agency / Broker Name'. This is the name of the agent's agency or the brokerage, required if the 'By other agent/broker' option is selected.""
+    },
+    {
+      ""xref"": 460,
+      ""name"": ""txtAreaCode"",
+      ""label"": ""Area/Agency/Broker Code"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the 'Area Code'. This is the area code for the agency or broker, required if the 'By other agent/broker' option is selected.""
+    },
+    {
+      ""xref"": 461,
+      ""name"": ""txtIDPassportNo"",
+      ""label"": ""\u0003I.D. Card/Passport Number "",
+      ""max_length"": 14,
+      ""description"": ""A text field for the insured person's 'ID Card Number / Passport Number'. The user needs to enter their identification document number.""
+    },
+    {
+      ""xref"": 462,
+      ""name"": ""txtInsured"",
+      ""label"": ""Name of Insured"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the 'Name of Insured'. The user needs to enter the full name of the person covered by the insurance who is making the claim.""
+    },
+    {
+      ""xref"": 463,
+      ""name"": ""txtPolNo"",
+      ""label"": ""Policy Number"",
+      ""max_length"": 10,
+      ""description"": ""A text field for the 'Policy Number'. The user needs to enter the insurance policy number for this claim.""
+    },
+    {
+      ""xref"": 464,
+      ""name"": ""ChkBenefits to claim 1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox under 'Benefits to Claim'. This option selects 'Accident Medical Reimbursement'.""
+    },
+    {
+      ""xref"": 465,
+      ""name"": ""ChkBenefits to claim 2"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox under 'Benefits to Claim'. This option selects 'Accident / Weekly Indemnity'.""
+    },
+    {
+      ""xref"": 466,
+      ""name"": ""ChkBenefits to claim 3"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox under 'Benefits to Claim'. This option selects 'Broken Bone'.""
+    },
+    {
+      ""xref"": 467,
+      ""name"": ""ChkBenefits to claim 4"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox under 'Benefits to Claim'. This option selects 'Medical Reimbursement'.""
+    },
+    {
+      ""xref"": 468,
+      ""name"": ""ChkBenefits to claim 5"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox under 'Benefits to Claim'. This option selects 'Hospital Income / Benefit'.""
+    },
+    {
+      ""xref"": 469,
+      ""name"": ""ChkBenefits to claim 6"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox under 'Benefits to Claim'. This option selects 'Voluntary Group Assurance'.""
+    },
+    {
+      ""xref"": 470,
+      ""name"": ""ChkBenefits to claim 7"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox under 'Benefits to Claim'. This option selects 'Health Wallet'.""
+    },
+    {
+      ""xref"": 471,
+      ""name"": ""txtAIA Individual Life"",
+      ""label"": null,
+      ""max_length"": 5,
+      ""description"": ""A text field in the 'CLAIMS SEQUENCE' section. The user enters a number (1, 2, or 3) to set the claim priority for their 'AIA Individual Life' policy.""
+    },
+    {
+      ""xref"": 472,
+      ""name"": ""txtAIA Group Insurance"",
+      ""label"": null,
+      ""max_length"": 5,
+      ""description"": ""A text field in the 'CLAIMS SEQUENCE' section. The user enters a number (1, 2, or 3) to set the claim priority for their 'AIA Group Insurance' policy.""
+    },
+    {
+      ""xref"": 473,
+      ""name"": ""txtOther"",
+      ""label"": null,
+      ""max_length"": 5,
+      ""description"": ""A text field in the 'CLAIMS SEQUENCE' section. The user enters a number (1, 2, or 3) to set the claim priority for a policy from an 'Other Insurance Company'.""
+    },
+    {
+      ""xref"": 474,
+      ""name"": ""txt(I) p1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text area for providing details of an 'AIA Group insurance policy'. Information needed: 1) group policy no. & employer name, 2) member/certificate no., 3) employee name & 4) relationship with employee.""
+    },
+    {
+      ""xref"": 475,
+      ""name"": ""txt(II) p1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text area for providing details of a policy with an 'Other insurance company'. Information needed: 1) name of other insurance company, 2) policy no., 3) name of insured & 4) name of policyowner.""
+    },
+    {
+      ""xref"": 476,
+      ""name"": ""ChkCC agent#1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox at the bottom of the form. The user checks this box if they do not agree to have their claims for AIA International Limited and AIA Everest Life Company Limited policies processed together.""
+    },
+    {
+      ""xref"": 477,
+      ""name"": ""txtBarcode"",
+      ""label"": ""Text barcode"",
+      ""max_length"": 0,
+      ""description"": ""This field contains the pre-printed barcode and form identifier 'O1002179----7' located at the bottom-left of the page.""
+    },
+    {
+      ""xref"": 480,
+      ""name"": ""rbServicing Agent as policy record"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A radio button to indicate who will follow up on the claim. This option selects 'By other agent / broker of below details'. If chosen, the user must fill in the agent/broker information in the fields provided.""
+    },
+    {
+      ""xref"": 481,
+      ""name"": ""rbServicing Agent as policy record"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A radio button to indicate who will follow up on the claim. This option selects 'By own self of policyowner', meaning the policyowner will manage the claim follow-up personally.""
+    }
+  ],
+  ""1"": [
+    {
+      ""xref"": 172,
+      ""name"": ""txtPolNo"",
+      ""label"": ""Policy Number"",
+      ""max_length"": 10,
+      ""description"": ""Policy Number. This field is for the user to enter their insurance policy number.""
+    },
+    {
+      ""xref"": 169,
+      ""name"": ""txtNETWORK SURGERY / HOSPITALIZATION PARTICULARS 1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text area for the user to provide details about the illness or accident. Information required includes: symptoms, onset date or accident date, cause of accident, diagnosis, and the name of the attending doctor.""
+    },
+    {
+      ""xref"": 173,
+      ""name"": ""txtNETWORK SURGERY / HOSPITALIZATION PARTICULARS 2"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text area for the user to provide details about the hospitalization or surgery. Information required includes: the name of the hospital where treatment was received, the dates of admission and discharge, and the name of the surgery performed.""
+    },
+    {
+      ""xref"": 174,
+      ""name"": ""txtNETWORK SURGERY / HOSPITALIZATION PARTICULARS 3"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text area for the user to describe any relationship between the insured person and the attending doctor, other than the professional patient-doctor relationship (e.g., immediate family, employer, business partner, insurance agent).""
+    },
+    {
+      ""xref"": 170,
+      ""name"": ""txtOwnerTel"",
+      ""label"": ""Owner's Mobile Number"",
+      ""max_length"": 0,
+      ""description"": ""Owner's Mobile Number. This field is for the user to enter the policy owner's mobile phone number.""
+    },
+    {
+      ""xref"": 168,
+      ""name"": ""rbSettlementOpt 1"",
+      ""label"": ""Settlement Option"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select if they want to apply the chosen payment option to all their Hong Kong policies with the company.""
+    },
+    {
+      ""xref"": 183,
+      ""name"": ""rbSettlementOpt 1"",
+      ""label"": ""Settlement Option"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select if they want to apply the chosen payment option to only specific Hong Kong policies.""
+    },
+    {
+      ""xref"": 175,
+      ""name"": ""txt Others 1"",
+      ""label"": ""Q9d"",
+      ""max_length"": 0,
+      ""description"": ""A text area for the user to list the specific policy numbers to which the payment option will apply, used in conjunction with the checkbox '183_rbSettlementOpt 1'.""
+    },
+    {
+      ""xref"": 179,
+      ""name"": ""ChkFPS"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to select 'FPS*' (Faster Payment System) as the claims payment method.""
+    },
+    {
+      ""xref"": 184,
+      ""name"": ""ChkEmail"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate that the user's Email address will be used as the Proxy ID for FPS payment.""
+    },
+    {
+      ""xref"": 180,
+      ""name"": ""txt_email"",
+      ""label"": ""email"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter their email address for FPS payment.""
+    },
+    {
+      ""xref"": 178,
+      ""name"": ""ChkFPS Identifier"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate that the user's FPS Identifier will be used as the Proxy ID for FPS payment.""
+    },
+    {
+      ""xref"": 181,
+      ""name"": ""txt_FPS Identifier"",
+      ""label"": ""FPS Identifier"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter their FPS Identifier number.""
+    },
+    {
+      ""xref"": 185,
+      ""name"": ""ChkMobile Number"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate that the user's mobile number will be used as the Proxy ID for FPS payment.""
+    },
+    {
+      ""xref"": 182,
+      ""name"": ""txt_Country Code"",
+      ""label"": ""Country Code"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the country code for their mobile phone number.""
+    },
+    {
+      ""xref"": 186,
+      ""name"": ""txt_Telephone No"",
+      ""label"": ""Telephone No"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter their mobile phone number.""
+    },
+    {
+      ""xref"": 187,
+      ""name"": ""Chke-Banking"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to select 'e-BankIn' as the claims payment method, which involves direct deposit into a bank account.""
+    },
+    {
+      ""xref"": 176,
+      ""name"": ""txtBankBranchName"",
+      ""label"": ""Bank Name and Branch in Hong Kong"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the name of their bank and the specific branch in Hong Kong.""
+    },
+    {
+      ""xref"": 177,
+      ""name"": ""txtBankNo"",
+      ""label"": ""Bank No."",
+      ""max_length"": 3,
+      ""description"": ""A text field for the user to enter their bank's identifying number (Bank No.).""
+    },
+    {
+      ""xref"": 190,
+      ""name"": ""txtBranchNo"",
+      ""label"": ""Branch No."",
+      ""max_length"": 3,
+      ""description"": ""A text field for the user to enter their bank's branch number (Branch No.).""
+    },
+    {
+      ""xref"": 199,
+      ""name"": ""txtAcctNo"",
+      ""label"": ""My Account No."",
+      ""max_length"": 9,
+      ""description"": ""A text field for the user to enter their bank account number (My Account No.).""
+    },
+    {
+      ""xref"": 198,
+      ""name"": ""txtBankPassbookName"",
+      ""label"": ""Name as recorded on Bank Passbook/Statement"",
+      ""max_length"": 18,
+      ""description"": ""A text field for the user to enter their name exactly as it is recorded on their bank passbook, correspondence, statement, or bank card (Line 1).""
+    },
+    {
+      ""xref"": 200,
+      ""name"": ""txtBankPassbookName1"",
+      ""label"": ""Name as recorded on Bank Passbook/Statement"",
+      ""max_length"": 18,
+      ""description"": ""A continuation text field for the user's name as recorded on their bank documents (Line 2).""
+    },
+    {
+      ""xref"": 197,
+      ""name"": ""txtBankPassbookName2"",
+      ""label"": ""Name as recorded on Bank Passbook/Statement"",
+      ""max_length"": 18,
+      ""description"": ""A continuation text field for the user's name as recorded on their bank documents (Line 3).""
+    },
+    {
+      ""xref"": 192,
+      ""name"": ""txtBarcode"",
+      ""label"": ""Text barcode"",
+      ""max_length"": 0,
+      ""description"": ""A barcode containing the value 'O1002179----7', likely used as a form identifier or for document tracking purposes.""
+    }
+  ],
+  ""2"": [
+    {
+      ""xref"": 203,
+      ""name"": ""txtPolNo"",
+      ""label"": ""Policy Number"",
+      ""max_length"": 10,
+      ""description"": ""A field for the user to enter their policy number.""
+    },
+    {
+      ""xref"": 202,
+      ""name"": ""rbAll policy/following policy1"",
+      ""label"": ""Settlement Option"",
+      ""max_length"": 0,
+      ""description"": ""A radio button for the user to select if the application should apply to all of their Macau policies held with the company.""
+    },
+    {
+      ""xref"": 204,
+      ""name"": ""rbAll policy/following policy1"",
+      ""label"": ""Settlement Option"",
+      ""max_length"": 0,
+      ""description"": ""A radio button for the user to select if the application should only apply to specific Macau policies listed in the text box below.""
+    },
+    {
+      ""xref"": 209,
+      ""name"": ""txtOther policy number 2"",
+      ""label"": ""Other policy number(s)\u5176\u4ed6\u4fdd\u55ae\u865f\u78bc"",
+      ""max_length"": 0,
+      ""description"": ""A field for the user to list the specific Macau policy numbers if they selected the option to apply to only certain policies.""
+    },
+    {
+      ""xref"": 214,
+      ""name"": ""toggle_8_e-BankIn1"",
+      ""label"": ""e-BankIn \u96fb\u5b50\u5165\u8cec\u670d\u52d9"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select the e-BankIn (electronic transfer) service for payment.""
+    },
+    {
+      ""xref"": 207,
+      ""name"": ""txtBankBranchName1"",
+      ""label"": ""Bank Name and Branch in Hong Kong"",
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter their bank's name in Macau.""
+    },
+    {
+      ""xref"": 213,
+      ""name"": ""txtBankPassbookName3"",
+      ""label"": ""Name as recorded on Bank Passbook/Statement"",
+      ""max_length"": 19,
+      ""description"": ""A field for the user to enter their bank account number.""
+    },
+    {
+      ""xref"": 212,
+      ""name"": ""rbAccount Currency"",
+      ""label"": ""Account Currency"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select Hong Kong Dollar (HKD) as the account currency.""
+    },
+    {
+      ""xref"": 211,
+      ""name"": ""rbAccount Currency"",
+      ""label"": ""Account Currency"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select Macanese Pataca (MOP) as the account currency.""
+    },
+    {
+      ""xref"": 205,
+      ""name"": ""txtBankPassbookName4"",
+      ""label"": ""Name as recorded on Bank Passbook/Statement"",
+      ""max_length"": 47,
+      ""description"": ""A field for the user to enter the name of the account holder as it appears on the bank passbook or statement. This must be the same as the policy owner.""
+    },
+    {
+      ""xref"": 206,
+      ""name"": ""rbSettlementOpt"",
+      ""label"": ""Settlement Option"",
+      ""max_length"": 0,
+      ""description"": ""A radio button for the user to select receiving payment via a cheque in the policy's currency. This option is not applicable for FPS/e-BankIn customers.""
+    },
+    {
+      ""xref"": 208,
+      ""name"": ""rbSettlementOpt"",
+      ""label"": ""Settlement Option"",
+      ""max_length"": 0,
+      ""description"": ""A radio button for the user to select having the claims payment deposited into the ancillary Future Premium Deposit Account (FPDA) in the same currency as the policy. This option is only applicable to Mainland Chinese Visitors.""
+    },
+    {
+      ""xref"": 210,
+      ""name"": ""rbSettlementOpt"",
+      ""label"": ""Settlement Option"",
+      ""max_length"": 0,
+      ""description"": ""A radio button for the user to select receiving payment via a cheque in Hong Kong Dollar. This option is not applicable for FPS/e-BankIn customers.""
+    },
+    {
+      ""xref"": 215,
+      ""name"": ""txtBarcode"",
+      ""label"": ""Text barcode"",
+      ""max_length"": 0,
+      ""description"": ""A pre-filled field containing a document identifier or barcode value, which is 'O1002179----7'.""
+    }
+  ],
+  ""3"": [
+    {
+      ""xref"": 218,
+      ""name"": ""txtPolNo"",
+      ""label"": ""Policy Number"",
+      ""max_length"": 10,
+      ""description"": ""This field is for the user to enter their Policy Number. The user needs to provide their unique insurance policy identification number.""
+    },
+    {
+      ""xref"": 222,
+      ""name"": ""chkEAdvice"",
+      ""label"": ""AIA e-Advice"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox to apply for the 'AIA e-Advice' service. By marking 'X' in this box, the user opts in to receive policy documents and notifications electronically.""
+    },
+    {
+      ""xref"": 219,
+      ""name"": ""txtemail"",
+      ""label"": ""Email address \u96fb\u90f5\u5730\u5740"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the user to enter their email address. This information is required for receiving electronic communications for the AIA e-Advice service.""
+    },
+    {
+      ""xref"": 216,
+      ""name"": ""txtOwner"",
+      ""label"": ""Signature of Ower"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the signature of the policy owner. The user, as the policyholder, needs to sign in this space to authorize the requests made on the form.""
+    },
+    {
+      ""xref"": 220,
+      ""name"": ""txtOther policy number"",
+      ""label"": ""Other policy number(s)\u5176\u4ed6\u4fdd\u55ae\u865f\u78bc"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the user to list any other policy numbers they want to include for the e-Advice service. The user should enter any additional relevant policy numbers they hold.""
+    },
+    {
+      ""xref"": 217,
+      ""name"": ""ChkDeclaration"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox related to the Declaration and Authorization section. The text indicates that unless this box is marked with an 'X', the user gives consent for the company to deduct certain amounts from insurance proceeds. Therefore, marking this box signifies opting out of that consent.""
+    },
+    {
+      ""xref"": 221,
+      ""name"": ""txtBarcode"",
+      ""label"": ""Text barcode"",
+      ""max_length"": 0,
+      ""description"": ""This field contains a pre-printed document identifier or barcode, 'CH002179----7'. It is used for the company's internal document tracking and is not intended for user input.""
+    }
+  ],
+  ""4"": [
+    {
+      ""xref"": 223,
+      ""name"": ""txtPolNo"",
+      ""label"": ""Policy Number"",
+      ""max_length"": 10,
+      ""description"": ""Policy Number: This field is for entering the unique identification number of the insurance policy.""
+    },
+    {
+      ""xref"": 224,
+      ""name"": ""txtOwnerTrustee"",
+      ""label"": ""Signature of Ower/Trustee"",
+      ""max_length"": 0,
+      ""description"": ""Signature of Owner / Trustee: This is a signature box where the policy owner or trustee signs the document.""
+    },
+    {
+      ""xref"": 226,
+      ""name"": ""Signature1"",
+      ""label"": ""signuture of Insured"",
+      ""max_length"": 0,
+      ""description"": ""Signature of Insured: This is a signature box for the insured person to sign, if they are different from the owner/trustee and are 18 years of age or older.""
+    },
+    {
+      ""xref"": 225,
+      ""name"": ""txtOwner / Trustee Name"",
+      ""label"": ""Name"",
+      ""max_length"": 0,
+      ""description"": ""Name of Owner / Trustee: This field is for entering the full name of the policy owner or trustee.""
+    },
+    {
+      ""xref"": 232,
+      ""name"": ""txtInsuredname"",
+      ""label"": ""Name\u59d3\u540d"",
+      ""max_length"": 0,
+      ""description"": ""Name of Insured: This field is for entering the full name of the insured person.""
+    },
+    {
+      ""xref"": 233,
+      ""name"": ""txtID"",
+      ""label"": ""\u8eab\u4efd\u8b49 /\u8b77\u7167\u865f\u78bc"",
+      ""max_length"": 0,
+      ""description"": ""ID Card / Passport Number of Owner/Trustee: This field is for the identification card or passport number of the policy owner or trustee.""
+    },
+    {
+      ""xref"": 240,
+      ""name"": ""txtOwner/Trustee Date"",
+      ""label"": ""\u65e5\u671f"",
+      ""max_length"": 0,
+      ""description"": ""Date of Owner/Trustee Signature: This field is for the date on which the owner or trustee signed the form.""
+    },
+    {
+      ""xref"": 237,
+      ""name"": ""txtInsuredID"",
+      ""label"": ""\u8eab\u4efd\u8b49 /\u8b77\u7167\u865f\u78bc"",
+      ""max_length"": 0,
+      ""description"": ""ID Card / Passport Number of Insured: This field is for the identification card or passport number of the insured person.""
+    },
+    {
+      ""xref"": 234,
+      ""name"": ""txtInsuredOwner/Trustee Date"",
+      ""label"": ""\u65e5\u671f"",
+      ""max_length"": 0,
+      ""description"": ""Date of Insured's Signature: This field is for the date on which the insured person signed the form.""
+    },
+    {
+      ""xref"": 235,
+      ""name"": ""txtRelationship with the Insured"",
+      ""label"": ""Relationship with the Insured"",
+      ""max_length"": 0,
+      ""description"": ""Relationship with the Insured: This field requires the user to state their relationship to the insured person.""
+    },
+    {
+      ""xref"": 230,
+      ""name"": ""txtWitnSign"",
+      ""label"": ""Signature of Witness"",
+      ""max_length"": 0,
+      ""description"": ""Signature of Witness: This is a signature box for the witness to sign.""
+    },
+    {
+      ""xref"": 238,
+      ""name"": ""txtOwnerName"",
+      ""label"": ""Owner Name"",
+      ""max_length"": 0,
+      ""description"": ""Name of Witness: This field is for entering the full name of the witness.""
+    },
+    {
+      ""xref"": 239,
+      ""name"": ""txtOwnerDate"",
+      ""label"": ""Owner\u65e5\u671f"",
+      ""max_length"": 0,
+      ""description"": ""Date of Witness's Signature: This field is for the date on which the witness signed the form.""
+    },
+    {
+      ""xref"": 241,
+      ""name"": ""txtBarcode"",
+      ""label"": ""Text barcode"",
+      ""max_length"": 0,
+      ""description"": ""Barcode: This field contains a barcode and a reference number, 'O1002179----7', for internal processing and tracking purposes.""
+    }
+  ],
+  ""5"": [
+    {
+      ""xref"": 243,
+      ""name"": ""txtPolNo"",
+      ""label"": ""Policy Number"",
+      ""max_length"": 10,
+      ""description"": ""A field requesting the user to enter the insurance Policy Number.""
+    },
+    {
+      ""xref"": 249,
+      ""name"": ""txt Name of patient"",
+      ""label"": ""Name of patient"",
+      ""max_length"": 0,
+      ""description"": ""A field for the full name of the patient as stated in section 1a.""
+    },
+    {
+      ""xref"": 246,
+      ""name"": ""txtPatientID"",
+      ""label"": ""Patient ID"",
+      ""max_length"": 0,
+      ""description"": ""A field for the patient's ID Card or Passport Number as stated in section 1b.""
+    },
+    {
+      ""xref"": 250,
+      ""name"": ""txtPatientAge"",
+      ""label"": ""Patient Age"",
+      ""max_length"": 3,
+      ""description"": ""A field for the patient's age as stated in section 1c.""
+    },
+    {
+      ""xref"": 252,
+      ""name"": ""txtPatientSexq"",
+      ""label"": ""Patient Sex"",
+      ""max_length"": 1,
+      ""description"": ""A field for the patient's sex as stated in section 1d.""
+    },
+    {
+      ""xref"": 244,
+      ""name"": ""txt Name of hospital1a"",
+      ""label"": ""Q9"",
+      ""max_length"": 0,
+      ""description"": ""A field for the name of the hospital where the patient was admitted.""
+    },
+    {
+      ""xref"": 247,
+      ""name"": ""txtMM7"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A field for the month (MM) of the patient's admission to the hospital.""
+    },
+    {
+      ""xref"": 245,
+      ""name"": ""txtDD7"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A field for the day (DD) of the patient's admission to the hospital.""
+    },
+    {
+      ""xref"": 248,
+      ""name"": ""txtYYYY7"",
+      ""label"": ""Accident date "",
+      ""max_length"": 4,
+      ""description"": ""A field for the year (YYYY) of the patient's admission to the hospital.""
+    },
+    {
+      ""xref"": 272,
+      ""name"": ""txtMM8"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A field for the month (MM) of the patient's discharge from the hospital.""
+    },
+    {
+      ""xref"": 262,
+      ""name"": ""txtDD8"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A field for the day (DD) of the patient's discharge from the hospital.""
+    },
+    {
+      ""xref"": 260,
+      ""name"": ""txtYYYY8"",
+      ""label"": ""Accident date "",
+      ""max_length"": 4,
+      ""description"": ""A field for the year (YYYY) of the patient's discharge from the hospital.""
+    },
+    {
+      ""xref"": 257,
+      ""name"": ""txtMM9"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A field for the starting month (MM) of the patient's stay in the Intensive Care Unit (ICU).""
+    },
+    {
+      ""xref"": 273,
+      ""name"": ""txtDD9"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A field for the starting day (DD) of the patient's stay in the Intensive Care Unit (ICU).""
+    },
+    {
+      ""xref"": 271,
+      ""name"": ""txtYYYY9"",
+      ""label"": ""Accident date "",
+      ""max_length"": 4,
+      ""description"": ""A field for the starting year (YYYY) of the patient's stay in the Intensive Care Unit (ICU).""
+    },
+    {
+      ""xref"": 267,
+      ""name"": ""txtMM10"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A field for the ending month (MM) of the patient's stay in the Intensive Care Unit (ICU).""
+    },
+    {
+      ""xref"": 270,
+      ""name"": ""txtDD10"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A field for the ending day (DD) of the patient's stay in the Intensive Care Unit (ICU).""
+    },
+    {
+      ""xref"": 274,
+      ""name"": ""txtYYYY10"",
+      ""label"": ""Accident date "",
+      ""max_length"": 4,
+      ""description"": ""A field for the ending year (YYYY) of the patient's stay in the Intensive Care Unit (ICU).""
+    },
+    {
+      ""xref"": 275,
+      ""name"": ""txtQ3"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for describing the chief complaints of the patient related to the hospitalization, surgery, or investigation.""
+    },
+    {
+      ""xref"": 276,
+      ""name"": ""txtMM11"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A field for the month (MM) when symptoms first appeared or when the accident occurred.""
+    },
+    {
+      ""xref"": 264,
+      ""name"": ""txtDD11"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A field for the day (DD) when symptoms first appeared or when the accident occurred.""
+    },
+    {
+      ""xref"": 277,
+      ""name"": ""txtYYYY11"",
+      ""label"": ""Accident date "",
+      ""max_length"": 4,
+      ""description"": ""A field for the year (YYYY) when symptoms first appeared or when the accident occurred.""
+    },
+    {
+      ""xref"": 265,
+      ""name"": ""txtMM12"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A field for the month (MM) of the first consultation for this condition or related illness.""
+    },
+    {
+      ""xref"": 253,
+      ""name"": ""txtDD12"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A field for the day (DD) of the first consultation for this condition or related illness.""
+    },
+    {
+      ""xref"": 254,
+      ""name"": ""txtYYYY12"",
+      ""label"": ""Accident date "",
+      ""max_length"": 4,
+      ""description"": ""A field for the year (YYYY) of the first consultation for this condition or related illness.""
+    },
+    {
+      ""xref"": 255,
+      ""name"": ""txtQ6"",
+      ""label"": ""Q6"",
+      ""max_length"": 0,
+      ""description"": ""A field for the final diagnosis or pathological diagnosis of the patient's condition.""
+    },
+    {
+      ""xref"": 258,
+      ""name"": ""txtCPTCode"",
+      ""label"": ""Q7"",
+      ""max_length"": 0,
+      ""description"": ""A field for the ICD-10 code corresponding to the final diagnosis.""
+    },
+    {
+      ""xref"": 268,
+      ""name"": ""txtMM13"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A field for the month (MM) of the medical or surgical operation.""
+    },
+    {
+      ""xref"": 269,
+      ""name"": ""txtDD13"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A field for the day (DD) of the medical or surgical operation.""
+    },
+    {
+      ""xref"": 256,
+      ""name"": ""txtYYYY13"",
+      ""label"": ""Accident date "",
+      ""max_length"": 4,
+      ""description"": ""A field for the year (YYYY) of the medical or surgical operation.""
+    },
+    {
+      ""xref"": 261,
+      ""name"": ""txtQ7"",
+      ""label"": ""Q7"",
+      ""max_length"": 0,
+      ""description"": ""A field for describing the medical or surgical procedure performed.""
+    },
+    {
+      ""xref"": 263,
+      ""name"": ""txtQ7b"",
+      ""label"": ""Q7"",
+      ""max_length"": 0,
+      ""description"": ""A field for the name of the procedure, with a request to supplement it with the CPT code.""
+    },
+    {
+      ""xref"": 259,
+      ""name"": ""rbQ8"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A radio button for question 8, indicating that the procedure 'Can' be done on an outpatient basis.""
+    },
+    {
+      ""xref"": 266,
+      ""name"": ""rbQ8"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A radio button for question 8, indicating that the procedure 'Cannot' be done on an outpatient basis.""
+    },
+    {
+      ""xref"": 278,
+      ""name"": ""txtQ8#1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field to specify the patient's current health status or co-morbidity as the reason for hospitalization.""
+    },
+    {
+      ""xref"": 285,
+      ""name"": ""chkQ8#1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox indicating that 'Current Health Status (Co-morbidity)' is a reason for hospitalization.""
+    },
+    {
+      ""xref"": 287,
+      ""name"": ""rbQ9f"",
+      ""label"": ""Q9"",
+      ""max_length"": 0,
+      ""description"": ""A radio button with the value 'Yes' to answer the question 'Is it a case of emergency?'.""
+    },
+    {
+      ""xref"": 281,
+      ""name"": ""rbQ9f"",
+      ""label"": ""Q9"",
+      ""max_length"": 0,
+      ""description"": ""A radio button with the value 'No' to answer the question 'Is it a case of emergency?'.""
+    },
+    {
+      ""xref"": 279,
+      ""name"": ""txtQ8#2"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field to specify the details of the 'Expected higher risk at operation' as the reason for hospitalization.""
+    },
+    {
+      ""xref"": 283,
+      ""name"": ""chkQ8#2"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox indicating that 'Expected higher risk at operation' is a reason for hospitalization.""
+    },
+    {
+      ""xref"": 280,
+      ""name"": ""txtQ8#3"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field to specify the details of the 'Expected higher post-operative risk' as the reason for hospitalization.""
+    },
+    {
+      ""xref"": 286,
+      ""name"": ""chkQ8#3"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox indicating that 'Expected higher post-operative risk' is a reason for hospitalization.""
+    },
+    {
+      ""xref"": 282,
+      ""name"": ""txtQ8#4"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field to specify 'Other' reasons for admission and hospitalization.""
+    },
+    {
+      ""xref"": 284,
+      ""name"": ""chkQ8#4"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox indicating that there are 'Other' reasons for hospitalization.""
+    },
+    {
+      ""xref"": 288,
+      ""name"": ""txtQ8#5"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field to provide specific details if the case is an emergency (i.e., if 'Yes' was selected for question 9).""
+    },
+    {
+      ""xref"": 289,
+      ""name"": ""txtBarcode"",
+      ""label"": ""Text barcode"",
+      ""max_length"": 0,
+      ""description"": ""A field containing the document's barcode value, which is 'O1002179---7'.""
+    }
+  ],
+  ""6"": [
+    {
+      ""xref"": 298,
+      ""name"": ""txtPolNo"",
+      ""label"": ""Policy Number"",
+      ""max_length"": 10,
+      ""description"": ""A text field for the user to enter the Policy Number (\u4fdd\u55ae\u865f\u78bc).""
+    },
+    {
+      ""xref"": 296,
+      ""name"": ""rbQ10"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A radio button for question 10 regarding previous similar conditions. This button corresponds to the 'Yes' (\u6709) option.""
+    },
+    {
+      ""xref"": 291,
+      ""name"": ""rbQ10"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field ID is not visible in the provided image. Its function is likely related to question 10 about previous similar conditions, similar to `296_rbQ10` (Yes) and `300_rbQ10` (No).""
+    },
+    {
+      ""xref"": 299,
+      ""name"": ""txtQ9"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A large text area for a 'Brief discharge summary (including treatments, investigation procedures, results and / or any complications and follow up plan)'. The user should provide a detailed medical summary of the patient's discharge.""
+    },
+    {
+      ""xref"": 301,
+      ""name"": ""txtQ10"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text area following question 10. If the answer was 'Yes', the user should 'please state dates and details' (\u5982\u6709\uff0c\u8acb\u8aaa\u660e\u4f55\u6642\u53ca\u7576\u6642\u60c5\u6cc1) of the previous similar conditions or symptoms.""
+    },
+    {
+      ""xref"": 302,
+      ""name"": ""txtMM14"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A text field to enter the month (MM \u6708) of when a previous similar condition occurred.""
+    },
+    {
+      ""xref"": 292,
+      ""name"": ""txtDD14"",
+      ""label"": ""Consultation date "",
+      ""max_length"": 2,
+      ""description"": ""A text field to enter the day (DD \u65e5) of when a previous similar condition occurred.""
+    },
+    {
+      ""xref"": 293,
+      ""name"": ""txtYYYY14"",
+      ""label"": ""Accident date "",
+      ""max_length"": 4,
+      ""description"": ""A text field to enter the year (YYYY \u5e74) of when a previous similar condition occurred.""
+    },
+    {
+      ""xref"": 294,
+      ""name"": ""txtQ11details"",
+      ""label"": ""Q11"",
+      ""max_length"": 0,
+      ""description"": ""A text area to describe the 'Treatment for the condition(s)' (\u6cbb\u7642\u8a73\u60c5) mentioned in question 10.""
+    },
+    {
+      ""xref"": 297,
+      ""name"": ""rbQ11"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A radio button for question 11, asking if the patient was referred by another doctor. This button corresponds to the 'Yes' (\u662f) option.""
+    },
+    {
+      ""xref"": 300,
+      ""name"": ""rbQ10"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A radio button for question 10 regarding previous similar conditions. This button corresponds to the 'No' (\u4e0d\u662f) option.""
+    },
+    {
+      ""xref"": 316,
+      ""name"": ""txtQ11"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text area to provide the 'Name and address of the referral doctor' (\u8f49\u4ecb\u91ab\u751f\u7684\u59d3\u540d\u548c\u5730\u5740) if the answer to question 11 was 'Yes'.""
+    },
+    {
+      ""xref"": 305,
+      ""name"": ""rbQ11"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A radio button for question 11, asking if the patient was referred by another doctor. This button corresponds to the 'No' (\u4e0d\u662f) option.""
+    },
+    {
+      ""xref"": 310,
+      ""name"": ""rbQ12"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A radio button for question 12, asking if the patient is suffering from cancer. This button corresponds to the 'Yes' (\u6709) option.""
+    },
+    {
+      ""xref"": 314,
+      ""name"": ""txtQ12#1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text area to provide details of 'Radiotherapy' (\u653e\u5c04\u6027\u6cbb\u7642) treatment, including drugs, dosage, duration, and frequency, if the patient has cancer.""
+    },
+    {
+      ""xref"": 311,
+      ""name"": ""rbQ12"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A radio button for question 12, asking if the patient is suffering from cancer. This button corresponds to the 'No' (\u6c92\u6709) option.""
+    },
+    {
+      ""xref"": 306,
+      ""name"": ""txtQ12#2"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text area to provide details of 'Chemotherapy' (\u5316\u5b78\u6cbb\u7642) treatment, including drugs, dosage, duration, and frequency, if the patient has cancer.""
+    },
+    {
+      ""xref"": 313,
+      ""name"": ""txtQ12#3"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text area to provide details of 'Others' cancer treatments, such as Hormone therapy or Targeted Therapies, including drugs, dosage, duration, and frequency.""
+    },
+    {
+      ""xref"": 312,
+      ""name"": ""chkACT Genomics"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox for question 12b, indicating if the patient has done the 'ACT Genomics' (\u884c\u52d5\u57fa\u56e0) cancer genomics test.""
+    },
+    {
+      ""xref"": 307,
+      ""name"": ""chk FoundationOne"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox for question 12b, indicating if the patient has done the 'FoundationOne' (\u5168\u65b9\u4f4d\u764c\u75c7\u57fa\u56e0\u6aa2\u6e2c) cancer genomics test.""
+    },
+    {
+      ""xref"": 315,
+      ""name"": ""chkb other"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox for question 12b, indicating if the patient has done any 'Others' (\u5176\u4ed6) cancer genomics test.""
+    },
+    {
+      ""xref"": 303,
+      ""name"": ""txtQ14 b other"",
+      ""label"": ""Q14a"",
+      ""max_length"": 0,
+      ""description"": ""A text field next to the 'Others' checkbox in question 12b. The user should specify the name of the other cancer genomics test that was performed.""
+    },
+    {
+      ""xref"": 304,
+      ""name"": ""txtname of attending Physician / Specialist"",
+      ""label"": ""name of attending Physician / Specialist"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the 'Name of Attending Physician / Specialist (with qualifications)' (\u4e3b\u8a3a / \u5c08\u79d1\u91ab\u751f\u7684\u59d3\u540d (\u8cc7\u6b77)).""
+    },
+    {
+      ""xref"": 308,
+      ""name"": ""txtSign with chop"",
+      ""label"": ""Sign with chop"",
+      ""max_length"": 0,
+      ""description"": ""An area designated for the 'Signature (with chop)' (\u7c3d\u540d (\u84cb\u5370)) of the attending physician or specialist.""
+    },
+    {
+      ""xref"": 309,
+      ""name"": ""txtAddress & tel no"",
+      ""label"": ""Address & tel no."",
+      ""max_length"": 0,
+      ""description"": ""A text area for the 'Address and Telephone No.' (\u5730\u5740\u53ca\u96fb\u8a71) of the attending physician or specialist.""
+    },
+    {
+      ""xref"": 319,
+      ""name"": ""txtSign date"",
+      ""label"": ""Sign date"",
+      ""max_length"": 10,
+      ""description"": ""A text field for the physician to enter the 'Date' (\u65e5\u671f) of signing the form.""
+    },
+    {
+      ""xref"": 317,
+      ""name"": ""txtBarcode"",
+      ""label"": ""Text barcode"",
+      ""max_length"": 0,
+      ""description"": ""A field displaying a barcode and an identifier number, 'O1002179----7', for document tracking purposes.""
+    }
+  ]
+}"
+1,AXA hospitalization Claim Form -GE_HK_Fillable.pdf,"{
+  ""0"": [
+    {
+      ""xref"": 44,
+      ""name"": ""P1_text1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the policy number associated with the insurance claim.""
+    },
+    {
+      ""xref"": 124,
+      ""name"": ""P1_text 2-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the code or ID number of the financial consultant who handled the policy.""
+    },
+    {
+      ""xref"": 153,
+      ""name"": ""P1_text 3_9pt_Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the full name of the financial consultant.""
+    },
+    {
+      ""xref"": 276,
+      ""name"": ""P1_text 4-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the contact phone number of the financial consultant.""
+    },
+    {
+      ""xref"": 277,
+      ""name"": ""P1_text 5-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the policy number of the insured person.""
+    },
+    {
+      ""xref"": 288,
+      ""name"": ""P1_text 6_9pt_Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the full name of the insured person.""
+    },
+    {
+      ""xref"": 308,
+      ""name"": ""P1_text 7-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the contact phone number of the insured person.""
+    },
+    {
+      ""xref"": 310,
+      ""name"": ""P1_text 8-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the email address of the insured person.""
+    },
+    {
+      ""xref"": 329,
+      ""name"": ""P1_text 9-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the current residing address and country of the insured person.""
+    },
+    {
+      ""xref"": 375,
+      ""name"": ""P1_text 10-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the date (dd/mm/yyyy) when hypertension (high blood pressure) was first diagnosed.""
+    },
+    {
+      ""xref"": 449,
+      ""name"": ""P1_text 11-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name of the medical practitioner or hospital that treats the insured's hypertension.""
+    },
+    {
+      ""xref"": 496,
+      ""name"": ""P1_text 12-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the names of regular medications taken for hypertension.""
+    },
+    {
+      ""xref"": 507,
+      ""name"": ""P1_text 13-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the contact details (e.g., phone number, address) of the medical practitioner or hospital treating the hypertension.""
+    },
+    {
+      ""xref"": 555,
+      ""name"": ""P1_text 14-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the date (dd/mm/yyyy) when diabetes mellitus was first diagnosed.""
+    },
+    {
+      ""xref"": 556,
+      ""name"": ""P1_text 15-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name of the medical practitioner or hospital that treats the insured's diabetes mellitus.""
+    },
+    {
+      ""xref"": 557,
+      ""name"": ""P1_text 16-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the names of regular medications taken for diabetes mellitus.""
+    },
+    {
+      ""xref"": 558,
+      ""name"": ""P1_text 17-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the contact details of the medical practitioner or hospital treating the diabetes mellitus.""
+    },
+    {
+      ""xref"": 559,
+      ""name"": ""P1_text 18-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the date (dd/mm/yyyy) when dyslipidemia (abnormal blood lipid levels) was first diagnosed.""
+    },
+    {
+      ""xref"": 560,
+      ""name"": ""P1_text 19-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name of the medical practitioner or hospital that treats the insured's dyslipidemia.""
+    },
+    {
+      ""xref"": 561,
+      ""name"": ""P1_text 20-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the names of regular medications taken for dyslipidemia.""
+    },
+    {
+      ""xref"": 562,
+      ""name"": ""P1_text 21-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the contact details of the medical practitioner or hospital treating the dyslipidemia.""
+    },
+    {
+      ""xref"": 563,
+      ""name"": ""P1_text 22-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the onset date or remission date (dd/mm/yyyy) if the insured has or had cancer.""
+    },
+    {
+      ""xref"": 564,
+      ""name"": ""P1_text 23-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name of the medical practitioner or hospital that treats the insured's cancer.""
+    },
+    {
+      ""xref"": 565,
+      ""name"": ""P1_text 24-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the names of regular medications taken for cancer.""
+    },
+    {
+      ""xref"": 566,
+      ""name"": ""P1_text 25-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the contact details of the medical practitioner or hospital treating the cancer.""
+    },
+    {
+      ""xref"": 577,
+      ""name"": ""P1_text 26-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for specifying the name of a long-term or chronic illness not listed above (first entry).""
+    },
+    {
+      ""xref"": 2438,
+      ""name"": ""P1_text 26-Auto A"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the onset date (dd/mm/yyyy) of the first 'Other' illness.""
+    },
+    {
+      ""xref"": 599,
+      ""name"": ""P1_text 27-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for specifying the name of a second long-term or chronic illness not listed above (second entry).""
+    },
+    {
+      ""xref"": 2439,
+      ""name"": ""P1_text 27-Auto A"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the onset date (dd/mm/yyyy) of the second 'Other' illness.""
+    },
+    {
+      ""xref"": 600,
+      ""name"": ""P1_text 28-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for specifying the name of a third long-term or chronic illness not listed above (third entry).""
+    },
+    {
+      ""xref"": 2440,
+      ""name"": ""P1_text 28-Auto A"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the onset date (dd/mm/yyyy) of the third 'Other' illness.""
+    },
+    {
+      ""xref"": 602,
+      ""name"": ""P1_text 30-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name of the medical practitioner or hospital treating the 'Other' illnesses listed.""
+    },
+    {
+      ""xref"": 603,
+      ""name"": ""P1_text 31-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the names of regular medications taken for the 'Other' illnesses listed.""
+    },
+    {
+      ""xref"": 604,
+      ""name"": ""P1_text 32-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the contact details of the medical practitioner or hospital treating the 'Other' illnesses listed.""
+    },
+    {
+      ""xref"": 661,
+      ""name"": ""P1_text 33-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name, clinic address, and contact number of the insured's usual or family doctor.""
+    }
+  ],
+  ""1"": [
+    {
+      ""xref"": 706,
+      ""name"": ""P2_Check Box1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Checkbox indicating that the cause of hospitalization is 'Due to an Illness'.""
+    },
+    {
+      ""xref"": 713,
+      ""name"": ""P2_text 1-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the user to describe the diagnosis or symptoms presented that led to the hospitalization due to illness.""
+    },
+    {
+      ""xref"": 733,
+      ""name"": ""P2_text 2-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter the date when the symptoms first appeared, in dd/mm/yyyy format.""
+    },
+    {
+      ""xref"": 748,
+      ""name"": ""P2_text 3-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter the date of the first medical consultation for this condition, in dd/mm/yyyy format.""
+    },
+    {
+      ""xref"": 758,
+      ""name"": ""P2_Check Box2"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Checkbox indicating that the cause of hospitalization is 'Due to an Accident'.""
+    },
+    {
+      ""xref"": 759,
+      ""name"": ""P2_text 4-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter the date and time of the accident.""
+    },
+    {
+      ""xref"": 773,
+      ""name"": ""P2_text 5-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the user to describe the visible signs of bodily injury from the accident, such as bruises or wounds.""
+    },
+    {
+      ""xref"": 781,
+      ""name"": ""P2_text 6-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the user to specify the place or location where the accident occurred.""
+    },
+    {
+      ""xref"": 788,
+      ""name"": ""P2_text 7-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A multi-line field for the user to provide a detailed description of how the accident happened.""
+    },
+    {
+      ""xref"": 796,
+      ""name"": ""P2_text 8-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the date (dd/mm/yyyy) of a previous consultation, treatment, or hospitalization for the current medical condition in the last 5 years (Row 1).""
+    },
+    {
+      ""xref"": 815,
+      ""name"": ""P2_text 9-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the disease and details of treatment for a previous medical event (Row 1).""
+    },
+    {
+      ""xref"": 823,
+      ""name"": ""P2_text 10-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the name of the medical practitioner or hospital for a previous medical event (Row 1).""
+    },
+    {
+      ""xref"": 831,
+      ""name"": ""P2_text 11-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the contact details of the previous medical practitioner or hospital (Row 1).""
+    },
+    {
+      ""xref"": 839,
+      ""name"": ""P2_text 12-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the user to list or indicate that related medical reports for a previous medical event are provided (Row 1).""
+    },
+    {
+      ""xref"": 848,
+      ""name"": ""P2_text 13-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the date (dd/mm/yyyy) of another previous consultation, treatment, or hospitalization for the current medical condition in the last 5 years (Row 2).""
+    },
+    {
+      ""xref"": 849,
+      ""name"": ""P2_text 14-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the disease and details of treatment for another previous medical event (Row 2).""
+    },
+    {
+      ""xref"": 850,
+      ""name"": ""P2_text 15-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the name of the medical practitioner or hospital for another previous medical event (Row 2).""
+    },
+    {
+      ""xref"": 851,
+      ""name"": ""P2_text 16-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the contact details of another previous medical practitioner or hospital (Row 2).""
+    },
+    {
+      ""xref"": 852,
+      ""name"": ""P2_text 17-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the user to list or indicate that related medical reports for another previous medical event are provided (Row 2).""
+    },
+    {
+      ""xref"": 866,
+      ""name"": ""P2_text 18-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter the date of admission for the current hospitalization, in dd/mm/yyyy format.""
+    },
+    {
+      ""xref"": 875,
+      ""name"": ""P2_text 19-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter the date of discharge from the current hospitalization, in dd/mm/yyyy format.""
+    },
+    {
+      ""xref"": 876,
+      ""name"": ""P2_text 20-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter the name and address of the medical practitioner or hospital for the current hospitalization.""
+    },
+    {
+      ""xref"": 884,
+      ""name"": ""P2_text 21-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter the diagnosis and the date of diagnosis (dd/mm/yyyy) for the current hospitalization.""
+    },
+    {
+      ""xref"": 891,
+      ""name"": ""P2_text 22-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the name of another insurance company where a claim for the same event has been or will be filed (Row 1).""
+    },
+    {
+      ""xref"": 905,
+      ""name"": ""P2_text 23-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the policy number from the other insurance company (Row 1).""
+    },
+    {
+      ""xref"": 913,
+      ""name"": ""P2_text 24-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the benefit amount claimed from the other insurance company (Row 1).""
+    },
+    {
+      ""xref"": 921,
+      ""name"": ""P2_text 25-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the status of the claim with the other insurance company (Row 1).""
+    },
+    {
+      ""xref"": 929,
+      ""name"": ""P2_text 26-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the name of a second other insurance company where a claim for the same event has been or will be filed (Row 2).""
+    },
+    {
+      ""xref"": 931,
+      ""name"": ""P2_text 27-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the policy number from the second other insurance company (Row 2).""
+    },
+    {
+      ""xref"": 932,
+      ""name"": ""P2_text 28-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the benefit amount claimed from the second other insurance company (Row 2).""
+    },
+    {
+      ""xref"": 933,
+      ""name"": ""P2_text 29-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the status of the claim with the second other insurance company (Row 2).""
+    },
+    {
+      ""xref"": 934,
+      ""name"": ""P2_text 30-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the policy number of another AXA Medical Insurance policy being claimed against.""
+    },
+    {
+      ""xref"": 936,
+      ""name"": ""P2_text 31-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A field for the product name of the other AXA Medical Insurance policy being claimed against.""
+    }
+  ],
+  ""2"": [
+    {
+      ""xref"": 961,
+      ""name"": ""P3_Check Box1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Checkbox for selecting the settlement method. The user should check this box if they wish to receive payment by a cheque drawn at Hong Kong.""
+    },
+    {
+      ""xref"": 970,
+      ""name"": ""P3_Check Box2"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Checkbox to specify the currency for the settlement cheque. The user should check this box to select Hong Kong Dollars (HKD).""
+    },
+    {
+      ""xref"": 972,
+      ""name"": ""P3_Check Box3"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Checkbox to specify the currency for the settlement cheque. The user should check this box to select the policy's original currency.""
+    },
+    {
+      ""xref"": 973,
+      ""name"": ""P3_Check Box4"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Checkbox for selecting the settlement method. The user should check this box if they wish to receive payment by Autopay (direct bank transfer).""
+    },
+    {
+      ""xref"": 974,
+      ""name"": ""P3_text 1-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the name of the bank account holder for Autopay settlement. This name must be the same as the policyowner's name.""
+    },
+    {
+      ""xref"": 993,
+      ""name"": ""P3_text 2-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the name of the bank in Hong Kong for Autopay settlement.""
+    },
+    {
+      ""xref"": 994,
+      ""name"": ""P3_text 3-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the bank account number for Autopay settlement.""
+    },
+    {
+      ""xref"": 995,
+      ""name"": ""P3_Check Box5"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Checkbox for the document submission checklist. The user should check this box to confirm they have submitted the 'Completed Claim Form (original)'.""
+    },
+    {
+      ""xref"": 1004,
+      ""name"": ""P3_Check Box6"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Checkbox for the document submission checklist. The user should check this box to confirm they have submitted the 'Itemized Detailed Bill with Cost Breakdown (original/certified copy)'.""
+    },
+    {
+      ""xref"": 1005,
+      ""name"": ""P3_Check Box7"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Checkbox for the document submission checklist. The user should check this box to confirm they have submitted the 'Result of the Diagnostic Test (original/certified copy)', where applicable.""
+    },
+    {
+      ""xref"": 1006,
+      ""name"": ""P3_Check Box8"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Checkbox for the document submission checklist. The user should check this box to confirm they have submitted the 'Prescription (original/certified copy)', where applicable.""
+    },
+    {
+      ""xref"": 1007,
+      ""name"": ""P3_Check Box9"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Checkbox for the document submission checklist. The user should check this box to confirm they have submitted the 'Hospital Discharge Summary (copy)'.""
+    },
+    {
+      ""xref"": 1016,
+      ""name"": ""P3_Check Box10"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Checkbox for the document submission checklist. The user should check this box to confirm they have submitted any 'Medical Reports Associated to the Existing Medical Condition', where applicable.""
+    },
+    {
+      ""xref"": 1017,
+      ""name"": ""P3_Check Box11"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Checkbox for the document submission checklist. The user should check this box to confirm they have submitted 'Copies of the Identification Document of the Policyowner and the Insured', if not submitted before.""
+    },
+    {
+      ""xref"": 1034,
+      ""name"": ""P3_Check Box12"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Checkbox to request a certified true copy of the original supporting documents. The user should check this box if they require a certified copy, as originals will not be returned.""
+    }
+  ],
+  ""3"": [],
+  ""4"": [],
+  ""5"": [
+    {
+      ""xref"": 1080,
+      ""name"": ""P6_text 1_9pt_Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the full name of the claimant. The user should enter the legal name of the person who is filing the claim.""
+    },
+    {
+      ""xref"": 1081,
+      ""name"": ""P6_text 2-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the date the claimant signed the form. The user should enter the date in dd/mm/yyyy format.""
+    },
+    {
+      ""xref"": 1119,
+      ""name"": ""P6_text 3-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the claimant's Hong Kong Identity Card (HKID) or Passport Number. The user should enter their official identification number.""
+    },
+    {
+      ""xref"": 1145,
+      ""name"": ""P6_text 4-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is to specify the claimant's relationship to the insured person. The user should enter their relationship, for example, 'Self', 'Spouse', 'Parent', etc.""
+    },
+    {
+      ""xref"": 1146,
+      ""name"": ""P6_text 5_9pt_Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the full name of the insured person (the person covered by the insurance policy). The user should enter the insured's legal name.""
+    },
+    {
+      ""xref"": 1147,
+      ""name"": ""P6_text 6-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the date the insured person signed the form. The user should enter the date in dd/mm/yyyy format.""
+    },
+    {
+      ""xref"": 1129,
+      ""name"": ""P6_text 7-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the insured person's Hong Kong Identity Card (HKID) or Passport Number. The user should enter the insured's official identification number.""
+    },
+    {
+      ""xref"": 1132,
+      ""name"": ""P6_text 8_9pt_Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the full name of the Financial Consultant or a Witness. The user should enter the full name of the person who is acting as the financial consultant or witness for this claim.""
+    },
+    {
+      ""xref"": 1133,
+      ""name"": ""P6_text 9-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the date the Financial Consultant or Witness signed the form. The user should enter the date of their signature in dd/mm/yyyy format.""
+    }
+  ],
+  ""6"": [
+    {
+      ""xref"": 1163,
+      ""name"": ""P7_text 1_9pt_Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Patient's full name as per their official documents.""
+    },
+    {
+      ""xref"": 1185,
+      ""name"": ""P7_text 2-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Patient's Hong Kong Identity Card (HKID) number or Passport Number.""
+    },
+    {
+      ""xref"": 1195,
+      ""name"": ""P7_text 3-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Patient's date of birth in dd/mm/yyyy format.""
+    },
+    {
+      ""xref"": 1197,
+      ""name"": ""P7_text 4-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Patient's gender (e.g., Male or Female).""
+    },
+    {
+      ""xref"": 1235,
+      ""name"": ""P7_text 5-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""The date (in dd/mm/yyyy format) when the patient first consulted the doctor for the condition that led to this specific hospital admission.""
+    },
+    {
+      ""xref"": 1251,
+      ""name"": ""P7_text 6-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Name and address of the doctor who referred the patient for this admission. A referral letter may be required.""
+    },
+    {
+      ""xref"": 1275,
+      ""name"": ""P7_text 7-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Details of the patient's usual or regular doctor, if applicable.""
+    },
+    {
+      ""xref"": 1284,
+      ""name"": ""P7_text 8-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""The name of the hospital or day case unit where the patient was admitted.""
+    },
+    {
+      ""xref"": 1314,
+      ""name"": ""P7_text 9-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""The date the patient was admitted to the hospital, in dd/mm/yyyy format.""
+    },
+    {
+      ""xref"": 1338,
+      ""name"": ""P7_text 10-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""The date the patient was discharged from the hospital, in dd/mm/yyyy format.""
+    },
+    {
+      ""xref"": 1339,
+      ""name"": ""P7_text 11-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""The specific name of the surgery or medical procedure that was performed on the patient.""
+    },
+    {
+      ""xref"": 1348,
+      ""name"": ""P7_text 12-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A description of the surgical procedure performed and its outcome or results.""
+    },
+    {
+      ""xref"": 1357,
+      ""name"": ""P7_text 13-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""ICD-10 (International Classification of Diseases, 10th Revision) codes for the patient's diagnosis.""
+    },
+    {
+      ""xref"": 1365,
+      ""name"": ""P7_text 14-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""CPT (Current Procedural Terminology) codes for the medical services and procedures performed.""
+    },
+    {
+      ""xref"": 1374,
+      ""name"": ""P7_text 15-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""The primary reason or main symptom(s) reported by the patient that led to the hospitalization or surgery.""
+    },
+    {
+      ""xref"": 1383,
+      ""name"": ""P7_text 16-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A summary of the patient's discharge, including details about treatments received, diagnostic tests performed, their results, any complications that arose, and plans for follow-up care.""
+    },
+    {
+      ""xref"": 1391,
+      ""name"": ""p7 Group1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate if the patient took any home leave during their hospital stay. This checkbox represents the value 'YES'.""
+    },
+    {
+      ""xref"": 1393,
+      ""name"": ""p7 Group1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate if the patient took any home leave during their hospital stay. This checkbox represents the value 'NO'.""
+    },
+    {
+      ""xref"": 1417,
+      ""name"": ""P7_text 17-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""If the patient took home leave, this field requires the reason for that leave.""
+    },
+    {
+      ""xref"": 1426,
+      ""name"": ""P7_text 18-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""The specific dates and times of the patient's home leave period.""
+    }
+  ],
+  ""7"": [
+    {
+      ""xref"": 1451,
+      ""name"": ""P8_Check Box1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate if the medical condition is due to an illness.""
+    },
+    {
+      ""xref"": 1452,
+      ""name"": ""P8_text 1-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the medical diagnosis.""
+    },
+    {
+      ""xref"": 1453,
+      ""name"": ""P8_text 2-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the date of diagnosis in dd/mm/yyyy format.""
+    },
+    {
+      ""xref"": 1528,
+      ""name"": ""P8_text 3-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to describe the symptoms presented during the first consultation.""
+    },
+    {
+      ""xref"": 1529,
+      ""name"": ""P8_text 4-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the duration of the symptoms.""
+    },
+    {
+      ""xref"": 1531,
+      ""name"": ""P8_text 5-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the date of the first consultation for this condition in dd/mm/yyyy format.""
+    },
+    {
+      ""xref"": 1545,
+      ""name"": ""P8_text 6-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to state the underlying cause of the condition.""
+    },
+    {
+      ""xref"": 1559,
+      ""name"": ""P8_text 7-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text area for the user to elaborate if they have had the same or similar conditions or symptoms in the past 5 years related to the current condition.""
+    },
+    {
+      ""xref"": 1573,
+      ""name"": ""P8_Check Box2"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate if the medical condition is due to an accident.""
+    },
+    {
+      ""xref"": 1587,
+      ""name"": ""P8_text 8-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the date and time of the incident/accident.""
+    },
+    {
+      ""xref"": 1588,
+      ""name"": ""P8_text 9-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to describe any signs of bodily injury, such as a visible bruise or wound.""
+    },
+    {
+      ""xref"": 1590,
+      ""name"": ""P8_text 10-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text area for the user to describe how the accident happened.""
+    },
+    {
+      ""xref"": 1597,
+      ""name"": ""p8 Group1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'YES' if the condition is a congenital condition.""
+    },
+    {
+      ""xref"": 1598,
+      ""name"": ""p8 Group1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'NO' if the condition is not a congenital condition.""
+    },
+    {
+      ""xref"": 1641,
+      ""name"": ""P8_text 11-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide details if the condition is congenital.""
+    },
+    {
+      ""xref"": 1696,
+      ""name"": ""p8 Group2"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'YES' if the condition is a self-inflicted injury.""
+    },
+    {
+      ""xref"": 1697,
+      ""name"": ""p8 Group2"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'NO' if the condition is not a self-inflicted injury.""
+    },
+    {
+      ""xref"": 1698,
+      ""name"": ""P8_text 12-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide details if the condition is a self-inflicted injury.""
+    },
+    {
+      ""xref"": 1699,
+      ""name"": ""p8 Group3"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'YES' if the condition is a mental disorder.""
+    },
+    {
+      ""xref"": 1700,
+      ""name"": ""p8 Group3"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'NO' if the condition is not a mental disorder.""
+    },
+    {
+      ""xref"": 1701,
+      ""name"": ""P8_text 13-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide details if the condition is a mental disorder.""
+    },
+    {
+      ""xref"": 1702,
+      ""name"": ""p8 Group4"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'YES' if the condition is related to the abuse of alcohol or drugs.""
+    },
+    {
+      ""xref"": 1703,
+      ""name"": ""p8 Group4"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'NO' if the condition is not related to the abuse of alcohol or drugs.""
+    },
+    {
+      ""xref"": 1704,
+      ""name"": ""P8_text 14-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide details if the condition is related to abuse of alcohol or drugs.""
+    },
+    {
+      ""xref"": 1705,
+      ""name"": ""p8 Group5"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'YES' if the condition is related to obesity, weight reduction or weight improvement.""
+    },
+    {
+      ""xref"": 1706,
+      ""name"": ""p8 Group5"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'NO' if the condition is not related to obesity, weight reduction or weight improvement.""
+    },
+    {
+      ""xref"": 1707,
+      ""name"": ""P8_text 15-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide details if the condition is related to obesity, weight reduction, or weight improvement.""
+    },
+    {
+      ""xref"": 1708,
+      ""name"": ""p8 Group6"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'YES' if the condition is related to pregnancy, childbirth, caesarian section, abortion, or miscarriage.""
+    },
+    {
+      ""xref"": 1709,
+      ""name"": ""p8 Group6"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'NO' if the condition is not related to pregnancy, childbirth, caesarian section, abortion, or miscarriage.""
+    },
+    {
+      ""xref"": 1710,
+      ""name"": ""P8_text 16-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide details if the condition is related to pregnancy, childbirth, caesarian section, abortion, or miscarriage.""
+    },
+    {
+      ""xref"": 1711,
+      ""name"": ""p8 Group7"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'YES' if the condition is related to infertility or sterilization.""
+    },
+    {
+      ""xref"": 1712,
+      ""name"": ""p8 Group7"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'NO' if the condition is not related to infertility or sterilization.""
+    },
+    {
+      ""xref"": 1713,
+      ""name"": ""P8_text 17-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide details if the condition is related to infertility or sterilization.""
+    },
+    {
+      ""xref"": 1714,
+      ""name"": ""p8 Group8"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'YES' if the treatment was for a cosmetic purpose.""
+    },
+    {
+      ""xref"": 1715,
+      ""name"": ""p8 Group8"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'NO' if the treatment was not for a cosmetic purpose.""
+    },
+    {
+      ""xref"": 1716,
+      ""name"": ""P8_text 18-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide details if the treatment was for a cosmetic purpose.""
+    },
+    {
+      ""xref"": 1717,
+      ""name"": ""p8 Group9"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'YES' if the condition is related to a general check-up.""
+    },
+    {
+      ""xref"": 1718,
+      ""name"": ""p8 Group9"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'NO' if the condition is not related to a general check-up.""
+    },
+    {
+      ""xref"": 1719,
+      ""name"": ""P8_text 19-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide details if the condition is related to a general check-up.""
+    },
+    {
+      ""xref"": 1720,
+      ""name"": ""p8 Group10"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'YES' if the condition is a sleep disorder.""
+    },
+    {
+      ""xref"": 1721,
+      ""name"": ""p8 Group10"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'NO' if the condition is not a sleep disorder.""
+    },
+    {
+      ""xref"": 1722,
+      ""name"": ""P8_text 20-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide details if the condition is a sleep disorder.""
+    },
+    {
+      ""xref"": 1723,
+      ""name"": ""p8 Group11"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'YES' if the condition is related to AIDS, HIV, or a sexually transmitted disease.""
+    },
+    {
+      ""xref"": 1724,
+      ""name"": ""p8 Group11"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'NO' if the condition is not related to AIDS, HIV, or a sexually transmitted disease.""
+    },
+    {
+      ""xref"": 1725,
+      ""name"": ""P8_text 21-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide details if the condition is related to AIDS, HIV, or a sexually transmitted disease.""
+    },
+    {
+      ""xref"": 1820,
+      ""name"": ""P8_text 23-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the date of the first patient visit record in the format dd/mm/yyyy.""
+    },
+    {
+      ""xref"": 1834,
+      ""name"": ""P8_text 24-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the symptoms presented or chief complaint for the first patient visit record.""
+    },
+    {
+      ""xref"": 1854,
+      ""name"": ""P8_text 25-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the diagnosis for the first patient visit record.""
+    },
+    {
+      ""xref"": 1862,
+      ""name"": ""P8_text 26-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the investigation performed for the first patient visit record.""
+    },
+    {
+      ""xref"": 1864,
+      ""name"": ""P8_text 27-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the treatment given during the first patient visit record.""
+    },
+    {
+      ""xref"": 1866,
+      ""name"": ""P8_text 28-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the name and address of the referring doctor for the first patient visit record.""
+    },
+    {
+      ""xref"": 1949,
+      ""name"": ""P8_text 29-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the date of the second patient visit record in the format dd/mm/yyyy.""
+    },
+    {
+      ""xref"": 1950,
+      ""name"": ""P8_text 30-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the symptoms presented or chief complaint for the second patient visit record.""
+    },
+    {
+      ""xref"": 1951,
+      ""name"": ""P8_text 31-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the diagnosis for the second patient visit record.""
+    },
+    {
+      ""xref"": 1952,
+      ""name"": ""P8_text 32-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the investigation performed for the second patient visit record.""
+    },
+    {
+      ""xref"": 1953,
+      ""name"": ""P8_text 33-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the treatment given during the second patient visit record.""
+    },
+    {
+      ""xref"": 1954,
+      ""name"": ""P8_text 34-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the name and address of the referring doctor for the second patient visit record.""
+    },
+    {
+      ""xref"": 1971,
+      ""name"": ""P8_text 35-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the date of the third patient visit record in the format dd/mm/yyyy.""
+    },
+    {
+      ""xref"": 1972,
+      ""name"": ""P8_text 36-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the symptoms presented or chief complaint for the third patient visit record.""
+    },
+    {
+      ""xref"": 1955,
+      ""name"": ""P8_text 37-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the diagnosis for the third patient visit record.""
+    },
+    {
+      ""xref"": 1956,
+      ""name"": ""P8_text 38-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the investigation performed for the third patient visit record.""
+    },
+    {
+      ""xref"": 1957,
+      ""name"": ""P8_text 39-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the treatment given during the third patient visit record.""
+    },
+    {
+      ""xref"": 1958,
+      ""name"": ""P8_text 40-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the name and address of the referring doctor for the third patient visit record.""
+    }
+  ],
+  ""8"": [
+    {
+      ""xref"": 1890,
+      ""name"": ""P9_text 1-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the onset date of Hypertension. The user should enter the date in (dd/mm/yyyy) format.""
+    },
+    {
+      ""xref"": 1892,
+      ""name"": ""P9_text 2-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name of the Medical Practitioner or Hospital that treats the patient's Hypertension.""
+    },
+    {
+      ""xref"": 1939,
+      ""name"": ""P9_text 3-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name of regular medications the patient takes for Hypertension.""
+    },
+    {
+      ""xref"": 1946,
+      ""name"": ""P9_text 4-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the contact details of the Medical Practitioner or Hospital that treats the patient's Hypertension.""
+    },
+    {
+      ""xref"": 1982,
+      ""name"": ""P9_text 5-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the onset date of Diabetes Mellitus. The user should enter the date in (dd/mm/yyyy) format.""
+    },
+    {
+      ""xref"": 1983,
+      ""name"": ""P9_text 6-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name of the Medical Practitioner or Hospital that treats the patient's Diabetes Mellitus.""
+    },
+    {
+      ""xref"": 1984,
+      ""name"": ""P9_text 7-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name of regular medications the patient takes for Diabetes Mellitus.""
+    },
+    {
+      ""xref"": 1985,
+      ""name"": ""P9_text 8-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the contact details of the Medical Practitioner or Hospital that treats the patient's Diabetes Mellitus.""
+    },
+    {
+      ""xref"": 1986,
+      ""name"": ""P9_text 9-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the onset date of Dyslipidemia. The user should enter the date in (dd/mm/yyyy) format.""
+    },
+    {
+      ""xref"": 1987,
+      ""name"": ""P9_text 10-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name of the Medical Practitioner or Hospital that treats the patient's Dyslipidemia.""
+    },
+    {
+      ""xref"": 1988,
+      ""name"": ""P9_text 11-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name of regular medications the patient takes for Dyslipidemia.""
+    },
+    {
+      ""xref"": 1989,
+      ""name"": ""P9_text 12-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the contact details of the Medical Practitioner or Hospital that treats the patient's Dyslipidemia.""
+    },
+    {
+      ""xref"": 1990,
+      ""name"": ""P9_text 13-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the onset date or remission date of Cancer. The user should enter the date in (dd/mm/yyyy) format.""
+    },
+    {
+      ""xref"": 1991,
+      ""name"": ""P9_text 14-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name of the Medical Practitioner or Hospital that treats the patient's Cancer.""
+    },
+    {
+      ""xref"": 1992,
+      ""name"": ""P9_text 15-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name of regular medications the patient takes for Cancer.""
+    },
+    {
+      ""xref"": 1993,
+      ""name"": ""P9_text 16-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the contact details of the Medical Practitioner or Hospital that treats the patient's Cancer.""
+    },
+    {
+      ""xref"": 1994,
+      ""name"": ""P9_text 17-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for specifying the first other long-term or chronic illness not listed above.""
+    },
+    {
+      ""xref"": 2467,
+      ""name"": ""P9_text 17-Auto A"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the onset date of the first 'Other' illness. The user should enter the date in (dd/mm/yyyy) format.""
+    },
+    {
+      ""xref"": 1995,
+      ""name"": ""P9_text 18-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for specifying the second other long-term or chronic illness not listed above.""
+    },
+    {
+      ""xref"": 2468,
+      ""name"": ""P9_text 18-Auto A"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the onset date of the second 'Other' illness. The user should enter the date in (dd/mm/yyyy) format.""
+    },
+    {
+      ""xref"": 1997,
+      ""name"": ""P9_text 19-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for specifying the third other long-term or chronic illness not listed above.""
+    },
+    {
+      ""xref"": 2469,
+      ""name"": ""P9_text 19-Auto A"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the onset date of the third 'Other' illness. The user should enter the date in (dd/mm/yyyy) format.""
+    },
+    {
+      ""xref"": 2010,
+      ""name"": ""P9_text 21-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name of the Medical Practitioner or Hospital that treats the 'Other' illnesses listed.""
+    },
+    {
+      ""xref"": 2011,
+      ""name"": ""P9_text 22-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the name of regular medications the patient takes for the 'Other' illnesses listed.""
+    },
+    {
+      ""xref"": 2012,
+      ""name"": ""P9_text 23-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the contact details of the Medical Practitioner or Hospital that treats the 'Other' illnesses listed.""
+    },
+    {
+      ""xref"": 2038,
+      ""name"": ""P9_text 24-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the patient's usual/family doctor's name, clinic address, and contact number.""
+    },
+    {
+      ""xref"": 2063,
+      ""name"": ""P9_text 25-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the date of the patient's last consultation. The user should enter the date in (dd/mm/yyyy) format.""
+    },
+    {
+      ""xref"": 2071,
+      ""name"": ""P9_text 26-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the physical findings from the last consultation.""
+    },
+    {
+      ""xref"": 2079,
+      ""name"": ""P9_text 27-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the treatment prescribed or administered during the last consultation.""
+    },
+    {
+      ""xref"": 2086,
+      ""name"": ""P9_text 28-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the indication for a follow-up visit.""
+    },
+    {
+      ""xref"": 2094,
+      ""name"": ""P9_text 29-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for describing the patient's current physical or mental impairment.""
+    },
+    {
+      ""xref"": 2109,
+      ""name"": ""P9_text 30-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is to list any factors that may have contributed to or lengthened the period of disability.""
+    },
+    {
+      ""xref"": 2110,
+      ""name"": ""P9_text 31-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field asks for the future treatment/rehabilitation plan and the expected date the patient may engage in any other occupation if they are unable to return to their regular one.""
+    }
+  ],
+  ""9"": [
+    {
+      ""xref"": 2117,
+      ""name"": ""P10_text 1-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field requires the medical practitioner to enter their full name. The information needed is the doctor's legal name.""
+    },
+    {
+      ""xref"": 2131,
+      ""name"": ""P10_text 2-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the medical practitioner's academic and professional qualifications. The information needed includes their medical degrees and certifications (e.g., M.D., M.B.B.S.).""
+    },
+    {
+      ""xref"": 2138,
+      ""name"": ""P10_text 5-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field asks for the medical practitioner's area of specialization. The information needed is the specific branch of medicine they practice, such as Cardiology, Orthopedics, or General Practice.""
+    },
+    {
+      ""xref"": 2146,
+      ""name"": ""P10_text 4-Auto-Mu"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field is for the medical practitioner's contact details. The information needed is their contact telephone number and complete mailing address.""
+    },
+    {
+      ""xref"": 2154,
+      ""name"": ""P10_text 25-Auto"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""This field requires the date on which the medical practitioner is signing the form. The information should be entered in dd/mm/yyyy format.""
+    }
+  ]
+}"
+2,Prudential hospital claim form.pdf,"{
+  ""0"": [
+    {
+      ""xref"": 3122,
+      ""name"": ""fill_9"",
+      ""label"": ""Policy Number \u4fdd\u55ae\u865f\u78bc"",
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter their insurance Policy Number.""
+    },
+    {
+      ""xref"": 3123,
+      ""name"": ""fill_10"",
+      ""label"": ""Name of Policyowner \u4fdd\u55ae\u6301\u6709\u4eba\u59d3\u540d"",
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter the Name of the Policyowner.""
+    },
+    {
+      ""xref"": 3124,
+      ""name"": ""fill_11"",
+      ""label"": ""Policyowner Contact No. \u4fdd\u55ae\u6301\u6709\u4eba\u806f\u7d61\u96fb\u8a71\u865f\u78bc *For claim status follow up and communication use \u7528\u4f5c\u8ddf\u9032\u7406\u8ce0\u9032\u5ea6\u53ca\u806f\u7d61"",
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter the Policyowner's Contact Number.""
+    },
+    {
+      ""xref"": 3125,
+      ""name"": ""fill_12"",
+      ""label"": ""Name of Life Assured \u53d7\u4fdd\u4eba\u59d3\u540d"",
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter the Name of the Life Assured (the person insured).""
+    },
+    {
+      ""xref"": 3126,
+      ""name"": ""fill_13"",
+      ""label"": ""Name of Financial Consultant \u7406\u8ca1\u9867\u554f\u59d3\u540d"",
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter the Name of their Financial Consultant.""
+    },
+    {
+      ""xref"": 3127,
+      ""name"": ""fill_14"",
+      ""label"": ""Financial Consultant Contact No. \u7406\u8ca1\u9867\u554f\u806f\u7d61\u96fb\u8a71\u865f\u78bc"",
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter their Financial Consultant's Contact Number.""
+    },
+    {
+      ""xref"": 3128,
+      ""name"": ""fill_15"",
+      ""label"": ""Financial Consultant Code \u7406\u8ca1\u9867\u554f\u7de8\u865f"",
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter their Financial Consultant's Code.""
+    },
+    {
+      ""xref"": 3129,
+      ""name"": ""fill_16"",
+      ""label"": ""Division Code & Branch Office \u5206\u5340\u7de8\u865f\u53ca\u5206\u884c\u5730\u9ede"",
+      ""max_length"": 0,
+      ""description"": ""A field for the user to enter the Division Code & Branch Office information.""
+    },
+    {
+      ""xref"": 3130,
+      ""name"": ""toggle_1"",
+      ""label"": ""Medical Expenses Benefit\u91ab\u7642\u8cbb\u7528\u4fdd\u969c"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select 'Medical Expenses Benefit' as a benefit to claim.""
+    },
+    {
+      ""xref"": 3132,
+      ""name"": ""toggle_2"",
+      ""label"": ""Hospital Cash / Surgical Cash\u4f4f\u9662\u73fe\u91d1 / \u624b\u8853\u73fe\u91d1"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select 'Hospital Cash / Surgical Cash Benefit' as a benefit to claim.""
+    },
+    {
+      ""xref"": 3133,
+      ""name"": ""Crisis Illness Medical Expenses Benefit"",
+      ""label"": ""Crisis Illness -Medical Expenses Benefit"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select 'Crisis Illness - Medical Expenses Benefit' as a benefit to claim.""
+    },
+    {
+      ""xref"": 3134,
+      ""name"": ""toggle_4"",
+      ""label"": ""New Claim For Day Surgery\u65b0\u7406\u8ce0\u7533\u8acb \u2013\u65e5\u9593\u624b\u8853"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select 'New Claim For Day Surgery' as the type of claim.""
+    },
+    {
+      ""xref"": 3135,
+      ""name"": ""toggle_6"",
+      ""label"": ""New Claim For Hospitalisation\u65b0\u7406\u8ce0\u7533\u8acb \u2013\u4f4f\u9662"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select 'New Claim For Hospitalisation' as the type of claim.""
+    },
+    {
+      ""xref"": 3136,
+      ""name"": ""toggle_7"",
+      ""label"": ""Cancer Treatment \u764c\u75c7\u6cbb\u7642"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select 'Cancer Treatment' as the type of claim.""
+    },
+    {
+      ""xref"": 3137,
+      ""name"": ""toggle_8"",
+      ""label"": ""Accidental Outpatient Treatment\u610f\u5916\u9580\u8a3a\u6cbb\u7642"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select 'Accidental Outpatient Treatment' as the type of claim.""
+    },
+    {
+      ""xref"": 3138,
+      ""name"": ""toggle_9"",
+      ""label"": ""Accident Dental Treatment \u610f\u5916\u7259\u79d1\u6cbb\u7642"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select 'Accident Dental Treatment' as the type of claim.""
+    },
+    {
+      ""xref"": 3139,
+      ""name"": ""toggle_10"",
+      ""label"": ""Traditional Chinese Medicine\u4e2d\u91ab\u6cbb\u7642"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select 'Traditional Chinese Medicine' as the type of claim.""
+    },
+    {
+      ""xref"": 3140,
+      ""name"": ""Rehabilitation Benefit For VIP only"",
+      ""label"": ""Rehabilitation Benefit (For VIP only"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select 'Rehabilitation Benefit (For VIP only)' as the type of claim.""
+    },
+    {
+      ""xref"": 3141,
+      ""name"": ""Wellness Benefit For VIP only"",
+      ""label"": ""Wellness Benefit (For VIP only"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select 'Wellness Benefit (For VIP only)' as the type of claim.""
+    },
+    {
+      ""xref"": 3142,
+      ""name"": ""toggle_13"",
+      ""label"": ""Other\u5176\u4ed6"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select 'Other' if the type of claim is not listed.""
+    },
+    {
+      ""xref"": 3143,
+      ""name"": ""undefined"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to specify the type of claim if they have selected the 'Other' checkbox.""
+    },
+    {
+      ""xref"": 3144,
+      ""name"": ""Further Claim Applicable to PreAdmission and FollowUp Consultation only"",
+      ""label"": ""Further Claim (Applicable to Pre-Admission and Follow-Up Consultation only"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate this is a 'Further Claim' applicable only to Pre-Admission and Follow-Up Consultation.""
+    },
+    {
+      ""xref"": 3145,
+      ""name"": ""fill_1"",
+      ""label"": ""\u518d\u5ea6\u7406\u8ce0 (\u53ea\u9069\u7528\u65bc\u4f4f\u9662\u524d\u53ca\u51fa\u9662\u5f8c\u9580\u8a3a\u4fdd\u969c"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the claim number of a previous, related claim.""
+    },
+    {
+      ""xref"": 3146,
+      ""name"": ""toggle_14"",
+      ""label"": ""No\u6c92\u6709"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the question 'Have you claimed from other insurer(s) / organization(s) for the same event?'. This checkbox represents the answer 'No'.""
+    },
+    {
+      ""xref"": 3147,
+      ""name"": ""fill_3"",
+      ""label"": ""Insurance Company / Organization \u4fdd\u96aa\u516c\u53f8 / \u6a5f\u69cb_Row_1"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the name of the other 'Insurance Company / Organization' from which a claim has been made.""
+    },
+    {
+      ""xref"": 3148,
+      ""name"": ""fill_4"",
+      ""label"": ""Policy Number \u4fdd\u55ae\u865f\u78bc_Row_1"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the 'Policy Number' from the other insurance company from which a claim has been made.""
+    },
+    {
+      ""xref"": 3149,
+      ""name"": ""fill_5"",
+      ""label"": ""Benefit(s) to claim \u7406\u8ce0\u985e\u5225_Row_1"",
+      ""max_length"": 0,
+      ""description"": ""A field to specify the 'Benefit(s) to claim' from the other insurance company.""
+    },
+    {
+      ""xref"": 3150,
+      ""name"": ""toggle_15"",
+      ""label"": ""No\u6c92\u6709"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the question 'Will you claim from other insurer(s) / organization(s) for the same event?'. This checkbox represents the answer 'No'.""
+    },
+    {
+      ""xref"": 3151,
+      ""name"": ""fill_6"",
+      ""label"": ""Insurance Company / Organization \u4fdd\u96aa\u516c\u53f8 / \u6a5f\u69cb_Row_1"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the name of the other 'Insurance Company / Organization' from which a claim will be made.""
+    },
+    {
+      ""xref"": 3152,
+      ""name"": ""fill_7"",
+      ""label"": ""Policy Number \u4fdd\u55ae\u865f\u78bc_Row_1"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the 'Policy Number' from the other insurance company from which a claim will be made.""
+    },
+    {
+      ""xref"": 3153,
+      ""name"": ""fill_8"",
+      ""label"": ""Benefit(s) to claim \u7406\u8ce0\u985e\u5225_Row_1"",
+      ""max_length"": 0,
+      ""description"": ""A field to specify the 'Benefit(s) to claim' from the other insurance company you will claim from.""
+    },
+    {
+      ""xref"": 3154,
+      ""name"": ""Text1"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the 'Claim Number of the related claim' when filing a further claim.""
+    },
+    {
+      ""xref"": 3155,
+      ""name"": ""toggle_22"",
+      ""label"": ""No\u6c92\u6709"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the question 'Have you claimed from other insurer(s) / organization(s) for the same event?'. This checkbox represents the answer 'Yes'.""
+    },
+    {
+      ""xref"": 3156,
+      ""name"": ""toggle_23"",
+      ""label"": ""No\u6c92\u6709"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the question 'Will you claim from other insurer(s) / organization(s) for the same event?'. This checkbox represents the answer 'Yes'.""
+    }
+  ],
+  ""1"": [
+    {
+      ""xref"": 439,
+      ""name"": ""fill_11_2"",
+      ""label"": ""Identity Document Number \u8eab\u4efd\u8b49\u660e\u6587\u4ef6\u865f\u78bc"",
+      ""max_length"": 0,
+      ""description"": ""The user is asked to fill in the Identity Document Number of the Life Assured. Information needed is the person's ID card number.""
+    },
+    {
+      ""xref"": 450,
+      ""name"": ""fill_12_2"",
+      ""label"": ""Residential Address \u5c45\u4f4f\u5730\u5740 *Do not need to fill in If not changed \u5982\u6c92\u6709\u66f4\u6539\uff0c\u8acb\u6bcb\u9808\u586b\u5beb"",
+      ""max_length"": 0,
+      ""description"": ""The user is asked to fill in the residential address of the Life Assured. Information needed is the complete home address. It is noted that this field does not need to be filled if the address has not changed.""
+    },
+    {
+      ""xref"": 443,
+      ""name"": ""undefined_4"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""This field is part of the date when symptoms first appeared for an illness. The user should enter the day of the month.""
+    },
+    {
+      ""xref"": 440,
+      ""name"": ""undefined_5"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""This field is part of the date when symptoms first appeared for an illness. The user should enter the month.""
+    },
+    {
+      ""xref"": 444,
+      ""name"": ""undefined_6"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""This field is part of the date when symptoms first appeared for an illness. The user should enter the year.""
+    },
+    {
+      ""xref"": 447,
+      ""name"": ""fill_13_2"",
+      ""label"": ""Name and address of Physician / Hospital \u91ab\u751f / \u91ab\u9662\u540d\u7a31\u53ca\u5730\u5740"",
+      ""max_length"": 0,
+      ""description"": ""The user is asked to provide the name and address of the usual physician(s) or hospital(s) consulted for the illness. Information needed is the full name and address of the medical professional or institution.""
+    },
+    {
+      ""xref"": 448,
+      ""name"": ""fill_4_2"",
+      ""label"": ""Day\u65e5"",
+      ""max_length"": 0,
+      ""description"": ""This field is part of the date of the accident. The user should enter the day of the month the accident occurred.""
+    },
+    {
+      ""xref"": 441,
+      ""name"": ""fill_5_2"",
+      ""label"": ""Month\u6708"",
+      ""max_length"": 0,
+      ""description"": ""This field is part of the date of the accident. The user should enter the month the accident occurred.""
+    },
+    {
+      ""xref"": 442,
+      ""name"": ""fill_6_2"",
+      ""label"": ""Year\u5e74"",
+      ""max_length"": 0,
+      ""description"": ""This field is part of the date of the accident. The user should enter the year the accident occurred.""
+    },
+    {
+      ""xref"": 446,
+      ""name"": ""fill_14_2"",
+      ""label"": ""Location of Accident \u610f\u5916\u767c\u751f\u4e4b\u5730\u9ede"",
+      ""max_length"": 0,
+      ""description"": ""The user is asked to provide the location where the accident occurred. Information needed is the specific address or place of the accident.""
+    },
+    {
+      ""xref"": 449,
+      ""name"": ""fill_15_2"",
+      ""label"": ""Details of Accident (Please describe activities engaged if applicable) \u610f\u5916\u8a73\u60c5 (\u5982\u9069\u7528\uff0c\u8acb\u5f62\u5bb9\u7576 \u6642\u9032\u884c\u4e4b\u6d3b\u52d5 )"",
+      ""max_length"": 0,
+      ""description"": ""The user is asked to provide details of the accident, including a description of the activities they were engaged in at the time. A narrative description of the event is required.""
+    },
+    {
+      ""xref"": 445,
+      ""name"": ""fill_16_2"",
+      ""label"": ""Describe part(s) of body injured and extent of injury \u8acb\u8aaa\u660e\u53d7\u50b7\u90e8\u4f4d\u53ca\u50b7\u52e2"",
+      ""max_length"": 0,
+      ""description"": ""The user is asked to describe the part(s) of the body that were injured and the extent of the injury. Information needed includes the specific body parts affected and the severity of the injuries.""
+    },
+    {
+      ""xref"": 455,
+      ""name"": ""undefined_7"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox for the question 'Have you reported to the police?'. This particular checkbox represents the 'No' option.""
+    },
+    {
+      ""xref"": 456,
+      ""name"": ""undefined_8"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox for the question 'Have you reported to the police?'. This particular checkbox represents the 'Yes' option.""
+    },
+    {
+      ""xref"": 458,
+      ""name"": ""fill_7_2"",
+      ""label"": ""Date of Consultation (Day / Month / Year) \u5c31\u8a3a\u65e5\u671f (\u65e5 / \u6708 / \u5e74 )_Row_1"",
+      ""max_length"": 0,
+      ""description"": ""The user is asked to provide the date of the first consultation with a physician for the illness. The date should be entered in Day/Month/Year format.""
+    },
+    {
+      ""xref"": 457,
+      ""name"": ""fill_8_2"",
+      ""label"": ""Name and address of the Physician \u91ab\u751f\u540d\u7a31\u53ca\u5730\u5740_Row_1"",
+      ""max_length"": 0,
+      ""description"": ""The user is asked to provide the name and address of the physician first consulted for the illness. Information needed is the full name and address of the medical professional.""
+    },
+    {
+      ""xref"": 459,
+      ""name"": ""fill_9_2"",
+      ""label"": ""Referral Date (Day / Month / Year) \u8f49\u4ecb\u65e5\u671f (\u65e5 / \u6708 / \u5e74 )_Row_1"",
+      ""max_length"": 0,
+      ""description"": ""The user is asked to provide the referral date for hospitalization or day surgery. The date should be entered in Day/Month/Year format.""
+    },
+    {
+      ""xref"": 452,
+      ""name"": ""fill_10_2"",
+      ""label"": ""Name and address of Referral Physician \u8f49\u4ecb\u91ab\u751f\u540d\u7a31\u53ca\u5730\u5740_Row_1"",
+      ""max_length"": 0,
+      ""description"": ""The user is asked to provide the name and address of the physician who referred them for hospitalization or day surgery. Information needed is the full name and address of the referring doctor.""
+    }
+  ],
+  ""2"": [
+    {
+      ""xref"": 492,
+      ""name"": ""Please provide the FPS Identifier or mobile number or email of policyowners FPS account"",
+      ""label"": ""Please provide the FPS Identifier or mobile number or email of policyowner\u2019s FPS account"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for selecting FPS payment if the policyholder's account is a virtual bank. The user needs to tick this box to choose FPS as the settlement option.""
+    },
+    {
+      ""xref"": 464,
+      ""name"": ""fill_1_2"",
+      ""label"": ""FPS Identifier or mobile number or email\u8f49\u6578\u5feb\u6236\u53e3\u4e4b\u8b58\u5225\u78bc\u6216\u624b\u6a5f\u865f\u78bc\u6216\u96fb\u90f5_By FPS \u8f49\u6578\u5feb"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the FPS Identifier, mobile number, or email associated with the policyowner's FPS account.""
+    },
+    {
+      ""xref"": 466,
+      ""name"": ""undefined_9"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for selecting direct credit to an existing Electronic Direct Payout account.""
+    },
+    {
+      ""xref"": 469,
+      ""name"": ""toggle_3"",
+      ""label"": ""to Premium Deposit Account of the policies being claimed\u81f3\u7406\u8ce0\u4fdd\u55ae\u7684\u4fdd\u8cbb\u5132\u84c4\u6236\u53e3"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for selecting direct credit to the Premium Deposit Account of the policies being claimed.""
+    },
+    {
+      ""xref"": 468,
+      ""name"": ""undefined_10"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for selecting direct credit to the last claim payout account used.""
+    },
+    {
+      ""xref"": 463,
+      ""name"": ""toggle_5"",
+      ""label"": ""to a HKD bank account opened in Hong Kong held by the Policyowner\u81f3\u4fdd\u55ae\u6301\u6709\u4eba\u65bc\u9999\u6e2f\u958b\u7acb\u7684\u6e2f\u5143\u6236\u53e3"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for selecting direct credit to a HKD bank account opened in Hong Kong held by the Policyowner. Selecting this requires providing bank account details below.""
+    },
+    {
+      ""xref"": 465,
+      ""name"": ""undefined_12"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for selecting to receive the claim payout cheque delivered through a Financial Consultant.""
+    },
+    {
+      ""xref"": 467,
+      ""name"": ""undefined_123"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for selecting to receive the claim payout cheque by Ordinary Mail to the policyowner's correspondence address on record.""
+    },
+    {
+      ""xref"": 477,
+      ""name"": ""Text21"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The first digit of the Bank Number for direct credit.""
+    },
+    {
+      ""xref"": 471,
+      ""name"": ""Text22"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The second digit of the Bank Number for direct credit.""
+    },
+    {
+      ""xref"": 472,
+      ""name"": ""Text23"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The third digit of the Bank Number for direct credit.""
+    },
+    {
+      ""xref"": 479,
+      ""name"": ""Text24"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The first digit of the Branch Number for direct credit.""
+    },
+    {
+      ""xref"": 478,
+      ""name"": ""Text25"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The second digit of the Branch Number for direct credit.""
+    },
+    {
+      ""xref"": 473,
+      ""name"": ""Text26"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The third digit of the Branch Number for direct credit.""
+    },
+    {
+      ""xref"": 480,
+      ""name"": ""Text27"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The first digit of the Account Number for direct credit.""
+    },
+    {
+      ""xref"": 476,
+      ""name"": ""Text28"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The second digit of the Account Number for direct credit.""
+    },
+    {
+      ""xref"": 482,
+      ""name"": ""Text29"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The third digit of the Account Number for direct credit.""
+    },
+    {
+      ""xref"": 484,
+      ""name"": ""Text30"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The fourth digit of the Account Number for direct credit.""
+    },
+    {
+      ""xref"": 470,
+      ""name"": ""Text31"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The fifth digit of the Account Number for direct credit.""
+    },
+    {
+      ""xref"": 474,
+      ""name"": ""Text32"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The sixth digit of the Account Number for direct credit.""
+    },
+    {
+      ""xref"": 481,
+      ""name"": ""Text33"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The seventh digit of the Account Number for direct credit.""
+    },
+    {
+      ""xref"": 475,
+      ""name"": ""Text34"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The eighth digit of the Account Number for direct credit.""
+    },
+    {
+      ""xref"": 483,
+      ""name"": ""Text35"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The ninth digit of the Account Number for direct credit.""
+    },
+    {
+      ""xref"": 485,
+      ""name"": ""Text36"",
+      ""label"": null,
+      ""max_length"": 1,
+      ""description"": ""The tenth digit of the Account Number for direct credit.""
+    }
+  ],
+  ""3"": [],
+  ""4"": [
+    {
+      ""xref"": 496,
+      ""name"": ""toggle_1_2"",
+      ""label"": ""Yes\u662f"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox as part of the question \""Are you currently a customer in mainland China?\"". The user should check this box if the answer is 'Yes'.""
+    },
+    {
+      ""xref"": 497,
+      ""name"": ""By ticking this box you agree that as an international group company in order to provide insurancerelated products or services we may need to store"",
+      ""label"": ""By ticking this box, you agree that as an international group company, in order to provide insurance-related products or services, we may need to store"",
+      ""max_length"": 0,
+      ""description"": ""This is a consent checkbox that appears if the user has indicated they are a customer in mainland China. By ticking this box, the user agrees that their personal information may be stored and processed outside of mainland China in order to provide insurance-related products or services.""
+    },
+    {
+      ""xref"": 498,
+      ""name"": ""toggle_3_2"",
+      ""label"": ""No\u5426"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox as part of the question \""Are you currently a customer in mainland China?\"". The user should check this box if the answer is 'No'.""
+    }
+  ],
+  ""5"": [
+    {
+      ""xref"": 499,
+      ""name"": ""fill_1_3"",
+      ""label"": ""Day\u65e5"",
+      ""max_length"": 0,
+      ""description"": ""The day (DD) of the date the Policyowner/Claimant signed the form. This field requires a two-digit number representing the day.""
+    },
+    {
+      ""xref"": 503,
+      ""name"": ""fill_2_2"",
+      ""label"": ""Month\u6708"",
+      ""max_length"": 0,
+      ""description"": ""The month (MM) of the date the Policyowner/Claimant signed the form. This field requires a two-digit number representing the month.""
+    },
+    {
+      ""xref"": 500,
+      ""name"": ""fill_3_3"",
+      ""label"": ""Year\u5e74"",
+      ""max_length"": 0,
+      ""description"": ""The year (YYYY) of the date the Policyowner/Claimant signed the form. This field requires a four-digit number representing the year.""
+    },
+    {
+      ""xref"": 501,
+      ""name"": ""fill_8_4"",
+      ""label"": ""Day\u65e5"",
+      ""max_length"": 0,
+      ""description"": ""The day (DD) of the date the Life Assured signed the form. This field requires a two-digit number representing the day.""
+    },
+    {
+      ""xref"": 502,
+      ""name"": ""fill_9_4"",
+      ""label"": ""Month\u6708"",
+      ""max_length"": 0,
+      ""description"": ""The month (MM) of the date the Life Assured signed the form. This field requires a two-digit number representing the month.""
+    },
+    {
+      ""xref"": 504,
+      ""name"": ""fill_10_4"",
+      ""label"": ""Year\u5e74"",
+      ""max_length"": 0,
+      ""description"": ""The year (YYYY) of the date the Life Assured signed the form. This field requires a four-digit number representing the year.""
+    },
+    {
+      ""xref"": 511,
+      ""name"": ""Signature of Policyowner  Claimant"",
+      ""label"": ""Signature of Policyowner / Claimant"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the signature of the policyowner or the claimant. The user is required to provide their handwritten signature in this box.""
+    },
+    {
+      ""xref"": 512,
+      ""name"": ""Signature of Life Assured"",
+      ""label"": ""Signature of Life Assured"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the signature of the life assured individual. The life assured is required to provide their handwritten signature in this box.""
+    },
+    {
+      ""xref"": 508,
+      ""name"": ""Name of Policyowner  Claimant"",
+      ""label"": ""Name of Policyowner / Claimant"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the full name of the policyowner or claimant, as it appears on their official documents.""
+    },
+    {
+      ""xref"": 513,
+      ""name"": ""Identity Document Number of Policyowner  Claimant"",
+      ""label"": ""Identity Document Number of Policyowner / Claimant"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the identity document number (e.g., HKID, passport number) of the policyowner or claimant.""
+    },
+    {
+      ""xref"": 505,
+      ""name"": ""Name of Life Assured"",
+      ""label"": ""Name of Life Assured"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the full name of the life assured, as it appears on their official documents.""
+    },
+    {
+      ""xref"": 510,
+      ""name"": ""Identity Document Number of Life Assured"",
+      ""label"": ""Identity Document Number of Life Assured"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the identity document number (e.g., HKID, passport number) of the life assured.""
+    }
+  ],
+  ""6"": [
+    {
+      ""xref"": 514,
+      ""name"": ""2"",
+      ""label"": ""2"",
+      ""max_length"": 0,
+      ""description"": ""Name of Patient: Asks for the full name of the patient.""
+    },
+    {
+      ""xref"": 515,
+      ""name"": ""fill_34"",
+      ""label"": ""2. Identity Document Number \u8eab\u4efd\u8b49\u660e\u6587\u4ef6\u865f\u78bc"",
+      ""max_length"": 0,
+      ""description"": ""Identity Document Number: Asks for the patient's identification number, such as HKID or passport number.""
+    },
+    {
+      ""xref"": 522,
+      ""name"": ""4"",
+      ""label"": ""4"",
+      ""max_length"": 0,
+      ""description"": ""Age: Asks for the patient's age in years.""
+    },
+    {
+      ""xref"": 519,
+      ""name"": ""fill_36"",
+      ""label"": ""4. Sex \u6027\u5225"",
+      ""max_length"": 0,
+      ""description"": ""Sex: Asks for the patient's sex or gender.""
+    },
+    {
+      ""xref"": 524,
+      ""name"": ""Yes medical records traceable to"",
+      ""label"": ""Yes, medical records traceable to"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox: Yes: A checkbox indicating that the attending physician is the patient's usual physician. Selecting this requires providing a date from which records are traceable.""
+    },
+    {
+      ""xref"": 523,
+      ""name"": ""undefined_13"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Day: Input for the day (DD) from which the patient's medical records are traceable by the physician.""
+    },
+    {
+      ""xref"": 520,
+      ""name"": ""undefined_14"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Month: Input for the month (MM) from which the patient's medical records are traceable by the physician.""
+    },
+    {
+      ""xref"": 525,
+      ""name"": ""fill_2_3"",
+      ""label"": ""Year\u5e74"",
+      ""max_length"": 0,
+      ""description"": ""Year: Input for the year (YYYY) from which the patient's medical records are traceable by the physician.""
+    },
+    {
+      ""xref"": 526,
+      ""name"": ""undefined_15"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Day of Admission: Input for the day (DD) of the patient's admission to the hospital or day surgery.""
+    },
+    {
+      ""xref"": 527,
+      ""name"": ""undefined_16"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Month of Admission: Input for the month (MM) of the patient's admission to the hospital or day surgery.""
+    },
+    {
+      ""xref"": 528,
+      ""name"": ""undefined_17"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Year of Admission: Input for the year (YYYY) of the patient's admission to the hospital or day surgery.""
+    },
+    {
+      ""xref"": 516,
+      ""name"": ""undefined_18"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Day of Discharge: Input for the day (DD) of the patient's discharge from the hospital.""
+    },
+    {
+      ""xref"": 521,
+      ""name"": ""undefined_19"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Month of Discharge: Input for the month (MM) of the patient's discharge from the hospital.""
+    },
+    {
+      ""xref"": 517,
+      ""name"": ""undefined_20"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Year of Discharge: Input for the year (YYYY) of the patient's discharge from the hospital.""
+    },
+    {
+      ""xref"": 518,
+      ""name"": ""fill_38"",
+      ""label"": ""8. Name of Hospital / Day Surgery Center / Clinic \u91ab\u9662 /\u65e5\u9593\u624b\u8853\u4e2d\u5fc3 /\u8a3a \u6240\u540d\u7a31"",
+      ""max_length"": 0,
+      ""description"": ""Name of Hospital / Day Surgery Center / Clinic: Asks for the name of the medical facility where the patient received treatment.""
+    },
+    {
+      ""xref"": 535,
+      ""name"": ""No"",
+      ""label"": ""No"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox: No: A checkbox indicating that the patient was not confined in the Intensive Care Unit (ICU).""
+    },
+    {
+      ""xref"": 533,
+      ""name"": ""Yes please provide"",
+      ""label"": ""Yes, please provide"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox: Yes: A checkbox indicating that the patient was confined in the ICU. Selecting this requires providing the dates of ICU stay.""
+    },
+    {
+      ""xref"": 530,
+      ""name"": ""undefined_21"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""ICU From Day: Input for the day (DD) the patient was admitted to the ICU.""
+    },
+    {
+      ""xref"": 531,
+      ""name"": ""undefined_22"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""ICU From Month: Input for the month (MM) the patient was admitted to the ICU.""
+    },
+    {
+      ""xref"": 532,
+      ""name"": ""fill_12_4"",
+      ""label"": ""\u81f3"",
+      ""max_length"": 0,
+      ""description"": ""ICU From Year: Input for the year (YYYY) the patient was admitted to the ICU.""
+    },
+    {
+      ""xref"": 529,
+      ""name"": ""undefined_23"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""ICU To Day: Input for the day (DD) the patient was discharged from the ICU.""
+    },
+    {
+      ""xref"": 534,
+      ""name"": ""undefined_24"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""ICU To Month: Input for the month (MM) the patient was discharged from the ICU.""
+    },
+    {
+      ""xref"": 536,
+      ""name"": ""No_2"",
+      ""label"": ""No"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox: No: A checkbox indicating that the patient did not take any home leave during hospitalization.""
+    },
+    {
+      ""xref"": 537,
+      ""name"": ""Yes please provide_2"",
+      ""label"": ""Yes, please provide"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox: Yes: A checkbox indicating that the patient took home leave during hospitalization. Selecting this requires providing details about the leave.""
+    },
+    {
+      ""xref"": 538,
+      ""name"": ""undefined_25"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Home Leave From Day: Input for the start day (DD) of the patient's home leave.""
+    },
+    {
+      ""xref"": 539,
+      ""name"": ""undefined_26"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Home Leave From Month: Input for the start month (MM) of the patient's home leave.""
+    },
+    {
+      ""xref"": 540,
+      ""name"": ""fill_17_3"",
+      ""label"": ""\u81f3"",
+      ""max_length"": 0,
+      ""description"": ""Home Leave From Year: Input for the start year (YYYY) of the patient's home leave.""
+    },
+    {
+      ""xref"": 549,
+      ""name"": ""undefined_27"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Home Leave To Day: Input for the end day (DD) of the patient's home leave.""
+    },
+    {
+      ""xref"": 548,
+      ""name"": ""undefined_28"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Home Leave To Month: Input for the end month (MM) of the patient's home leave.""
+    },
+    {
+      ""xref"": 551,
+      ""name"": ""toggle_7_2"",
+      ""label"": ""AM\u4e0a\u5348"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox: PM: A checkbox to select PM for the start time of the home leave.""
+    },
+    {
+      ""xref"": 546,
+      ""name"": ""toggle_9_2"",
+      ""label"": ""PM\u4e0b\u5348"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox: AM: A checkbox to select AM for the start time of the home leave.""
+    },
+    {
+      ""xref"": 545,
+      ""name"": ""toggle_6_2"",
+      ""label"": ""AM\u4e0a\u5348"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox: PM: A checkbox to select PM for the end time of the home leave.""
+    },
+    {
+      ""xref"": 544,
+      ""name"": ""toggle_8_2"",
+      ""label"": ""PM\u4e0b\u5348"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox: AM: A checkbox to select AM for the end time of the home leave.""
+    },
+    {
+      ""xref"": 547,
+      ""name"": ""fill_39"",
+      ""label"": ""Reason \u539f\u56e0"",
+      ""max_length"": 0,
+      ""description"": ""Reason for Home Leave: A field to provide the reason for the patient taking home leave during hospitalization.""
+    },
+    {
+      ""xref"": 542,
+      ""name"": ""undefined_29"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""First Consultation Day: Input for the day (DD) the patient first consulted the physician for the current illness or injury.""
+    },
+    {
+      ""xref"": 550,
+      ""name"": ""undefined_30"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""First Consultation Month: Input for the month (MM) the patient first consulted the physician for the current illness or injury.""
+    },
+    {
+      ""xref"": 552,
+      ""name"": ""fill_22_3"",
+      ""label"": ""Year\u5e74"",
+      ""max_length"": 0,
+      ""description"": ""First Consultation Year: Input for the year (YYYY) the patient first consulted the physician for the current illness or injury.""
+    },
+    {
+      ""xref"": 541,
+      ""name"": ""fill_32"",
+      ""label"": ""/ / Day\u65e5 Month\u6708 Year\u5e74_12. Sign and symptoms complained of at the FIRST consultation \u9996\u6b21\u6c42\u8a3a\u6642\u51fa\u73fe\u7684\u5fb5\u72c0"",
+      ""max_length"": 0,
+      ""description"": ""Signs and Symptoms: A field to describe the signs and symptoms the patient complained of during the first consultation.""
+    },
+    {
+      ""xref"": 543,
+      ""name"": ""toggle_10_2"",
+      ""label"": ""Accident\u610f\u5916"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox: Accident: A checkbox to indicate that the cause of consultation was an accident.""
+    },
+    {
+      ""xref"": 562,
+      ""name"": ""toggle_11"",
+      ""label"": ""Illness\u75c5\u75c7"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox: Illness: A checkbox to indicate that the cause of consultation was an illness.""
+    },
+    {
+      ""xref"": 559,
+      ""name"": ""undefined_31"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Date of Accident Day: Input for the day (DD) the accident occurred.""
+    },
+    {
+      ""xref"": 555,
+      ""name"": ""undefined_32"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Date of Accident Month: Input for the month (MM) the accident occurred.""
+    },
+    {
+      ""xref"": 556,
+      ""name"": ""fill_25_3"",
+      ""label"": ""Month\u6708 Year\u5e74"",
+      ""max_length"": 0,
+      ""description"": ""Date of Accident Year: Input for the year (YYYY) the accident occurred.""
+    },
+    {
+      ""xref"": 564,
+      ""name"": ""fill_26_2"",
+      ""label"": ""Day(s)\u65e5"",
+      ""max_length"": 0,
+      ""description"": ""Symptom Duration (Days): A field to specify the duration in days the patient experienced symptoms before the first consultation.""
+    },
+    {
+      ""xref"": 553,
+      ""name"": ""fill_27_2"",
+      ""label"": ""Month(s)\u6708"",
+      ""max_length"": 0,
+      ""description"": ""Symptom Duration (Months): A field to specify the duration in months the patient experienced symptoms before the first consultation.""
+    },
+    {
+      ""xref"": 554,
+      ""name"": ""fill_28"",
+      ""label"": ""Year(s)\u5e74"",
+      ""max_length"": 0,
+      ""description"": ""Symptom Duration (Years): A field to specify the duration in years the patient experienced symptoms before the first consultation.""
+    },
+    {
+      ""xref"": 557,
+      ""name"": ""toggle_12"",
+      ""label"": ""AM\u4e0a\u5348"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox: AM: A checkbox to select AM for the time of the accident.""
+    },
+    {
+      ""xref"": 558,
+      ""name"": ""toggle_13_2"",
+      ""label"": ""PM\u4e0b\u5348"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox: PM: A checkbox to select PM for the time of the accident.""
+    },
+    {
+      ""xref"": 560,
+      ""name"": ""undefined_33"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Symptom Since Day: Input for the day (DD) since when the patient has been experiencing symptoms.""
+    },
+    {
+      ""xref"": 561,
+      ""name"": ""undefined_34"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Symptom Since Month: Input for the month (MM) since when the patient has been experiencing symptoms.""
+    },
+    {
+      ""xref"": 563,
+      ""name"": ""fill_30"",
+      ""label"": ""Year\u5e74"",
+      ""max_length"": 0,
+      ""description"": ""Symptom Since Year: Input for the year (YYYY) since when the patient has been experiencing symptoms.""
+    },
+    {
+      ""xref"": 569,
+      ""name"": ""256"",
+      ""label"": ""Yes, medical records traceable to"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox: No: A checkbox indicating that the attending physician is not the patient's usual physician.""
+    },
+    {
+      ""xref"": 574,
+      ""name"": ""Text3"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""ICU To Year: Input for the year (YYYY) the patient was discharged from the ICU.""
+    },
+    {
+      ""xref"": 565,
+      ""name"": ""Text4"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Home Leave To Year: Input for the end year (YYYY) of the patient's home leave.""
+    },
+    {
+      ""xref"": 568,
+      ""name"": ""Text5"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Home Leave From Time: Input for the start time (HH:MM) of the patient's home leave.""
+    },
+    {
+      ""xref"": 567,
+      ""name"": ""Text6"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Home Leave Start Time: Field for entering the start time of the home leave period.""
+    },
+    {
+      ""xref"": 566,
+      ""name"": ""Text7"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Home Leave To Time: Input for the end time (HH:MM) of the patient's home leave.""
+    },
+    {
+      ""xref"": 570,
+      ""name"": ""Text8"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Home Leave End Time: Field for entering the end time of the home leave period.""
+    },
+    {
+      ""xref"": 571,
+      ""name"": ""Text9"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Time of Accident: Input for the time (HH:MM) of the accident.""
+    },
+    {
+      ""xref"": 572,
+      ""name"": ""Text10"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""Time of Accident: Field for entering the time of the accident.""
+    }
+  ],
+  ""7"": [
+    {
+      ""xref"": 580,
+      ""name"": ""No_3"",
+      ""label"": ""No"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for question 14, \""For this episode, had the patient previously seen other physician(s) for these symptoms?\"". This checkbox represents the answer \""No\"".""
+    },
+    {
+      ""xref"": 586,
+      ""name"": ""Yes please provide_3"",
+      ""label"": ""Yes, please provide"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for question 14, \""For this episode, had the patient previously seen other physician(s) for these symptoms?\"". This checkbox represents the answer \""Yes\"", and requires information to be provided in the fields to the right.""
+    },
+    {
+      ""xref"": 587,
+      ""name"": ""fill_15_4"",
+      ""label"": ""Name of Physician \u91ab\u751f\u540d\u7a31"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the name of the physician previously consulted, as part of the details for question 14.""
+    },
+    {
+      ""xref"": 583,
+      ""name"": ""fill_16_3"",
+      ""label"": ""Address of Physician \u91ab\u751f\u5730\u5740"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the address of the physician previously consulted, as part of the details for question 14.""
+    },
+    {
+      ""xref"": 584,
+      ""name"": ""undefined_35"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the day of the previous consultation date.""
+    },
+    {
+      ""xref"": 585,
+      ""name"": ""undefined_36"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the month of the previous consultation date.""
+    },
+    {
+      ""xref"": 581,
+      ""name"": ""undefined_37"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the year of the previous consultation date.""
+    },
+    {
+      ""xref"": 588,
+      ""name"": ""fill_17_4"",
+      ""label"": ""15. Please state the recommended diagnostic tests and the reason for the tests during this hospitalization. \u8acb\u8a3b\u660e\u662f\u6b21\u4f4f\u9662\u6240\u5efa\u8b70\u7684\u8a3a\u65b7\u6027\u6aa2\u67e5\u4e4b\u540d\u7a31\u53ca\u539f\u56e0"",
+      ""max_length"": 0,
+      ""description"": ""A text field for question 15, asking the user to state the recommended diagnostic tests and the reason for those tests during the hospitalization.""
+    },
+    {
+      ""xref"": 582,
+      ""name"": ""toggle_4_2"",
+      ""label"": ""Yes\u662f"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for question 16, \""Can this type of treatment / test be managed on day care or out-patient basis?\"". This checkbox represents the answer \""Yes\"".""
+    },
+    {
+      ""xref"": 589,
+      ""name"": ""toggle_3_3"",
+      ""label"": ""No\u5426"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for question 16, \""Can this type of treatment / test be managed on day care or out-patient basis?\"". This checkbox represents the answer \""No\"".""
+    },
+    {
+      ""xref"": 595,
+      ""name"": ""fill_18_3"",
+      ""label"": ""Please provide reason(s) for this hospitalization. \u8acb\u63d0\u4f9b\u662f\u6b21\u4f4f\u9662\u7684\u539f\u56e0"",
+      ""max_length"": 0,
+      ""description"": ""A text field where the user must provide the reason(s) for hospitalization if the answer to question 16 is \""No\"".""
+    },
+    {
+      ""xref"": 593,
+      ""name"": ""a"",
+      ""label"": ""a)"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the first final diagnosis in the 'Final Diagnosis Details' section.""
+    },
+    {
+      ""xref"": 596,
+      ""name"": ""fill_9_5"",
+      ""label"": ""18. ICD 10 Code \u570b\u969b\u75be\u75c5\u5206\u985e\u7de8\u78bc (ICD-10)_a)"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the ICD-10 code corresponding to the first final diagnosis.""
+    },
+    {
+      ""xref"": 600,
+      ""name"": ""b"",
+      ""label"": ""b)"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the second final diagnosis.""
+    },
+    {
+      ""xref"": 598,
+      ""name"": ""fill_10_5"",
+      ""label"": ""18. ICD 10 Code \u570b\u969b\u75be\u75c5\u5206\u985e\u7de8\u78bc (ICD-10)_b)"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the ICD-10 code corresponding to the second final diagnosis.""
+    },
+    {
+      ""xref"": 599,
+      ""name"": ""c"",
+      ""label"": ""c)"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the third final diagnosis.""
+    },
+    {
+      ""xref"": 590,
+      ""name"": ""fill_11_4"",
+      ""label"": ""18. ICD 10 Code \u570b\u969b\u75be\u75c5\u5206\u985e\u7de8\u78bc (ICD-10)_c)"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the ICD-10 code corresponding to the third final diagnosis.""
+    },
+    {
+      ""xref"": 594,
+      ""name"": ""fill_22_4"",
+      ""label"": ""19. What is / are the underlying cause(s) for final diagnosis? \u5f15\u8d77\u4e0a\u8ff0\u6700\u5f8c\u8a3a\u65b7\u7684\u75c5\u56e0 ?"",
+      ""max_length"": 0,
+      ""description"": ""A text field for question 19, asking for the underlying cause(s) of the final diagnosis.""
+    },
+    {
+      ""xref"": 597,
+      ""name"": ""No_4"",
+      ""label"": ""No"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for question 20, \""What surgery has been performed?\"". This checkbox represents the answer \""No\"".""
+    },
+    {
+      ""xref"": 591,
+      ""name"": ""Yes please provide_4"",
+      ""label"": ""Yes, please provide"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for question 20, \""What surgery has been performed?\"". This checkbox represents the answer \""Yes\"", and requires information to be provided in the fields to the right.""
+    },
+    {
+      ""xref"": 592,
+      ""name"": ""undefined_38"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the month of the surgery date.""
+    },
+    {
+      ""xref"": 605,
+      ""name"": ""undefined_39"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the year of the surgery date.""
+    },
+    {
+      ""xref"": 601,
+      ""name"": ""fill_4_4"",
+      ""label"": ""Day\u65e5"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the day of the surgery date.""
+    },
+    {
+      ""xref"": 606,
+      ""name"": ""fill_12_5"",
+      ""label"": ""/ / Day\u65e5 Month\u6708 Year\u5e74_Surgery Name \u624b\u8853\u540d\u7a31"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the name of the surgery performed.""
+    },
+    {
+      ""xref"": 609,
+      ""name"": ""fill_13_4"",
+      ""label"": ""/ / Day\u65e5 Month\u6708 Year\u5e74_CPT Code \u91ab\u7642\u7a0b\u5e8f\u7de8\u78bc"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the CPT (Current Procedural Terminology) code for the surgery performed.""
+    },
+    {
+      ""xref"": 607,
+      ""name"": ""fill_14_4"",
+      ""label"": ""/ / Day\u65e5 Month\u6708 Year\u5e74_Surgeon Name \u5916\u79d1\u91ab\u751f\u540d\u7a31"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the name of the surgeon who performed the surgery.""
+    },
+    {
+      ""xref"": 604,
+      ""name"": ""fill_23_3"",
+      ""label"": ""21. Summary of medical treatment given and tests performed with results \u7e3d\u7d50\u6709\u95dc\u6cbb\u7642\u53ca\u6aa2\u9a57\u7d50\u679c"",
+      ""max_length"": 0,
+      ""description"": ""A text field for question 21, asking for a summary of the medical treatment given and tests performed, including their results.""
+    },
+    {
+      ""xref"": 602,
+      ""name"": ""undefined_40"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for question 22, \""To the best of your knowledge, was the patient's injury / illness directly or indirectly due to or aggravated by the following:\"". This checkbox represents the answer \""No\"".""
+    },
+    {
+      ""xref"": 608,
+      ""name"": ""undefined_41"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for question 22. This checkbox represents the answer \""Yes\"", indicating the user should then select the appropriate cause(s) from the list below.""
+    },
+    {
+      ""xref"": 610,
+      ""name"": ""Alcohol  narcotics  drug abuse"",
+      ""label"": ""Alcohol / narcotics / drug abuse"",
+      ""max_length"": 0,
+      ""description"": null
+    },
+    {
+      ""xref"": 603,
+      ""name"": ""Selfinflicted injury"",
+      ""label"": ""Self-inflicted injury"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for question 22, indicating the cause is \""Self-inflicted injury\"".""
+    },
+    {
+      ""xref"": 617,
+      ""name"": ""Childbirth  pregnancy"",
+      ""label"": ""Childbirth / pregnancy"",
+      ""max_length"": 0,
+      ""description"": null
+    },
+    {
+      ""xref"": 614,
+      ""name"": ""Mental disorders"",
+      ""label"": ""Mental disorders"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for question 22, indicating the cause is \""Mental disorders\"".""
+    },
+    {
+      ""xref"": 613,
+      ""name"": ""Others please specify details"",
+      ""label"": ""Others, please specify details"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for question 22, indicating the cause is \""Others\"", which requires specifying details.""
+    },
+    {
+      ""xref"": 615,
+      ""name"": ""Hazardous sport  activity"",
+      ""label"": ""Hazardous sport / activity"",
+      ""max_length"": 0,
+      ""description"": null
+    },
+    {
+      ""xref"": 612,
+      ""name"": ""Infertility  sterilization  termination of pregnancy"",
+      ""label"": ""Infertility / sterilization / termination of pregnancy"",
+      ""max_length"": 0,
+      ""description"": null
+    },
+    {
+      ""xref"": 618,
+      ""name"": ""AIDSAIDS related complex disease"",
+      ""label"": ""AIDS/AIDS related complex disease"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for question 22, indicating the cause is \""AIDS/AIDS related complex disease\"".""
+    },
+    {
+      ""xref"": 616,
+      ""name"": ""Body check  vaccination  immunization injections"",
+      ""label"": ""Body check / vaccination & immunization injections"",
+      ""max_length"": 0,
+      ""description"": null
+    },
+    {
+      ""xref"": 611,
+      ""name"": ""weeks"",
+      ""label"": ""weeks"",
+      ""max_length"": 0,
+      ""description"": ""A label indicating that the adjacent field is for the number of weeks of pregnancy.""
+    },
+    {
+      ""xref"": 623,
+      ""name"": ""Cosmetic or plastic surgery"",
+      ""label"": ""Cosmetic or plastic surgery"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for question 22, indicating the cause is \""Cosmetic or plastic surgery\"".""
+    },
+    {
+      ""xref"": 620,
+      ""name"": ""Congenital  inherited condition"",
+      ""label"": ""Congenital / inherited condition"",
+      ""max_length"": 0,
+      ""description"": null
+    },
+    {
+      ""xref"": 619,
+      ""name"": ""Corrective aids or treatment of refractive errors"",
+      ""label"": ""Corrective aids or treatment of refractive errors"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for question 22, indicating the cause is \""Corrective aids or treatment of refractive errors\"".""
+    },
+    {
+      ""xref"": 625,
+      ""name"": ""Rehabilitation  convalescence"",
+      ""label"": ""Rehabilitation / convalescence"",
+      ""max_length"": 0,
+      ""description"": null
+    },
+    {
+      ""xref"": 621,
+      ""name"": ""fill_8_5"",
+      ""label"": ""\u5206\u5a29 /\u598a\u5a20"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the number of weeks of pregnancy, to be filled if the 'Childbirth / pregnancy' option is checked.""
+    }
+  ],
+  ""8"": [
+    {
+      ""xref"": 626,
+      ""name"": ""No_5"",
+      ""label"": ""No"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for Question 23, asking 'Did you refer the patient to another physician or hospital?'. This checkbox represents the value 'No'.""
+    },
+    {
+      ""xref"": 628,
+      ""name"": ""Yes please provide_5"",
+      ""label"": ""Yes, please provide"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for Question 23, asking 'Did you refer the patient to another physician or hospital?'. This checkbox represents the value 'Yes'. If selected, further information is required.""
+    },
+    {
+      ""xref"": 635,
+      ""name"": ""fill_8_6"",
+      ""label"": ""Name of the physician / hospital \u91ab\u751f /\u91ab\u9662\u540d\u7a31 Address of the physician / hospital \u91ab\u751f /\u91ab\u9662\u5730\u5740 Details for the referral reason \u8a73\u8ff0\u8f49\u4ecb\u539f\u56e0 25. relapse? \u6709\u5426\u5fa9\u767c\u7684\u53ef\u80fd ?"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the 'Name of the physician / hospital' to whom the patient was referred. This is part of the details for Question 23.""
+    },
+    {
+      ""xref"": 633,
+      ""name"": ""fill_9_6"",
+      ""label"": ""Name of the physician / hospital \u91ab\u751f /\u91ab\u9662\u540d\u7a31 Address of the physician / hospital \u91ab\u751f /\u91ab\u9662\u5730\u5740 Details for the referral reason \u8a73\u8ff0\u8f49\u4ecb\u539f\u56e0 25. relapse? \u6709\u5426\u5fa9\u767c\u7684\u53ef\u80fd ?"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the 'Address of the physician / hospital' to whom the patient was referred. This is part of the details for Question 23.""
+    },
+    {
+      ""xref"": 629,
+      ""name"": ""fill_10_6"",
+      ""label"": ""Name of the physician / hospital \u91ab\u751f /\u91ab\u9662\u540d\u7a31 Address of the physician / hospital \u91ab\u751f /\u91ab\u9662\u5730\u5740 Details for the referral reason \u8a73\u8ff0\u8f49\u4ecb\u539f\u56e0 25. relapse? \u6709\u5426\u5fa9\u767c\u7684\u53ef\u80fd ?"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the 'Details for the referral reason'. This is part of the details for Question 23.""
+    },
+    {
+      ""xref"": 630,
+      ""name"": ""undefined_42"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for Question 24, asking for 'The prognosis of the condition'. This checkbox represents the value 'Good'.""
+    },
+    {
+      ""xref"": 631,
+      ""name"": ""undefined_43"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for Question 24, asking for 'The prognosis of the condition'. This checkbox represents the value 'Fair'.""
+    },
+    {
+      ""xref"": 632,
+      ""name"": ""undefined_44"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for Question 24, asking for 'The prognosis of the condition'. This checkbox represents the value 'Poor'.""
+    },
+    {
+      ""xref"": 634,
+      ""name"": ""toggle_4_3"",
+      ""label"": ""No\u6c92\u6709"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for Question 25, asking 'Any possibility of having a relapse?'. This checkbox represents the value 'No'.""
+    },
+    {
+      ""xref"": 643,
+      ""name"": ""undefined_45"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for Question 26, asking 'Other than this episode, has the patient ever been treated for the same / related conditions?'. This checkbox represents the value 'No'.""
+    },
+    {
+      ""xref"": 636,
+      ""name"": ""undefined_46"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for Question 26, asking 'Other than this episode, has the patient ever been treated for the same / related conditions?'. This checkbox represents the value 'Yes'. If selected, further details are required.""
+    },
+    {
+      ""xref"": 644,
+      ""name"": ""fill_4_5"",
+      ""label"": ""Consultation Date (Day / Month / Year) \u5c31\u8a3a\u65e5\u671f (\u65e5 / \u6708 / \u5e74 )_Row_1"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the 'Consultation Date (Day / Month / Year)' for previous treatment of the same or related conditions, as part of Question 26.""
+    },
+    {
+      ""xref"": 640,
+      ""name"": ""fill_5_4"",
+      ""label"": ""Name of Physician / Hospital \u91ab\u751f / \u91ab\u9662\u540d\u7a31_Row_1"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the 'Name of Physician / Hospital' for previous treatment of the same or related conditions, as part of Question 26.""
+    },
+    {
+      ""xref"": 642,
+      ""name"": ""fill_6_4"",
+      ""label"": ""Diagnosis \u8a3a\u65b7_Row_1"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the 'Diagnosis' for previous treatment of the same or related conditions, as part of Question 26.""
+    },
+    {
+      ""xref"": 639,
+      ""name"": ""fill_7_4"",
+      ""label"": ""Details of Treatment(s) / Hospitalization \u8a3a\u6cbb / \u4f4f\u9662\u8a73\u60c5_Row_1"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the 'Details of Treatment(s) / Hospitalization' for previous treatment of the same or related conditions, as part of Question 26.""
+    },
+    {
+      ""xref"": 641,
+      ""name"": ""undefined_47"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for Question 27a, asking 'Did the patient have the following PAST medical history / habit?'. This checkbox represents the value 'No'.""
+    },
+    {
+      ""xref"": 637,
+      ""name"": ""undefined_48"",
+      ""label"": ""undefined"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for Question 27a, asking 'Did the patient have the following PAST medical history / habit?'. This checkbox represents the value 'Yes'. If selected, specific conditions should be ticked.""
+    },
+    {
+      ""xref"": 638,
+      ""name"": ""toggle_11_2"",
+      ""label"": ""Asthma\u54ee\u5598"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox under Question 27a to indicate if the patient has a past medical history of 'Asthma'.""
+    },
+    {
+      ""xref"": 648,
+      ""name"": ""toggle_14_2"",
+      ""label"": ""Hepatitis B\u4e59\u578b\u809d\u708e"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox under Question 27a to indicate if the patient has a past medical history of 'Hepatitis B'.""
+    },
+    {
+      ""xref"": 647,
+      ""name"": ""toggle_18"",
+      ""label"": ""Previous operation\u66fe\u63a5\u53d7\u624b\u8853"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox under Question 27a to indicate if the patient has a history of a 'Previous operation'.""
+    },
+    {
+      ""xref"": 649,
+      ""name"": ""toggle_20"",
+      ""label"": ""Smoking\u5438\u7159\u7fd2\u6163"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox under Question 27a to indicate if the patient has a habit of 'Smoking'.""
+    },
+    {
+      ""xref"": 645,
+      ""name"": ""toggle_12_2"",
+      ""label"": ""Cardiac problem\u5fc3\u81df\u75c5"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox under Question 27a to indicate if the patient has a past medical history of a 'Cardiac problem'.""
+    },
+    {
+      ""xref"": 650,
+      ""name"": ""toggle_15_2"",
+      ""label"": ""Hypertension\u9ad8\u8840\u58d3"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox under Question 27a to indicate if the patient has a past medical history of 'Hypertension'.""
+    },
+    {
+      ""xref"": 646,
+      ""name"": ""toggle_17"",
+      ""label"": ""Drug addiction\u6feb\u7528\u85e5\u7269"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox under Question 27a to indicate if the patient has a history of 'Drug addiction'.""
+    },
+    {
+      ""xref"": 651,
+      ""name"": ""toggle_21"",
+      ""label"": ""Family history of cancer\u5bb6\u65cf\u6027\u764c\u75c7"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox under Question 27a to indicate if the patient has a 'Family history of cancer'.""
+    },
+    {
+      ""xref"": 652,
+      ""name"": ""fill_30_3"",
+      ""label"": ""Diabetes mellitus\u7cd6\u5c3f\u75c5 Unfavourable family history\u5bb6\u65cf\u75c5\u53f2 Drinking habit \u98f2\u9152\u7fd2\u6163 Others, please specify details: \u5176\u4ed6\uff0c\u8acb\u8aaa\u660e\u8a73\u60c5\uff1a"",
+      ""max_length"": 0,
+      ""description"": ""A text field to specify details for 'Others' if the corresponding checkbox in the past medical history section (Question 27a) is selected.""
+    },
+    {
+      ""xref"": 653,
+      ""name"": ""toggle_13_3"",
+      ""label"": ""Diabetes mellitus\u7cd6\u5c3f\u75c5"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox under Question 27a to indicate if the patient has a past medical history of 'Diabetes mellitus'.""
+    },
+    {
+      ""xref"": 654,
+      ""name"": ""toggle_16"",
+      ""label"": ""Unfavourable family history\u5bb6\u65cf\u75c5\u53f2"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox under Question 27a to indicate if the patient has an 'Unfavorable family history'.""
+    },
+    {
+      ""xref"": 655,
+      ""name"": ""toggle_19"",
+      ""label"": ""Drinking habit \u98f2\u9152\u7fd2\u6163"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox under Question 27a to indicate if the patient has 'Drinking habits'.""
+    },
+    {
+      ""xref"": 662,
+      ""name"": ""Others please specify details_2"",
+      ""label"": ""Others, please specify details"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox under Question 27a for 'Others', indicating a past medical history or habit not listed. Details must be specified.""
+    },
+    {
+      ""xref"": 661,
+      ""name"": ""fill_12_6"",
+      ""label"": ""b) Please give the name and address of the physician / hospital by whom was the above PAST medical history FIRST detected \u8acb\u8a73\u8ff0\u9996\u6b21\u8a3a\u65b7\u51fa\u4e0a\u8ff0\u904e\u5f80\u75c5\u53f2\u4e4b\u91ab\u751f / \u91ab\u9662\u540d\u7a31\u53ca\u5730\u5740"",
+      ""max_length"": 0,
+      ""description"": ""A text field for Question 27b, asking for the 'name and address of the physician / hospital by whom was the above PAST medical history FIRST detected'.""
+    },
+    {
+      ""xref"": 663,
+      ""name"": ""fill_13_5"",
+      ""label"": ""c) Please provide FIRST diagnosis date and treatment details of the above PAST medical history \u8acb\u63d0\u4f9b\u4e0a\u8ff0\u904e\u5f80\u75c5\u53f2\u4e4b\u9996\u6b21\u8a3a\u65b7\u65e5\u671f\u53ca\u6cbb\u7642\u8a73\u60c5"",
+      ""max_length"": 0,
+      ""description"": ""A text field for Question 27c, asking to 'provide FIRST diagnosis date and treatment details of the PAST medical history'.""
+    },
+    {
+      ""xref"": 668,
+      ""name"": ""fill_14_5"",
+      ""label"": ""d) Current prognosis of the above past medical history \u4e0a\u8ff0\u75c5\u53f2\u7652\u5f8c\u7684\u60c5\u6cc1"",
+      ""max_length"": 0,
+      ""description"": ""A text field for Question 27d, asking for the 'Current prognosis of the above past medical history'.""
+    },
+    {
+      ""xref"": 664,
+      ""name"": ""fill_15_5"",
+      ""label"": ""Name of Attending Physician \u4e3b\u8a3a\u91ab\u751f\u59d3\u540d"",
+      ""max_length"": 0,
+      ""description"": ""A text field in the 'Physician Details' section to enter the 'Name of Attending Physician'.""
+    },
+    {
+      ""xref"": 656,
+      ""name"": ""fill_16_4"",
+      ""label"": ""Qualification \u8cc7\u6b77 Telephone No. \u806f\u7d61\u96fb\u8a71"",
+      ""max_length"": 0,
+      ""description"": ""A text field in the 'Physician Details' section to enter the physician's 'Qualification'.""
+    },
+    {
+      ""xref"": 657,
+      ""name"": ""fill_17_5"",
+      ""label"": ""Hospital Name (if applicable) \u91ab\u9662\u540d\u7a31 (\u5982\u9069\u7528 )"",
+      ""max_length"": 0,
+      ""description"": ""A text field in the 'Physician Details' section to enter the 'Hospital Name (if applicable)'.""
+    },
+    {
+      ""xref"": 667,
+      ""name"": ""fill_18_4"",
+      ""label"": ""Qualification \u8cc7\u6b77 Telephone No. \u806f\u7d61\u96fb\u8a71"",
+      ""max_length"": 0,
+      ""description"": ""A text field in the 'Physician Details' section to enter the physician's 'Telephone No.'.""
+    },
+    {
+      ""xref"": 658,
+      ""name"": ""fill_19_4"",
+      ""label"": ""Address \u5730\u5740"",
+      ""max_length"": 0,
+      ""description"": ""A text field in the 'Physician Details' section to enter the physician's or hospital's 'Address'.""
+    },
+    {
+      ""xref"": 665,
+      ""name"": ""fill_1_4"",
+      ""label"": ""Day\u65e5"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the 'Day' part of the date, located next to the signature area.""
+    },
+    {
+      ""xref"": 666,
+      ""name"": ""fill_2_4"",
+      ""label"": ""Month\u6708"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the 'Month' part of the date, located next to the signature area.""
+    },
+    {
+      ""xref"": 659,
+      ""name"": ""fill_3_4"",
+      ""label"": ""Year\u5e74"",
+      ""max_length"": 0,
+      ""description"": ""A text field to enter the 'Year' part of the date, located next to the signature area.""
+    },
+    {
+      ""xref"": 660,
+      ""name"": ""toggle_4_31"",
+      ""label"": ""No\u6c92\u6709"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for Question 25, asking 'Any possibility of having a relapse?'. This checkbox represents the value 'Yes'.""
+    },
+    {
+      ""xref"": 669,
+      ""name"": ""Signature11"",
+      ""label"": null,
+      ""max_length"": 0,
+      ""description"": ""An area designated for the 'Signature & Hospital / Physician's Chop'.""
+    }
+  ]
+}"
