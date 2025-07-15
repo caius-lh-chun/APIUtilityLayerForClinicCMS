@@ -224,8 +224,10 @@ class FormService:
                     xref = widget.xref
                     index = self.find_xref_index(xref=xref,data=field_value_page)
                     print(f'currnet xref and inde: {xref} - {index}')
-                    widget.field_value = field_value_page[index]['value']
-                    widget.update()
+
+                    if index is not None:
+                        widget.field_value = field_value_page[index]['value']
+                        widget.update()
                     # if xref in field_xref:
 
                     #     index = find_xref_index
