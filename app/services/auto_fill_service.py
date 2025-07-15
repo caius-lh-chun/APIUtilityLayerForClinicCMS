@@ -9,9 +9,13 @@ import time
 import fitz
 import os
 
-base_dir = Path(__file__).resolve().parent.parent  # goes up from services/ to app/
-load_dotenv(dotenv_path=base_dir / ".env")  # Load .env from app/ directory
+try:
+    from dotenv import load_dotenv
 
+    base_dir = Path(__file__).resolve().parent.parent
+    load_dotenv(dotenv_path=base_dir / ".env")  # Works locally, no error if .env missing
+except ImportError:
+    pass  # dotenv not installed in prod or not needed
 
 class FormService:
 
