@@ -20,7 +20,7 @@ except ImportError:
 class FormService:
 
 
-    csv_path = base_dir / "data_schema_20250714_165434_updated.csv"
+    csv_path = base_dir / "data_schema_20250716_182641.csv"
     pdf_template_dir = base_dir / "pdf_templates"
     filled_in_pdf_template_dir = base_dir / "filled_pdfs"
 
@@ -70,6 +70,28 @@ class FormService:
             result = self.invoking_gemini(path_to_image=None, prompt=prompt_for_task)
             filled_in_dict[page] = result
 
+        ## after load json, add id for each element
+
+        print(filled_in_dict[page])
+
+        return_dict = {
+            "field_list" : []
+        }
+
+        for page, pageJsonList in filled_in_dict.items():
+            
+            pageJsonList = json.loads(pageJsonList)
+            for e in pageJsonList:
+                print(e)
+                newObject = {}
+
+                newObject['id'] = f'{e['xref']}_{e['name']}'
+                newObject['value'] = e['value']
+
+                return_dict["field_list"].append(newObject)
+            
+        
+
         print(f"retrieved filled dict JSON")
 
         saved_file_name = self.fill_pdf_fields(filled_in_dict=filled_in_dict,filename=filename)
@@ -78,7 +100,7 @@ class FormService:
 
 
         required_object['filled_pdf_file_name'] = saved_file_name
-        required_object['filled_pdf_dict_raw'] = filled_in_dict
+        required_object['filled_pdf_dict_raw'] = return_dict
 
         pre_defined_json = self.get_preview_dict(filled_dict=filled_in_dict)
         required_object['predefined_json'] = pre_defined_json
@@ -182,9 +204,9 @@ class FormService:
         # csv_path = base_dir / "data_schema_20250714_165434_updated.csv"
 
         data_schema_df = pd.read_csv(self.csv_path)
-        data_schema_df['data_schema_pdf'] = data_schema_df['data_schema_pdf'].apply(json.loads)
+        data_schema_df['data_schema_pdf_raw'] = data_schema_df['data_schema_pdf_raw'].apply(json.loads)
 
-        required_schema = data_schema_df.loc[data_schema_df['filename']==filenamepdf, 'data_schema_pdf']
+        required_schema = data_schema_df.loc[data_schema_df['filename']==filenamepdf, 'data_schema_pdf_raw']
 
         if not required_schema.empty:
             result = required_schema.iloc[0]
