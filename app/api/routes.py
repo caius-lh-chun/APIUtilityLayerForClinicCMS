@@ -21,6 +21,18 @@ def form_fill(form_data: FormRequest):
     return result
 
 
+
+class FormUpdateRequest(BaseModel):
+    pdf_name: str
+    field_list: list
+
+@router.post("/update-form-fill")
+def form_fill(form_data: FormUpdateRequest):
+    form_service = FormService()
+    result = form_service.update_form(form_data)
+    return result
+
+
 class DownloadRequest(BaseModel):
     filename: str
 

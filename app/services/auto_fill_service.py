@@ -32,6 +32,24 @@ class FormService:
         # Initialize service dependencies here (e.g., DB, external APIs)
         pass
 
+
+    def update_form(self, update_dto):
+
+        required_object = {
+            "filled_pdf_file_name": None,
+            # "filled_pdf_dict_raw": None
+        }
+
+        filename = update_dto.pdf_name
+        list_for_update_widget = update_dto.field_list
+
+        saved_file_name = self.update_pdf_fields(list_for_update_widget, filename)
+
+        required_object['filled_pdf_file_name'] = saved_file_name
+
+        return required_object
+
+
     def process_form(self, form_data: FormRequest) -> dict:
 
         required_object = {
@@ -81,13 +99,18 @@ class FormService:
         for page, pageJsonList in filled_in_dict.items():
             
             pageJsonList = json.loads(pageJsonList)
-            for e in pageJsonList:
-                print(e)
-                newObject = {}
+            pageJsonDict = {e['xref']: e for e in pageJsonList}
 
-                newObject['id'] = f'{e['xref']}_{e['name']}'
-                newObject['value'] = e['value']
-
+            for x in pdf_schema[page]:
+                toFillXref = x['xref']
+                newObject = {
+                    'id': f"{toFillXref}_{x['name']}",
+                    'value': None  # default
+                }
+                
+                if toFillXref in pageJsonDict:
+                    newObject['value'] = pageJsonDict[toFillXref].get('value')
+                
                 return_dict["field_list"].append(newObject)
             
         
@@ -187,8 +210,8 @@ class FormService:
                 duration = end_time - start_time
                 print(f"This unsuccessful call to LLM took {duration:.4f} seconds")
                 if retry_count < max_retries:
-                    wait_time = 2 ** retry_count  # exponential backoff: 1s, 2s, 4s, ...
-                    time.sleep(wait_time)
+                    # wait_time = 2 ** retry_count  # exponential backoff: 1s, 2s, 4s, ...
+                    # time.sleep(wait_time)
                     return self.invoking_gemini(path_to_image, prompt, max_retries, retry_count + 1)
                 else:
                     print(f"Max retries reached ({max_retries}). Raising exception.")
@@ -221,8 +244,52 @@ class FormService:
                 return index
 
 
-    def fill_pdf_fields(self, filled_in_dict:dict, filename: str ):
+    def update_pdf_fields(self, updated_field:list, filename:str):
+        pdf_document = fitz.open(self.filled_in_pdf_template_dir / filename)
+        # print(f'The document should have these page_index {updated_field.keys()}')
+        # print(f'The document has {len(updated_field)}')
+        print(f"updating {filename}")
 
+
+        to_update_dict_list = {int(e['id'].split("_")[0]): e for e in updated_field}
+
+
+        for pageNum in range(0, len(pdf_document)):
+            page = pdf_document.load_page(pageNum)
+            widget_list = page.widgets()
+
+            if widget_list:
+                for widget in widget_list:
+
+                    xref = widget.xref
+
+                    # for jsonObject in updated_field:
+                    #     currentXref = jsonObject['id'].split("_")[0]
+                    #     print(f"currentXref is {currentXref}")
+
+                    #     if currentXref == xref:
+                    #         widget.field_value = jsonObject['value']
+                    #         widget.update()
+                
+                    if xref in to_update_dict_list:
+                        print(f'updating xref id: {xref}')
+                        widget.field_value = to_update_dict_list[xref].get('value')
+                        widget.update()
+
+        
+        ## overwrite previous PDF if update mode
+        saved_file_name = filename
+        pdf_document.save(self.filled_in_pdf_template_dir / filename, incremental=True, encryption=fitz.PDF_ENCRYPT_KEEP)
+        pdf_document.close()
+        return saved_file_name
+
+
+
+
+    def fill_pdf_fields(self, filled_in_dict:dict, filename: str):
+
+
+        ## create mode vs update mode -> else
         pdf_document = fitz.open(self.pdf_template_dir / filename)
 
         print(f'The document should have these page_index {filled_in_dict.keys()}')
@@ -256,6 +323,8 @@ class FormService:
 
                     #     widget.field_value = field_values[field_name]
                     #     widget.update()
+
+        ## create mode vs update mode -> else
 
         saved_file_name = f'{filename}_filled_at_{datetime.now().strftime("%Y%m%d_%H%M%S")}.pdf'
         pdf_document.save(self.filled_in_pdf_template_dir / saved_file_name)
