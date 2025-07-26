@@ -11179,3 +11179,3945 @@
     }
   ]
 }"
+3,AXA Personal Claim Form I.pdf,"{
+  ""0"": [
+    {
+      ""id"": ""294_AXA China Region Insurance Company Bermuda Limited"",
+      ""xref"": 294,
+      ""name"": ""AXA China Region Insurance Company Bermuda Limited"",
+      ""label"": ""AXA China Region Insurance Company (Bermuda) Limited"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""The name of the insurance company, which is AXA China Region Insurance Company Bermuda Limited.""
+    },
+    {
+      ""id"": ""295_1.Full Name"",
+      ""xref"": 295,
+      ""name"": ""1.Full Name"",
+      ""label"": ""1.Full Name"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the full name of the policyholder.""
+    },
+    {
+      ""id"": ""296_1. HKID CardPassport No"",
+      ""xref"": 296,
+      ""name"": ""1. HKID CardPassport No"",
+      ""label"": ""1. HKID CardPassport No."",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the policyholder's Hong Kong Identity Card (HKID) or Passport Number.""
+    },
+    {
+      ""id"": ""297_1. Mobile No.-Country Code"",
+      ""xref"": 297,
+      ""name"": ""1. Mobile No.-Country Code"",
+      ""label"": ""1. Mobile No.-Country Code"",
+      ""type"": ""Text"",
+      ""max_length"": 3,
+      ""description"": ""This field is for the country code of the policyholder's mobile phone number.""
+    },
+    {
+      ""id"": ""298_1. Mobile No.-Mobile no"",
+      ""xref"": 298,
+      ""name"": ""1. Mobile No.-Mobile no"",
+      ""label"": ""1. Mobile No.-Mobile no."",
+      ""type"": ""Text"",
+      ""max_length"": 10,
+      ""description"": ""This field is for the main part of the policyholder's mobile phone number, without the country code.""
+    },
+    {
+      ""id"": ""299_1. Email Address"",
+      ""xref"": 299,
+      ""name"": ""1. Email Address"",
+      ""label"": ""1. Email Address"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the policyholder's email address.""
+    },
+    {
+      ""id"": ""300_2. Full Name"",
+      ""xref"": 300,
+      ""name"": ""2. Full Name"",
+      ""label"": ""2. Full Name"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the full name of the insured person, to be filled in if they are not the policyholder.""
+    },
+    {
+      ""id"": ""306_2. HKID CardPassport No"",
+      ""xref"": 306,
+      ""name"": ""2. HKID CardPassport No"",
+      ""label"": ""2. HKID CardPassport No"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the insured person's Hong Kong Identity Card (HKID) or Passport Number.""
+    },
+    {
+      ""id"": ""309_2. Nationality"",
+      ""xref"": 309,
+      ""name"": ""2. Nationality"",
+      ""label"": ""2. Nationality"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the nationality of the insured person.""
+    },
+    {
+      ""id"": ""310_2. Residential Address"",
+      ""xref"": 310,
+      ""name"": ""2. Residential Address"",
+      ""label"": ""2. Residential Address"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the residential address of the insured person, if it is different from the policyholder's address.""
+    },
+    {
+      ""id"": ""311_2. Permanent Address"",
+      ""xref"": 311,
+      ""name"": ""2. Permanent Address"",
+      ""label"": ""2. Permanent Address"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the permanent address of the insured person, if it is different from their residential address.""
+    },
+    {
+      ""id"": ""312_3.type_H"",
+      ""xref"": 312,
+      ""name"": ""3.type_H"",
+      ""label"": ""3.type_H"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate that the claim is for 'Hospitalization Benefit'.""
+    },
+    {
+      ""id"": ""314_3.type_CS"",
+      ""xref"": 314,
+      ""name"": ""3.type_CS"",
+      ""label"": ""3.type_CS"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate that the claim is for 'Cancer and Stroke Treatment Benefit'.""
+    },
+    {
+      ""id"": ""316_4. First Consultation_Date"",
+      ""xref"": 316,
+      ""name"": ""4. First Consultation_Date"",
+      ""label"": ""4. First Consultation_Date"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the date (Day/Month/Year) of the first medical consultation for the condition being claimed.""
+    },
+    {
+      ""id"": ""317_4. First Consultation_Name and address of the doctor"",
+      ""xref"": 317,
+      ""name"": ""4. First Consultation_Name and address of the doctor"",
+      ""label"": ""4. First Consultation_Name and address of the doctor"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the name and address of the doctor who was seen at the first consultation.""
+    },
+    {
+      ""id"": ""320_4.A"",
+      ""xref"": 320,
+      ""name"": ""4.A"",
+      ""label"": ""4.A"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate that the claim is 'caused by illness'.""
+    },
+    {
+      ""id"": ""322_4. Symptoms"",
+      ""xref"": 322,
+      ""name"": ""4. Symptoms"",
+      ""label"": ""4. Symptoms"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for a description of the symptoms experienced.""
+    },
+    {
+      ""id"": ""323_4. Symptoms_Onset date"",
+      ""xref"": 323,
+      ""name"": ""4. Symptoms_Onset date"",
+      ""label"": ""4. Symptoms_Onset date"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the date (Day/Month/Year) when the symptoms first appeared.""
+    },
+    {
+      ""id"": ""324_4. Diagnosis"",
+      ""xref"": 324,
+      ""name"": ""4. Diagnosis"",
+      ""label"": ""4. Diagnosis"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the medical diagnosis provided by a doctor.""
+    },
+    {
+      ""id"": ""325_4. Diagnosis_Diagnosis date"",
+      ""xref"": 325,
+      ""name"": ""4. Diagnosis_Diagnosis date"",
+      ""label"": ""4. Diagnosis_Diagnosis date"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the date (Day/Month/Year) of the first diagnosis.""
+    },
+    {
+      ""id"": ""326_4.B"",
+      ""xref"": 326,
+      ""name"": ""4.B"",
+      ""label"": ""4.B"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate that the claim is 'caused by accident'.""
+    },
+    {
+      ""id"": ""328_4. Accident place"",
+      ""xref"": 328,
+      ""name"": ""4. Accident place"",
+      ""label"": ""4. Accident place"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the location where the accident occurred.""
+    },
+    {
+      ""id"": ""329_4. Accident place-Date"",
+      ""xref"": 329,
+      ""name"": ""4. Accident place-Date"",
+      ""label"": ""4. Accident place-Date"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the date (Day/Month/Year) of the accident.""
+    },
+    {
+      ""id"": ""330_4. Cause of incident"",
+      ""xref"": 330,
+      ""name"": ""4. Cause of incident"",
+      ""label"": ""4. Cause of incident"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for a detailed description of how the accident happened.""
+    },
+    {
+      ""id"": ""331_4. Part of body injury"",
+      ""xref"": 331,
+      ""name"": ""4. Part of body injury"",
+      ""label"": ""4. Part of body injury"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for describing the specific body parts that were injured and the nature of the injuries.""
+    },
+    {
+      ""id"": ""332_4. General information_Name and address"",
+      ""xref"": 332,
+      ""name"": ""4. General information_Name and address"",
+      ""label"": ""4. General information_Name and address"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field is for the name and address of the insured person's usual or regular attending doctor.""
+    }
+  ],
+  ""1"": [
+    {
+      ""id"": ""130_4.AA"",
+      ""xref"": 130,
+      ""name"": ""4.AA"",
+      ""label"": ""4.AA"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox indicating if a claim has been or will be filed with another insurance company for the same incident.""
+    },
+    {
+      ""id"": ""135_4. For_In"",
+      ""xref"": 135,
+      ""name"": ""4. For_In"",
+      ""label"": ""4. For_In"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field asking for the name of the other insurance company.""
+    },
+    {
+      ""id"": ""142_4. For_Poicy Number"",
+      ""xref"": 142,
+      ""name"": ""4. For_Poicy Number"",
+      ""label"": ""4. For_Poicy Number"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field asking for the policy number from the other insurance company.""
+    },
+    {
+      ""id"": ""138_4. For_Benefit"",
+      ""xref"": 138,
+      ""name"": ""4. For_Benefit"",
+      ""label"": ""4. For_Benefit"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field asking for the type of benefit claimed from the other insurance company.""
+    },
+    {
+      ""id"": ""136_4. For_Result"",
+      ""xref"": 136,
+      ""name"": ""4. For_Result"",
+      ""label"": ""4. For_Result"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field asking for the result or status of the claim with the other insurance company.""
+    },
+    {
+      ""id"": ""146_4.AA_AXA"",
+      ""xref"": 146,
+      ""name"": ""4.AA_AXA"",
+      ""label"": ""4.AA_AXA"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox to indicate a claim for the remaining medical expenses is being made under another AXA medical insurance policy.""
+    },
+    {
+      ""id"": ""137_4. For_Other_Policy Number"",
+      ""xref"": 137,
+      ""name"": ""4. For_Other_Policy Number"",
+      ""label"": ""4. For_Other_Policy Number"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field asking for the policy number of the other AXA insurance plan.""
+    },
+    {
+      ""id"": ""149_4. For_Other_Product"",
+      ""xref"": 149,
+      ""name"": ""4. For_Other_Product"",
+      ""label"": ""4. For_Other_Product"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field asking for the name of the other AXA insurance plan/product.""
+    },
+    {
+      ""id"": ""143_5. By Autopay-Bank No"",
+      ""xref"": 143,
+      ""name"": ""5. By Autopay-Bank No"",
+      ""label"": ""5. By Autopay-Bank No"",
+      ""type"": ""Text"",
+      ""max_length"": 3,
+      ""description"": ""A text field for the user to enter their bank code for autopay payment.""
+    },
+    {
+      ""id"": ""134_5. By Autopay-Branch No"",
+      ""xref"": 134,
+      ""name"": ""5. By Autopay-Branch No"",
+      ""label"": ""5. By Autopay-Branch No"",
+      ""type"": ""Text"",
+      ""max_length"": 3,
+      ""description"": ""A text field for the user to enter their bank branch code for autopay payment.""
+    },
+    {
+      ""id"": ""140_5. By Autopay-Account No"",
+      ""xref"": 140,
+      ""name"": ""5. By Autopay-Account No"",
+      ""label"": ""5. By Autopay-Account No"",
+      ""type"": ""Text"",
+      ""max_length"": 9,
+      ""description"": ""A text field for the user to enter their bank account number for autopay payment.""
+    },
+    {
+      ""id"": ""132_5. By Telegraphic Transfer"",
+      ""xref"": 132,
+      ""name"": ""5. By Telegraphic Transfer"",
+      ""label"": ""5. By Telegraphic Transfer"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox to select payment via Telegraphic Transfer, which requires submission of an application letter and bank account proof.""
+    },
+    {
+      ""id"": ""145_6. Request"",
+      ""xref"": 145,
+      ""name"": ""6. Request"",
+      ""label"": ""6. Request"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A general checkbox to request the return of certified true copies of the original documents.""
+    },
+    {
+      ""id"": ""131_6. REQUEST FOR"",
+      ""xref"": 131,
+      ""name"": ""6. REQUEST FOR"",
+      ""label"": ""6. REQUEST FOR"",
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox to specify that the returned documents should be passed through the financial consultant.""
+    },
+    {
+      ""id"": ""153_6. REQUEST FOR"",
+      ""xref"": 153,
+      ""name"": ""6. REQUEST FOR"",
+      ""label"": ""6. REQUEST FOR"",
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox to specify that the returned documents should be mailed to the client.""
+    },
+    {
+      ""id"": ""133_6. REQUEST FOR"",
+      ""xref"": 133,
+      ""name"": ""6. REQUEST FOR"",
+      ""label"": ""6. REQUEST FOR"",
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox to specify that the returned documents should be sent by courier to a client outside of Hong Kong.""
+    },
+    {
+      ""id"": ""147_7. I/WE"",
+      ""xref"": 147,
+      ""name"": ""7. I/WE"",
+      ""label"": ""7. I/WE"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate that they do not agree to the company using and transferring their personal data for direct marketing purposes.""
+    }
+  ],
+  ""2"": [
+    {
+      ""id"": ""169_8. Print Name of Policy Owner"",
+      ""xref"": 169,
+      ""name"": ""8. Print Name of Policy Owner"",
+      ""label"": ""8. Print Name of Policy Owner"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to print the full name of the policy owner.""
+    },
+    {
+      ""id"": ""172_8. Signature of Policy Owner"",
+      ""xref"": 172,
+      ""name"": ""8. Signature of Policy Owner"",
+      ""label"": ""8. Signature of Policy Owner"",
+      ""type"": ""Signature"",
+      ""max_length"": 0,
+      ""description"": ""This is a signature field where the policy owner must sign.""
+    },
+    {
+      ""id"": ""173_8. HKID Card/Passport No. of Policy Owner"",
+      ""xref"": 173,
+      ""name"": ""8. HKID Card/Passport No. of Policy Owner"",
+      ""label"": ""8. HKID Card/Passport No. of Policy Owner"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the Hong Kong Identity Card (HKID) number or Passport number of the policy owner.""
+    },
+    {
+      ""id"": ""170_8. Date-1"",
+      ""xref"": 170,
+      ""name"": ""8. Date-1"",
+      ""label"": ""8. Date-1"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the date of signing by the policy owner, in day/month/year format.""
+    },
+    {
+      ""id"": ""171_8. Print Name of Insured"",
+      ""xref"": 171,
+      ""name"": ""8. Print Name of Insured"",
+      ""label"": ""8. Print Name of Insured"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to print the full name of the insured person. This section is applicable if the insured is not the policy owner and is 18 years of age or older.""
+    },
+    {
+      ""id"": ""168_8. Signature of Insured"",
+      ""xref"": 168,
+      ""name"": ""8. Signature of Insured"",
+      ""label"": ""8. Signature of Insured"",
+      ""type"": ""Signature"",
+      ""max_length"": 0,
+      ""description"": ""This is a signature field where the insured person must sign. This is required if the insured is not the policy owner and is 18 years of age or older.""
+    },
+    {
+      ""id"": ""174_8. HKID Card/Passport No. of Insured"",
+      ""xref"": 174,
+      ""name"": ""8. HKID Card/Passport No. of Insured"",
+      ""label"": ""8. HKID Card/Passport No. of Insured"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the Hong Kong Identity Card (HKID) number or Passport number of the insured person.""
+    },
+    {
+      ""id"": ""181_8. Date-2"",
+      ""xref"": 181,
+      ""name"": ""8. Date-2"",
+      ""label"": ""8. Date-2"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the date of signing by the insured person, in day/month/year format.""
+    },
+    {
+      ""id"": ""184_Full Name_2"",
+      ""xref"": 184,
+      ""name"": ""Full Name_2"",
+      ""label"": ""Full Name"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the full name of the financial advisor.""
+    },
+    {
+      ""id"": ""195_Code"",
+      ""xref"": 195,
+      ""name"": ""Code"",
+      ""label"": ""Code"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the code or ID number of the financial advisor.""
+    },
+    {
+      ""id"": ""180_Mobile No"",
+      ""xref"": 180,
+      ""name"": ""Mobile No"",
+      ""label"": ""Mobile No."",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the mobile phone number of the financial advisor.""
+    },
+    {
+      ""id"": ""177_Death Claim Form I"",
+      ""xref"": 177,
+      ""name"": ""Death Claim Form I"",
+      ""label"": ""Death Claim Form I"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox indicating the submission of 'Claim Form I'.""
+    },
+    {
+      ""id"": ""176_Death Claim Form II"",
+      ""xref"": 176,
+      ""name"": ""Death Claim Form II"",
+      ""label"": ""Death Claim Form II"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox indicating the submission of 'Claim Form II', which must be completed by the attending doctor.""
+    },
+    {
+      ""id"": ""192_Copy of Hong Kong public hospital discharge summary"",
+      ""xref"": 192,
+      ""name"": ""Copy of Hong Kong public hospital discharge summary"",
+      ""label"": ""Copy of Hong Kong public hospital discharge summary"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox indicating the submission of a 'Copy of Hong Kong public hospital discharge summary', which can be used as a substitute for Claim Form II.""
+    },
+    {
+      ""id"": ""194_Copy of China hospital discharge summary, admission record and frontpage"",
+      ""xref"": 194,
+      ""name"": ""Copy of China hospital discharge summary, admission record and frontpage"",
+      ""label"": ""Copy of China hospital discharge summary, admission record and frontpage"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox indicating the submission of a 'Copy of China hospital discharge summary, admission record and front page of medical record'.""
+    },
+    {
+      ""id"": ""193_Copy of ID or passport of the Insured/Policy Owner"",
+      ""xref"": 193,
+      ""name"": ""Copy of ID or passport of the Insured/Policy Owner"",
+      ""label"": ""Copy of ID or passport of the Insured/Policy Owner"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox indicating the submission of a 'Copy of ID or passport of the Insured/Policy Owner' if it has not been submitted before.""
+    },
+    {
+      ""id"": ""183_Copy of Laboratory"",
+      ""xref"": 183,
+      ""name"": ""Copy of Laboratory"",
+      ""label"": ""Copy of Laboratory"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox indicating the submission of a 'Copy of laboratory / X-ray / CT scan / MRI / pathology report'.""
+    },
+    {
+      ""id"": ""186_Original medical expenses receipt"",
+      ""xref"": 186,
+      ""name"": ""Original medical expenses receipt"",
+      ""label"": ""Original medical expenses receipt"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox indicating the submission of the 'Original medical expenses receipt'.""
+    },
+    {
+      ""id"": ""190_Original hospital receipt(s) and Statement of charges"",
+      ""xref"": 190,
+      ""name"": ""Original hospital receipt(s) and Statement of charges"",
+      ""label"": ""Original hospital receipt(s) and Statement of charges"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox indicating the submission of the 'Original hospital receipt(s) and Statement of charges'.""
+    },
+    {
+      ""id"": ""189_Copy of laboratory test breakdown"",
+      ""xref"": 189,
+      ""name"": ""Copy of laboratory test breakdown"",
+      ""label"": ""Copy of laboratory test breakdown"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox indicating the submission of a 'Copy of laboratory test breakdown'.""
+    },
+    {
+      ""id"": ""178_Copy of meal breakdown"",
+      ""xref"": 178,
+      ""name"": ""Copy of meal breakdown"",
+      ""label"": ""Copy of meal breakdown"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox indicating the submission of a 'Copy of meal breakdown'.""
+    },
+    {
+      ""id"": ""175_Copy of Claims settlement advice from other insurer"",
+      ""xref"": 175,
+      ""name"": ""Copy of Claims settlement advice from other insurer"",
+      ""label"": ""Copy of Claims settlement advice from other insurer"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox indicating the submission of a 'Copy of Claims settlement advice from other insurer'. This is under the section for compensation from other insurance companies.""
+    },
+    {
+      ""id"": ""202_Claimant\u2019s bank account proof with account holder name and account number"",
+      ""xref"": 202,
+      ""name"": ""Claimant\u2019s bank account proof with account holder name and account number"",
+      ""label"": ""Claimant\u2019s bank account proof with account holder name and account number"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox indicating the submission of 'Claimant's bank account proof with account holder name and account number' for direct credit, such as a copy of a bank book or ATM card.""
+    },
+    {
+      ""id"": ""207_Supplement\u2013Tax Residency Self-Certification for Individual/Non-Individual"",
+      ""xref"": 207,
+      ""name"": ""Supplement\u2013Tax Residency Self-Certification for Individual/Non-Individual"",
+      ""label"": ""Supplement\u2013Tax Residency Self-Certification for Individual/Non-Individual"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox indicating the submission of the 'Self-Certification for Tax Residency Status (Individual/Non-Individual)' form.""
+    },
+    {
+      ""id"": ""201_IRS Form W-8 (for non-US entity/trust)"",
+      ""xref"": 201,
+      ""name"": ""IRS Form W-8 (for non-US entity/trust)"",
+      ""label"": ""IRS Form W-8 (for non-US entity/trust)"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox indicating the submission of 'IRS Form W-8' if the user is a non-US entity or trust.""
+    },
+    {
+      ""id"": ""205_IRS Form W-9 (for US entity/trust)"",
+      ""xref"": 205,
+      ""name"": ""IRS Form W-9 (for US entity/trust)"",
+      ""label"": ""IRS Form W-9 (for US entity/trust)"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""This is a checkbox indicating the submission of 'IRS Form W-9' if the user is a US entity or trust.""
+    }
+  ]
+}","{0: '{\n  ""filledByDoctor"": false,\n  ""filledByPatient"": true,\n  ""rationale"": ""The form is titled \'住院索償申請表\' (Hospitalization Claim Application Form) and requests information directly from the claimant. Sections 1 and 2 ask for the personal and contact details of the Policyholder and the Insured Person. Sections 3 and 4 ask the claimant to specify the claim type and provide details about the illness or accident from their perspective, such as symptoms, date of first consultation, and accident details. The instructions are directed at the person making the claim, not a medical professional. There are no fields designated for a doctor\'s official report, signature, or stamp.""\n}', 1: '{\n  ""filledByDoctor"": false,\n  ""filledByPatient"": true,\n  ""rationale"": ""This page contains sections that are clearly intended for the patient or claimant. Section 5, \'賠款方法\' (Payment Method), asks for the claimant\'s bank account details for claim reimbursement. Section 4 asks about other insurance policies the claimant may have. Section 7 is a \'Personal Information Collection Statement\' that requires the claimant\'s declaration. None of this information would be provided by an attending doctor.""\n}', 2: '{\n  ""filledByDoctor"": false,\n  ""filledByPatient"": true,\n  ""rationale"": ""The form contains signature fields for the \'Policy Owner\' (保單持有人) and the \'Insured\' (被保人). Additionally, Section 9, \'Required Documents Checklist\' (所需文件指引), lists documents the claimant needs to submit, and explicitly states that a separate form, \'Claim Form II\' (索償申請表 II), must be completed by the attending physician. This indicates the current page is for the patient/policyholder to fill out.""\n}'}",null,null
+4,AXA LFC032_2111_disability-accident-hospitalisation-claim-form-ii_v4_fillable_chi.pdf,"{
+  ""0"": [
+    {
+      ""id"": ""663_AXA China Region Insurance Company Bermuda Limited"",
+      ""xref"": 663,
+      ""name"": ""AXA China Region Insurance Company Bermuda Limited"",
+      ""label"": ""AXA China Region Insurance Company (Bermuda) Limited"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""Company information for AXA China Region Insurance Company Bermuda Limited, including its address and contact details.""
+    },
+    {
+      ""id"": ""664_Accident Benefit"",
+      ""xref"": 664,
+      ""name"": ""Accident Benefit"",
+      ""label"": ""Accident Benefit (ECARE/CARE/AB)"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select if they are claiming for Accident Benefit. The Chinese label is '\u610f\u5916 (\u500d\u95dc\u61f7 / \u7d9c\u5408\u610f\u5916 / \u7279\u7d1a\u5e73\u5b89)'.""
+    },
+    {
+      ""id"": ""666_Diasbility Income Benefit"",
+      ""xref"": 666,
+      ""name"": ""Diasbility Income Benefit"",
+      ""label"": ""Diasbility Income Benefit (DI)"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select if they are claiming for Disability Income Benefit. The Chinese label is '\u6b98\u75be\u6536\u5165'.""
+    },
+    {
+      ""id"": ""668_Hospital Benefit"",
+      ""xref"": 668,
+      ""name"": ""Hospital Benefit"",
+      ""label"": ""Hospital Benefit"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select if they are claiming for Hospital Benefit. The Chinese label is '\u4f4f\u9662'.""
+    },
+    {
+      ""id"": ""670_Waiver of Premium for Disability"",
+      ""xref"": 670,
+      ""name"": ""Waiver of Premium for Disability"",
+      ""label"": ""Waiver of Premium for Disability (WP)"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select if they are claiming for Waiver of Premium for Disability. The Chinese label is '\u6b98\u75be\u8c41\u514d\u4fdd\u96aa\u8cbb'.""
+    },
+    {
+      ""id"": ""672_Cancer Treatment"",
+      ""xref"": 672,
+      ""name"": ""Cancer Treatment"",
+      ""label"": ""Cancer Treatment"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select if they are claiming for Cancer Treatment. The Chinese label is '\u764c\u75c7\u6cbb\u7642'.""
+    },
+    {
+      ""id"": ""674_1. Name of patient"",
+      ""xref"": 674,
+      ""name"": ""1. Name of patient"",
+      ""label"": ""1. Name of patient"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the full name of the patient, who is also the insured person. The Chinese label is '\u75c5\u4eba\u59d3\u540d (\u88ab\u4fdd\u4eba)'.""
+    },
+    {
+      ""id"": ""675_1. HKID Card and Passport No"",
+      ""xref"": 675,
+      ""name"": ""1. HKID Card and Passport No"",
+      ""label"": ""1. HKID Card and Passport No."",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the Hong Kong Identity Card (HKID) number or Passport number of the patient. The Chinese label is '\u9999\u6e2f\u8eab\u4efd\u8b49 / \u8b77\u7167\u865f\u78bc'.""
+    },
+    {
+      ""id"": ""676_1. Did_Smoking"",
+      ""xref"": 676,
+      ""name"": ""1. Did_Smoking"",
+      ""label"": null,
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate if the patient has a smoking habit. The Chinese label is '\u5438\u7159'.""
+    },
+    {
+      ""id"": ""678_1. Did_Smoking_Duration"",
+      ""xref"": 678,
+      ""name"": ""1. Did_Smoking_Duration"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field asks for the duration of the patient's smoking habit. The Chinese label is '\u6301\u7e8c\u6642\u9593'.""
+    },
+    {
+      ""id"": ""679_1. Did_Smoking_Consumption"",
+      ""xref"": 679,
+      ""name"": ""1. Did_Smoking_Consumption"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field asks for the patient's daily cigarette consumption. The Chinese label is '\u6bcf\u5929\u7528\u91cf'.""
+    },
+    {
+      ""id"": ""680_1. Did_Drinking"",
+      ""xref"": 680,
+      ""name"": ""1. Did_Drinking"",
+      ""label"": null,
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate if the patient has an alcohol drinking habit. The Chinese label is '\u98f2\u9152'.""
+    },
+    {
+      ""id"": ""682_1. Did_Drinking_Duration"",
+      ""xref"": 682,
+      ""name"": ""1. Did_Drinking_Duration"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field asks for the duration of the patient's drinking habit. The Chinese label is '\u6301\u7e8c\u6642\u9593'.""
+    },
+    {
+      ""id"": ""683_1. Did_Drinking_Consumption"",
+      ""xref"": 683,
+      ""name"": ""1. Did_Drinking_Consumption"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field asks for the patient's daily alcohol consumption. The Chinese label is '\u6bcf\u5929\u7528\u91cf'.""
+    },
+    {
+      ""id"": ""684_1. Did_Drugs taking"",
+      ""xref"": 684,
+      ""name"": ""1. Did_Drugs taking"",
+      ""label"": null,
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate if the patient is taking any medication or drugs. The Chinese label is '\u670d\u7528\u85e5\u7269'.""
+    },
+    {
+      ""id"": ""686_1. Did_Drugs taking_Duration"",
+      ""xref"": 686,
+      ""name"": ""1. Did_Drugs taking_Duration"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field asks for the duration the patient has been taking medication or drugs. The Chinese label is '\u6301\u7e8c\u6642\u9593'.""
+    },
+    {
+      ""id"": ""687_1. Did_Drugs taking_Consumption"",
+      ""xref"": 687,
+      ""name"": ""1. Did_Drugs taking_Consumption"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field asks for details about the medication or drugs the patient is taking, including dosage. The Chinese label is '\u8a73\u60c5'.""
+    },
+    {
+      ""id"": ""688_2. Date_dd"",
+      ""xref"": 688,
+      ""name"": ""2. Date_dd"",
+      ""label"": ""2. Date_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""This field requires the user to enter the day (DD) of the first medical consultation. The Chinese label is '\u65e5'.""
+    },
+    {
+      ""id"": ""689_2. Date_mm"",
+      ""xref"": 689,
+      ""name"": ""2. Date_mm"",
+      ""label"": ""2. Date_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""This field requires the user to enter the month (MM) of the first medical consultation. The Chinese label is '\u6708'.""
+    },
+    {
+      ""id"": ""690_2. Date_yyyy"",
+      ""xref"": 690,
+      ""name"": ""2. Date_yyyy"",
+      ""label"": ""2. Date_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""This field requires the user to enter the year (YYYY) of the first medical consultation. The Chinese label is '\u5e74'.""
+    },
+    {
+      ""id"": ""691_2. Name of the Doctor"",
+      ""xref"": 691,
+      ""name"": ""2. Name of the Doctor"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the full name of the attending doctor. The Chinese label is '\u91ab\u751f\u59d3\u540d'.""
+    },
+    {
+      ""id"": ""692_2. Symptom(s)/complaint(s)"",
+      ""xref"": 692,
+      ""name"": ""2. Symptom(s)/complaint(s)"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires a description of the symptoms or complaints the patient presented during the first consultation. The Chinese label is '\u9996\u6b21\u770b\u8a3a\u6642\u51fa\u73fe\u7684\u75c5\u5fb5'.""
+    },
+    {
+      ""id"": ""693_2. How long had the patient been"",
+      ""xref"": 693,
+      ""name"": ""2. How long had the patient been"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field asks for the duration of the symptoms before the patient's first consultation. The Chinese label is '\u9019\u4e9b\u75c5\u5fb5\u5728\u9996\u6b21\u770b\u8a3a\u524d\u6301\u7e8c\u6642\u9593'.""
+    },
+    {
+      ""id"": ""694_2. Diagnosis"",
+      ""xref"": 694,
+      ""name"": ""2. Diagnosis"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the medical diagnosis provided by the doctor. The user is also asked to provide test results to confirm the diagnosis. The Chinese label is '\u8a3a\u65b7'.""
+    },
+    {
+      ""id"": ""695_2. ICD 10 Codes"",
+      ""xref"": 695,
+      ""name"": ""2. ICD 10 Codes"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the International Classification of Diseases, 10th Revision (ICD-10) code corresponding to the diagnosis. The Chinese label is '\u570b\u969b\u75be\u75c5\u5206\u985e\u7de8\u78bc (ICD-10)'.""
+    },
+    {
+      ""id"": ""696_2. Date of_dd"",
+      ""xref"": 696,
+      ""name"": ""2. Date of_dd"",
+      ""label"": ""2. Date of_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""This field requires the user to enter the day (DD) on which the accident occurred. The Chinese label is '\u65e5'.""
+    },
+    {
+      ""id"": ""697_2. Date of_mm"",
+      ""xref"": 697,
+      ""name"": ""2. Date of_mm"",
+      ""label"": ""2. Date of_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""This field requires the user to enter the month (MM) in which the accident occurred. The Chinese label is '\u6708'.""
+    },
+    {
+      ""id"": ""698_2. Date of_yyyy"",
+      ""xref"": 698,
+      ""name"": ""2. Date of_yyyy"",
+      ""label"": ""2. Date of_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""This field requires the user to enter the year (YYYY) in which the accident occurred. The Chinese label is '\u5e74'.""
+    },
+    {
+      ""id"": ""699_2. Cause of Injury"",
+      ""xref"": 699,
+      ""name"": ""2. Cause of Injury"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires a description of the cause of the injury. The Chinese label is '\u53d7\u50b7\u539f\u56e0'.""
+    },
+    {
+      ""id"": ""700_2. Nature, Severity of Injury and body parts injured"",
+      ""xref"": 700,
+      ""name"": ""2. Nature, Severity of Injury and body parts injured"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires a description of the nature and severity of the injury, as well as which body parts were injured. The Chinese label is '\u53d7\u50b7\u7684\u90e8\u4f4d, \u6027\u8cea\u548c\u7a0b\u5ea6'.""
+    }
+  ],
+  ""1"": [
+    {
+      ""id"": ""330_2. Any_Bruise"",
+      ""xref"": 330,
+      ""name"": ""2. Any_Bruise"",
+      ""label"": null,
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate if there are any bruises. This does not include swelling.""
+    },
+    {
+      ""id"": ""331_2. Any_Laceration"",
+      ""xref"": 331,
+      ""name"": ""2. Any_Laceration"",
+      ""label"": null,
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate if there are any lacerations, abrasions, wounds, bleeding, or fractures.""
+    },
+    {
+      ""id"": ""334_2. Any_Other visible wound"",
+      ""xref"": 334,
+      ""name"": ""2. Any_Other visible wound"",
+      ""label"": null,
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate if there are any other visible wounds. If checked, details should be provided in the corresponding specification field.""
+    },
+    {
+      ""id"": ""336_2. Any_Other visible wound_pls specify"",
+      ""xref"": 336,
+      ""name"": ""2. Any_Other visible wound_pls specify"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to specify the details of any other visible wounds if the corresponding checkbox is selected.""
+    },
+    {
+      ""id"": ""337_2. Any_Details"",
+      ""xref"": 337,
+      ""name"": ""2. Any_Details"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide detailed information about the indicated wounds.""
+    },
+    {
+      ""id"": ""343_2. Please check the box_1"",
+      ""xref"": 343,
+      ""name"": ""2. Please check the box_1"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' for the question of whether the incident is related to self-harm.""
+    },
+    {
+      ""id"": ""339_2. Please check the box_1"",
+      ""xref"": 339,
+      ""name"": ""2. Please check the box_1"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' for the question of whether the incident is related to self-harm.""
+    },
+    {
+      ""id"": ""341_2. Please check the box_2"",
+      ""xref"": 341,
+      ""name"": ""2. Please check the box_2"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' for the question of whether the incident is related to being under the influence of alcohol or psychiatric drugs.""
+    },
+    {
+      ""id"": ""348_2. Please check the box_2"",
+      ""xref"": 348,
+      ""name"": ""2. Please check the box_2"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' for the question of whether the incident is related to being under the influence of alcohol or psychiatric drugs.""
+    },
+    {
+      ""id"": ""349_2. Please check the box_3"",
+      ""xref"": 349,
+      ""name"": ""2. Please check the box_3"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' for the question of whether the incident is related to high-risk activities.""
+    },
+    {
+      ""id"": ""344_2. Please check the box_3"",
+      ""xref"": 344,
+      ""name"": ""2. Please check the box_3"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' for the question of whether the incident is related to high-risk activities.""
+    },
+    {
+      ""id"": ""352_2. Please check the box_4"",
+      ""xref"": 352,
+      ""name"": ""2. Please check the box_4"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' for the question of whether the incident is related to AIDS or other sexually transmitted diseases.""
+    },
+    {
+      ""id"": ""346_2. Please check the box_4"",
+      ""xref"": 346,
+      ""name"": ""2. Please check the box_4"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' for the question of whether the incident is related to AIDS or other sexually transmitted diseases.""
+    },
+    {
+      ""id"": ""354_2. Please check the box_5"",
+      ""xref"": 354,
+      ""name"": ""2. Please check the box_5"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' for the question of whether the incident is related to the patient's occupation.""
+    },
+    {
+      ""id"": ""356_2. Please check the box_5"",
+      ""xref"": 356,
+      ""name"": ""2. Please check the box_5"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' for the question of whether the incident is related to the patient's occupation.""
+    },
+    {
+      ""id"": ""359_2. Please check the box_6"",
+      ""xref"": 359,
+      ""name"": ""2. Please check the box_6"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' for the question of whether the incident is related to psychological factors.""
+    },
+    {
+      ""id"": ""361_2. Please check the box_6"",
+      ""xref"": 361,
+      ""name"": ""2. Please check the box_6"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' for the question of whether the incident is related to psychological factors.""
+    },
+    {
+      ""id"": ""358_2. Please check the box_If yes, Please specify"",
+      ""xref"": 358,
+      ""name"": ""2. Please check the box_If yes, Please specify"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide details if 'Yes' was selected for any of the preceding questions about contributing factors (e.g., self-harm, high-risk activities).""
+    },
+    {
+      ""id"": ""370_2. Name and address_Name of the Doctor"",
+      ""xref"": 370,
+      ""name"": ""2. Name and address_Name of the Doctor"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the name of the referring doctor.""
+    },
+    {
+      ""id"": ""371_2. Name and address_Corresponding"",
+      ""xref"": 371,
+      ""name"": ""2. Name and address_Corresponding"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the corresponding address of the referring doctor.""
+    },
+    {
+      ""id"": ""372_3. Name of hospital"",
+      ""xref"": 372,
+      ""name"": ""3. Name of hospital"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the name of the hospital.""
+    },
+    {
+      ""id"": ""367_3. Date of admission_dd"",
+      ""xref"": 367,
+      ""name"": ""3. Date of admission_dd"",
+      ""label"": ""3. Date of admission_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the day (DD) of the hospital admission date.""
+    },
+    {
+      ""id"": ""368_3. Date of admission_mm"",
+      ""xref"": 368,
+      ""name"": ""3. Date of admission_mm"",
+      ""label"": ""3. Date of admission_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the month (MM) of the hospital admission date.""
+    },
+    {
+      ""id"": ""369_3. Date of admission_yyyy"",
+      ""xref"": 369,
+      ""name"": ""3. Date of admission_yyyy"",
+      ""label"": ""3. Date of admission_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A text field for entering the year (YYYY) of the hospital admission date.""
+    },
+    {
+      ""id"": ""362_3. Date of Discharge_dd"",
+      ""xref"": 362,
+      ""name"": ""3. Date of Discharge_dd"",
+      ""label"": ""3. Date of Discharge_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the day (DD) of the hospital discharge date.""
+    },
+    {
+      ""id"": ""363_3. Date of Discharge_mm"",
+      ""xref"": 363,
+      ""name"": ""3. Date of Discharge_mm"",
+      ""label"": ""3. Date of Discharge_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the month (MM) of the hospital discharge date.""
+    },
+    {
+      ""id"": ""364_3. Date of Discharge_yyyy"",
+      ""xref"": 364,
+      ""name"": ""3. Date of Discharge_yyyy"",
+      ""label"": ""3. Date of Discharge_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A text field for entering the year (YYYY) of the hospital discharge date.""
+    },
+    {
+      ""id"": ""365_3. Diagnosis at the time of discharge"",
+      ""xref"": 365,
+      ""name"": ""3. Diagnosis at the time of discharge"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the medical diagnosis at the time of the patient's discharge.""
+    },
+    {
+      ""id"": ""373_3. Any Operation"",
+      ""xref"": 373,
+      ""name"": ""3. Any Operation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' to the question 'Was any surgery performed?'.""
+    },
+    {
+      ""id"": ""376_3. Any Operation_Operation and Surgery Name"",
+      ""xref"": 376,
+      ""name"": ""3. Any Operation_Operation and Surgery Name"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the name of the surgery or operation performed.""
+    },
+    {
+      ""id"": ""375_3. Date_Any Operation_dd"",
+      ""xref"": 375,
+      ""name"": ""3. Date_Any Operation_dd"",
+      ""label"": ""3. Date_Any Operation_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the day (DD) on which the surgery was performed.""
+    },
+    {
+      ""id"": ""381_3. Date_Any Operation__mm"",
+      ""xref"": 381,
+      ""name"": ""3. Date_Any Operation__mm"",
+      ""label"": ""3. Date_Any Operation__mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the month (MM) on which the surgery was performed.""
+    },
+    {
+      ""id"": ""382_3. Date_Any Operation_yyyy"",
+      ""xref"": 382,
+      ""name"": ""3. Date_Any Operation_yyyy"",
+      ""label"": ""3. Date_Any Operation_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A text field for entering the year (YYYY) on which the surgery was performed.""
+    },
+    {
+      ""id"": ""377_3. Any treatment other than Operation"",
+      ""xref"": 377,
+      ""name"": ""3. Any treatment other than Operation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' to the question 'Was any treatment other than surgery received?'.""
+    },
+    {
+      ""id"": ""378_3. Any treatment other than Operation_Treatment Name"",
+      ""xref"": 378,
+      ""name"": ""3. Any treatment other than Operation_Treatment Name"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the name of any non-surgical treatment received.""
+    },
+    {
+      ""id"": ""380_3. Any treatment other than Operation_dd"",
+      ""xref"": 380,
+      ""name"": ""3. Any treatment other than Operation_dd"",
+      ""label"": ""3. Any treatment other than Operation_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the day (DD) on which the non-surgical treatment was administered.""
+    },
+    {
+      ""id"": ""388_3. Any treatment other than Operation_mm"",
+      ""xref"": 388,
+      ""name"": ""3. Any treatment other than Operation_mm"",
+      ""label"": ""3. Any treatment other than Operation_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the month (MM) on which the non-surgical treatment was administered.""
+    },
+    {
+      ""id"": ""389_3. Any treatment other than Operation_yyyy"",
+      ""xref"": 389,
+      ""name"": ""3. Any treatment other than Operation_yyyy"",
+      ""label"": ""3. Any treatment other than Operation_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A text field for entering the year (YYYY) on which the non-surgical treatment was administered.""
+    },
+    {
+      ""id"": ""383_3. Whether above operation"",
+      ""xref"": 383,
+      ""name"": ""3. Whether above operation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' to the question 'Could the above treatment be performed on an outpatient basis?'.""
+    },
+    {
+      ""id"": ""384_3. Whether above"",
+      ""xref"": 384,
+      ""name"": ""3. Whether above"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' to the question 'Could the above treatment be performed on an outpatient basis?'. If 'No' is selected, a reason must be provided.""
+    },
+    {
+      ""id"": ""386_3. Any Operation"",
+      ""xref"": 386,
+      ""name"": ""3. Any Operation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' to the question 'Was any surgery performed?'.""
+    },
+    {
+      ""id"": ""391_3. Any treatment other than Operation"",
+      ""xref"": 391,
+      ""name"": ""3. Any treatment other than Operation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' to the question 'Was any treatment other than surgery received?'.""
+    },
+    {
+      ""id"": ""387_3. Whether above operation"",
+      ""xref"": 387,
+      ""name"": ""3. Whether above operation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A text field for providing the reason why hospitalization was necessary for the treatment, if it could not be performed on an outpatient basis.""
+    },
+    {
+      ""id"": ""395_3. Was the hospitalisation"",
+      ""xref"": 395,
+      ""name"": ""3. Was the hospitalisation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' to the question of whether the hospitalization was for experimental or investigative purposes.""
+    },
+    {
+      ""id"": ""398_3. Was the hospitalisation"",
+      ""xref"": 398,
+      ""name"": ""3. Was the hospitalisation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' to the question of whether the hospitalization was for experimental or investigative purposes.""
+    },
+    {
+      ""id"": ""399_3. Brief discharge"",
+      ""xref"": 399,
+      ""name"": ""3. Brief discharge"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for a brief discharge summary, including details of the treatment, diagnosis process, results, complications, and/or follow-up plan.""
+    },
+    {
+      ""id"": ""396_3. Did the patient take any home leave"",
+      ""xref"": 396,
+      ""name"": ""3. Did the patient take any home leave"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' to the question 'Did the patient take any home leave during the hospital confinement?'.""
+    },
+    {
+      ""id"": ""401_3. Did the patient take any home leave during the hospital conginement"",
+      ""xref"": 401,
+      ""name"": ""3. Did the patient take any home leave during the hospital conginement"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for specifying the period and reason for any home leave taken by the patient during their hospitalization.""
+    },
+    {
+      ""id"": ""402_3. Did the patient take any home leave"",
+      ""xref"": 402,
+      ""name"": ""3. Did the patient take any home leave"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' to the question 'Did the patient take any home leave during the hospital confinement?'. If 'Yes' is selected, details must be provided.""
+    }
+  ],
+  ""2"": [
+    {
+      ""id"": ""407_4.Did the patients"",
+      ""xref"": 407,
+      ""name"": ""4.Did the patients"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Yes' (\u662f) to the question 'Does the patient have cancer, malignant or pre-cancerous conditions?'.""
+    },
+    {
+      ""id"": ""405_4.Did the patients"",
+      ""xref"": 405,
+      ""name"": ""4.Did the patients"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'No' (\u5426) to the question 'Does the patient have cancer, malignant or pre-cancerous conditions?'.""
+    },
+    {
+      ""id"": ""409_4. Site and organ involved"",
+      ""xref"": 409,
+      ""name"": ""4. Site and organ involved"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field asking the user to specify the location and organs involved in the cancer or tumor.""
+    },
+    {
+      ""id"": ""406_4. Lymph node involved"",
+      ""xref"": 406,
+      ""name"": ""4. Lymph node involved"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field asking the user to specify if the cancer has spread to the lymph nodes and provide details.""
+    },
+    {
+      ""id"": ""413_4. Was biopsy done for patient"",
+      ""xref"": 413,
+      ""name"": ""4. Was biopsy done for patient"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Yes' (\u6709) to the question 'Has the patient undergone a biopsy?'.""
+    },
+    {
+      ""id"": ""414_4. Was biopsy done for patient"",
+      ""xref"": 414,
+      ""name"": ""4. Was biopsy done for patient"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'No' (\u6c92\u6709) to the question 'Has the patient undergone a biopsy?'.""
+    },
+    {
+      ""id"": ""416_4. Was biopsy done for patient_dd"",
+      ""xref"": 416,
+      ""name"": ""4. Was biopsy done for patient_dd"",
+      ""label"": ""4. Was biopsy done for patient_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the day (\u65e5) of the month the biopsy was performed.""
+    },
+    {
+      ""id"": ""415_4. Was biopsy done for patient_mm"",
+      ""xref"": 415,
+      ""name"": ""4. Was biopsy done for patient_mm"",
+      ""label"": ""4. Was biopsy done for patient_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the month (\u6708) the biopsy was performed.""
+    },
+    {
+      ""id"": ""423_4. Was biopsy done for patient_yyyy"",
+      ""xref"": 423,
+      ""name"": ""4. Was biopsy done for patient_yyyy"",
+      ""label"": ""4. Was biopsy done for patient_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A field to enter the year (\u5e74) the biopsy was performed.""
+    },
+    {
+      ""id"": ""420_4. Biopsy result"",
+      ""xref"": 420,
+      ""name"": ""4. Biopsy result"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the results of the biopsy.""
+    },
+    {
+      ""id"": ""421_4. Other diagnostic"",
+      ""xref"": 421,
+      ""name"": ""4. Other diagnostic"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the results of other diagnostic tests.""
+    },
+    {
+      ""id"": ""422_4. Type of treatment"",
+      ""xref"": 422,
+      ""name"": ""4. Type of treatment"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for 'Surgical treatment' (\u5916\u79d1\u6cbb\u7642) as a type of cancer treatment received.""
+    },
+    {
+      ""id"": ""418_4. Type of treatment"",
+      ""xref"": 418,
+      ""name"": ""4. Type of treatment"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for 'Hormone therapy' (\u8377\u723e\u8499\u6cbb\u7642) as a type of cancer treatment received.""
+    },
+    {
+      ""id"": ""428_4. Type of treatment"",
+      ""xref"": 428,
+      ""name"": ""4. Type of treatment"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for 'Chemotherapy' (\u5316\u7642) as a type of cancer treatment received.""
+    },
+    {
+      ""id"": ""430_4. Type of treatment"",
+      ""xref"": 430,
+      ""name"": ""4. Type of treatment"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for 'Targeted therapy' (\u6a19\u9776\u6cbb\u7642) as a type of cancer treatment received.""
+    },
+    {
+      ""id"": ""429_4. Type of treatment"",
+      ""xref"": 429,
+      ""name"": ""4. Type of treatment"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Label for the 'Date' (\u65e5\u671f) section where the user should input the start date of the corresponding treatment.""
+    },
+    {
+      ""id"": ""433_4. Type of treatment-Other"",
+      ""xref"": 433,
+      ""name"": ""4. Type of treatment-Other"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for 'Other' (\u5176\u4ed6) types of cancer treatment received.""
+    },
+    {
+      ""id"": ""434_4. Type of treatment_dd"",
+      ""xref"": 434,
+      ""name"": ""4. Type of treatment_dd"",
+      ""label"": ""4. Type of treatment_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the day (\u65e5) of the month a treatment started.""
+    },
+    {
+      ""id"": ""438_4. Type of treatment_mm"",
+      ""xref"": 438,
+      ""name"": ""4. Type of treatment_mm"",
+      ""label"": ""4. Type of treatment_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the month (\u6708) a treatment started.""
+    },
+    {
+      ""id"": ""439_4. Type of treatment_yyyy"",
+      ""xref"": 439,
+      ""name"": ""4. Type of treatment_yyyy"",
+      ""label"": ""4. Type of treatment_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A field to enter the year (\u5e74) a treatment started.""
+    },
+    {
+      ""id"": ""440_4. Please provide details of the"",
+      ""xref"": 440,
+      ""name"": ""4. Please provide details of the"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field asking the user to provide detailed information about the treatments, such as drug dosage, treatment duration, other treatment categories, and any side effects.""
+    },
+    {
+      ""id"": ""435_4. Has the cancer"",
+      ""xref"": 435,
+      ""name"": ""4. Has the cancer"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field asking the user to state whether the cancer has been completely removed or cured.""
+    },
+    {
+      ""id"": ""436_4. Completion_dd"",
+      ""xref"": 436,
+      ""name"": ""4. Completion_dd"",
+      ""label"": ""4. Completion_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the day (\u65e5) of the month when all cancer-related treatments were completed.""
+    },
+    {
+      ""id"": ""437_4. Completion_mm"",
+      ""xref"": 437,
+      ""name"": ""4. Completion_mm"",
+      ""label"": ""4. Completion_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the month (\u6708) when all cancer-related treatments were completed.""
+    },
+    {
+      ""id"": ""424_4. Completion_yyyy"",
+      ""xref"": 424,
+      ""name"": ""4. Completion_yyyy"",
+      ""label"": ""4. Completion_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A field to enter the year (\u5e74) when all cancer-related treatments were completed.""
+    },
+    {
+      ""id"": ""425_5. Specify all physical or mental imparirment"",
+      ""xref"": 425,
+      ""name"": ""5. Specify all physical or mental imparirment"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to specify all physical or mental impairments, including their effects, severity, and duration. A certificate of disability assessment may be required.""
+    },
+    {
+      ""id"": ""426_5. Provide the prognosis for each of the above (if any)"",
+      ""xref"": 426,
+      ""name"": ""5. Provide the prognosis for each of the above (if any)"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide the prognosis for each of the impairments listed above, if applicable.""
+    },
+    {
+      ""id"": ""427_5. Patient\u2019s occupation and exact nature of occupational"",
+      ""xref"": 427,
+      ""name"": ""5. Patient\u2019s occupation and exact nature of occupational"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to state the patient's occupation and the exact nature of their occupational duties.""
+    },
+    {
+      ""id"": ""441_5. some of his job duties_From"",
+      ""xref"": 441,
+      ""name"": ""5. some of his job duties_From"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 10,
+      ""description"": ""A date field to enter the start date ('From') of the period when the patient was unable to perform some of their job duties.""
+    },
+    {
+      ""id"": ""442_5. some of his job duties_To"",
+      ""xref"": 442,
+      ""name"": ""5. some of his job duties_To"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 10,
+      ""description"": ""A date field to enter the end date ('To') of the period when the patient was unable to perform some of their job duties.""
+    },
+    {
+      ""id"": ""443_5. all of his job duties_From"",
+      ""xref"": 443,
+      ""name"": ""5. all of his job duties_From"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 10,
+      ""description"": ""A date field to enter the start date ('From') of the period when the patient was unable to perform all of their job duties.""
+    },
+    {
+      ""id"": ""444_5. all of his job duties_To"",
+      ""xref"": 444,
+      ""name"": ""5. all of his job duties_To"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 10,
+      ""description"": ""A date field to enter the end date ('To') of the period when the patient was unable to perform all of their job duties.""
+    },
+    {
+      ""id"": ""445_5. Date the disability started_dd"",
+      ""xref"": 445,
+      ""name"": ""5. Date the disability started_dd"",
+      ""label"": ""5. Date the disability started_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the day (\u65e5) of the month the disability started.""
+    },
+    {
+      ""id"": ""446_5. Date the disability started_mm"",
+      ""xref"": 446,
+      ""name"": ""5. Date the disability started_mm"",
+      ""label"": ""5. Date the disability started_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the month (\u6708) the disability started.""
+    },
+    {
+      ""id"": ""447_5. Date the disability started_yyyy"",
+      ""xref"": 447,
+      ""name"": ""5. Date the disability started_yyyy"",
+      ""label"": ""5. Date the disability started_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A field to enter the year (\u5e74) the disability started.""
+    },
+    {
+      ""id"": ""448_5. Washing or bathing"",
+      ""xref"": 448,
+      ""name"": ""5. Washing or bathing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs no assistance' (\u4e0d\u9700\u8981\u5354\u52a9) for the activity 'Washing or bathing'.""
+    },
+    {
+      ""id"": ""450_5. Washing or bathing"",
+      ""xref"": 450,
+      ""name"": ""5. Washing or bathing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Occasionally needs assistance or supervision' (\u5076\u723e\u9700\u8981\u5354\u52a9\u6216\u76e3\u5bdf) for the activity 'Washing or bathing'.""
+    },
+    {
+      ""id"": ""452_5. Washing or bathing"",
+      ""xref"": 452,
+      ""name"": ""5. Washing or bathing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs assistance most of the time' (\u5927\u90e8\u5206\u6642\u9593\u90fd\u9700\u8981\u5354\u52a9) for the activity 'Washing or bathing'.""
+    },
+    {
+      ""id"": ""453_5. Washing or bathing"",
+      ""xref"": 453,
+      ""name"": ""5. Washing or bathing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Completely unable to perform independently' (\u5b8c\u5168\u7121\u6cd5\u81ea\u884c\u5b8c\u6210) for the activity 'Washing or bathing'.""
+    },
+    {
+      ""id"": ""454_5. Dressing"",
+      ""xref"": 454,
+      ""name"": ""5. Dressing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs no assistance' (\u4e0d\u9700\u8981\u5354\u52a9) for the activity 'Dressing' (\u63db/\u7a7f\u8863\u670d).""
+    },
+    {
+      ""id"": ""459_5. Dressing"",
+      ""xref"": 459,
+      ""name"": ""5. Dressing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Occasionally needs assistance or supervision' (\u5076\u723e\u9700\u8981\u5354\u52a9\u6216\u76e3\u5bdf) for the activity 'Dressing' (\u63db/\u7a7f\u8863\u670d).""
+    },
+    {
+      ""id"": ""463_5. Dressing"",
+      ""xref"": 463,
+      ""name"": ""5. Dressing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs assistance most of the time' (\u5927\u90e8\u5206\u6642\u9593\u90fd\u9700\u8981\u5354\u52a9) for the activity 'Dressing' (\u63db/\u7a7f\u8863\u670d).""
+    },
+    {
+      ""id"": ""464_5. Dressing"",
+      ""xref"": 464,
+      ""name"": ""5. Dressing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Completely unable to perform independently' (\u5b8c\u5168\u7121\u6cd5\u81ea\u884c\u5b8c\u6210) for the activity 'Dressing' (\u63db/\u7a7f\u8863\u670d).""
+    },
+    {
+      ""id"": ""466_5. Feeding"",
+      ""xref"": 466,
+      ""name"": ""5. Feeding"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs no assistance' (\u4e0d\u9700\u8981\u5354\u52a9) for the activity 'Feeding' (\u9032\u98df).""
+    },
+    {
+      ""id"": ""468_5. Toileting"",
+      ""xref"": 468,
+      ""name"": ""5. Toileting"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs no assistance' (\u4e0d\u9700\u8981\u5354\u52a9) for the activity 'Toileting' (\u5982\u5ec1).""
+    },
+    {
+      ""id"": ""471_5. Feeding"",
+      ""xref"": 471,
+      ""name"": ""5. Feeding"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs assistance most of the time' (\u5927\u90e8\u5206\u6642\u9593\u90fd\u9700\u8981\u5354\u52a9) for the activity 'Feeding' (\u9032\u98df).""
+    },
+    {
+      ""id"": ""470_5. Feeding"",
+      ""xref"": 470,
+      ""name"": ""5. Feeding"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Completely unable to perform independently' (\u5b8c\u5168\u7121\u6cd5\u81ea\u884c\u5b8c\u6210) for the activity 'Feeding' (\u9032\u98df).""
+    },
+    {
+      ""id"": ""461_5. Feeding"",
+      ""xref"": 461,
+      ""name"": ""5. Feeding"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Occasionally needs assistance or supervision' (\u5076\u723e\u9700\u8981\u5354\u52a9\u6216\u76e3\u5bdf) for the activity 'Feeding' (\u9032\u98df).""
+    },
+    {
+      ""id"": ""462_5. Toileting"",
+      ""xref"": 462,
+      ""name"": ""5. Toileting"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Occasionally needs assistance or supervision' (\u5076\u723e\u9700\u8981\u5354\u52a9\u6216\u76e3\u5bdf) for the activity 'Toileting' (\u5982\u5ec1).""
+    },
+    {
+      ""id"": ""473_5. Toileting"",
+      ""xref"": 473,
+      ""name"": ""5. Toileting"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs assistance most of the time' (\u5927\u90e8\u5206\u6642\u9593\u90fd\u9700\u8981\u5354\u52a9) for the activity 'Toileting' (\u5982\u5ec1).""
+    },
+    {
+      ""id"": ""476_5. Toileting"",
+      ""xref"": 476,
+      ""name"": ""5. Toileting"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Completely unable to perform independently' (\u5b8c\u5168\u7121\u6cd5\u81ea\u884c\u5b8c\u6210) for the activity 'Toileting' (\u5982\u5ec1).""
+    },
+    {
+      ""id"": ""478_5. Transferring"",
+      ""xref"": 478,
+      ""name"": ""5. Transferring"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs no assistance' (\u4e0d\u9700\u8981\u5354\u52a9) for the activity 'Transferring from lying to sitting' (\u79fb\u52d5\u80fd\u529b - \u5f9e\u8eba\u8457\u5230\u5750\u7acb).""
+    },
+    {
+      ""id"": ""481_5. Transferring"",
+      ""xref"": 481,
+      ""name"": ""5. Transferring"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Occasionally needs assistance or supervision' (\u5076\u723e\u9700\u8981\u5354\u52a9\u6216\u76e3\u5bdf) for the activity 'Transferring from lying to sitting'.""
+    },
+    {
+      ""id"": ""480_5. Transferring"",
+      ""xref"": 480,
+      ""name"": ""5. Transferring"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs assistance most of the time' (\u5927\u90e8\u5206\u6642\u9593\u90fd\u9700\u8981\u5354\u52a9) for the activity 'Transferring from lying to sitting'.""
+    },
+    {
+      ""id"": ""486_5. Transferring"",
+      ""xref"": 486,
+      ""name"": ""5. Transferring"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Completely unable to perform independently' (\u5b8c\u5168\u7121\u6cd5\u81ea\u884c\u5b8c\u6210) for the activity 'Transferring from lying to sitting'.""
+    },
+    {
+      ""id"": ""488_5. Mobility"",
+      ""xref"": 488,
+      ""name"": ""5. Mobility"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs no assistance' (\u4e0d\u9700\u8981\u5354\u52a9) for the activity 'Mobility within the same room/floor' (\u6d3b\u52d5\u80fd\u529b - \u5728\u540c\u4e00\u5c64\u5ba4\u5167\u7684\u6d3b\u52d5\u80fd\u529b).""
+    },
+    {
+      ""id"": ""484_5. Mobility"",
+      ""xref"": 484,
+      ""name"": ""5. Mobility"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Occasionally needs assistance or supervision' (\u5076\u723e\u9700\u8981\u5354\u52a9\u6216\u76e3\u5bdf) for the activity 'Mobility within the same room/floor'.""
+    },
+    {
+      ""id"": ""492_5. Mobility"",
+      ""xref"": 492,
+      ""name"": ""5. Mobility"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs assistance most of the time' (\u5927\u90e8\u5206\u6642\u9593\u90fd\u9700\u8981\u5354\u52a9) for the activity 'Mobility within the same room/floor'.""
+    },
+    {
+      ""id"": ""491_5. Mobility"",
+      ""xref"": 491,
+      ""name"": ""5. Mobility"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Completely unable to perform independently' (\u5b8c\u5168\u7121\u6cd5\u81ea\u884c\u5b8c\u6210) for the activity 'Mobility within the same room/floor'.""
+    }
+  ],
+  ""3"": [
+    {
+      ""id"": ""494_6. Has the patient"",
+      ""xref"": 494,
+      ""name"": ""6. Has the patient"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate 'Yes', confirming that the patient has previously suffered from related conditions.""
+    },
+    {
+      ""id"": ""497_6. Has the patient"",
+      ""xref"": 497,
+      ""name"": ""6. Has the patient"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate 'No', confirming that the patient has not previously suffered from related conditions.""
+    },
+    {
+      ""id"": ""495_6. Has the patient previously suffered from related conditions"",
+      ""xref"": 495,
+      ""name"": ""6. Has the patient previously suffered from related conditions"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A question asking if the patient has previously suffered from related conditions. If yes, the user is instructed to provide the consultation date, relevant information, and diagnosis in the fields below.""
+    },
+    {
+      ""id"": ""502_6. According to your record"",
+      ""xref"": 502,
+      ""name"": ""6. According to your record"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate 'Yes' in response to the question 'According to your records, does the patient have a history of the following conditions?'.""
+    },
+    {
+      ""id"": ""504_6. According to your record"",
+      ""xref"": 504,
+      ""name"": ""6. According to your record"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate 'No' in response to the question 'According to your records, does the patient have a history of the following conditions?'.""
+    },
+    {
+      ""id"": ""507_6. According"",
+      ""xref"": 507,
+      ""name"": ""6. According"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate the patient has a history of 'Diabetes' (\u7cd6\u5c3f\u75c5).""
+    },
+    {
+      ""id"": ""500_6. According"",
+      ""xref"": 500,
+      ""name"": ""6. According"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate the patient has a history of 'Hypertension' (\u9ad8\u8840\u58d3).""
+    },
+    {
+      ""id"": ""514_6. According"",
+      ""xref"": 514,
+      ""name"": ""6. According"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate the patient is on 'Long-term medication' (\u9577\u671f\u670d\u85e5).""
+    },
+    {
+      ""id"": ""517_6. According"",
+      ""xref"": 517,
+      ""name"": ""6. According"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate the patient has a history of 'Hepatitis B' (\u4e59\u578b\u809d\u708e).""
+    },
+    {
+      ""id"": ""515_6. According"",
+      ""xref"": 515,
+      ""name"": ""6. According"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate the patient has a history of 'Kidney disease/Nephropathy' (\u814e\u75c5\u8b8a).""
+    },
+    {
+      ""id"": ""508_6. According"",
+      ""xref"": 508,
+      ""name"": ""6. According"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate the patient has a history of 'Other' conditions (\u5176\u4ed6).""
+    },
+    {
+      ""id"": ""506_6. According_Other"",
+      ""xref"": 506,
+      ""name"": ""6. According_Other"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field to provide details if the 'Other' checkbox is ticked for the patient's medical history.""
+    },
+    {
+      ""id"": ""525_6. According to"",
+      ""xref"": 525,
+      ""name"": ""6. According to"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A question asking the user to confirm, based on their records, if the patient has a history of specific diseases and to provide details in the subsequent table if the answer is yes.""
+    },
+    {
+      ""id"": ""526_6. Date_dd-1"",
+      ""xref"": 526,
+      ""name"": ""6. Date_dd-1"",
+      ""label"": ""6. Date_dd-1"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the day (DD) of the first consultation or hospitalization date.""
+    },
+    {
+      ""id"": ""527_6. Date_mm-1"",
+      ""xref"": 527,
+      ""name"": ""6. Date_mm-1"",
+      ""label"": ""6. Date_mm-1"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the month (MM) of the first consultation or hospitalization date.""
+    },
+    {
+      ""id"": ""521_6. Date_yyyy-1"",
+      ""xref"": 521,
+      ""name"": ""6. Date_yyyy-1"",
+      ""label"": ""6. Date_yyyy-1"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A field to enter the year (YYYY) of the first consultation or hospitalization date.""
+    },
+    {
+      ""id"": ""522_6. Name of doctor-1"",
+      ""xref"": 522,
+      ""name"": ""6. Name of doctor-1"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the name of the doctor or hospital for the first medical history entry.""
+    },
+    {
+      ""id"": ""523_6. Final Diagnosis-1"",
+      ""xref"": 523,
+      ""name"": ""6. Final Diagnosis-1"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the diagnosis for the first medical history entry.""
+    },
+    {
+      ""id"": ""524_6. Treatments given-1"",
+      ""xref"": 524,
+      ""name"": ""6. Treatments given-1"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the treatments given, including any past or future surgeries, for the first medical history entry.""
+    },
+    {
+      ""id"": ""509_6. Date_dd-2"",
+      ""xref"": 509,
+      ""name"": ""6. Date_dd-2"",
+      ""label"": ""6. Date_dd-2"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the day (DD) of the second consultation or hospitalization date.""
+    },
+    {
+      ""id"": ""510_6. Date_mm-2"",
+      ""xref"": 510,
+      ""name"": ""6. Date_mm-2"",
+      ""label"": ""6. Date_mm-2"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the month (MM) of the second consultation or hospitalization date.""
+    },
+    {
+      ""id"": ""511_6. Date_yyyy-2"",
+      ""xref"": 511,
+      ""name"": ""6. Date_yyyy-2"",
+      ""label"": ""6. Date_yyyy-2"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A field to enter the year (YYYY) of the second consultation or hospitalization date.""
+    },
+    {
+      ""id"": ""512_6. Name of doctor-2"",
+      ""xref"": 512,
+      ""name"": ""6. Name of doctor-2"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the name of the doctor or hospital for the second medical history entry.""
+    },
+    {
+      ""id"": ""528_6. Final Diagnosis-2"",
+      ""xref"": 528,
+      ""name"": ""6. Final Diagnosis-2"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the diagnosis for the second medical history entry.""
+    },
+    {
+      ""id"": ""529_6. Treatments given-2"",
+      ""xref"": 529,
+      ""name"": ""6. Treatments given-2"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the treatments given, including any past or future surgeries, for the second medical history entry.""
+    },
+    {
+      ""id"": ""530_6. Have the biological parents"",
+      ""xref"": 530,
+      ""name"": ""6. Have the biological parents"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'Yes', confirming that the patient's biological parents, siblings, or children have suffered from the listed diseases before the age of sixty.""
+    },
+    {
+      ""id"": ""531_6. Have the biological parents"",
+      ""xref"": 531,
+      ""name"": ""6. Have the biological parents"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'No', confirming that the patient's biological parents, siblings, or children have not suffered from the listed diseases before the age of sixty.""
+    },
+    {
+      ""id"": ""534_6. Have the"",
+      ""xref"": 534,
+      ""name"": ""6. Have the"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for 'Cancer' (\u764c\u75c7) as a condition in the family medical history.""
+    },
+    {
+      ""id"": ""536_6. Have the"",
+      ""xref"": 536,
+      ""name"": ""6. Have the"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for 'Heart disease' (\u5fc3\u81df\u75c5) as a condition in the family medical history.""
+    },
+    {
+      ""id"": ""538_6. Have the"",
+      ""xref"": 538,
+      ""name"": ""6. Have the"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for 'Stroke' (\u4e2d\u98a8) as a condition in the family medical history.""
+    },
+    {
+      ""id"": ""539_6. Have the"",
+      ""xref"": 539,
+      ""name"": ""6. Have the"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for 'Alzheimer's disease' (\u963f\u8332\u6d77\u9ed8\u75c7) as a condition in the family medical history.""
+    },
+    {
+      ""id"": ""540_6. Have the"",
+      ""xref"": 540,
+      ""name"": ""6. Have the"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for 'Diabetes' (\u7cd6\u5c3f\u75c5) as a condition in the family medical history.""
+    },
+    {
+      ""id"": ""537_6. Have the"",
+      ""xref"": 537,
+      ""name"": ""6. Have the"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for 'Polycystic kidney disease' (\u591a\u56ca\u6027\u814e\u75c5\u8b8a) as a condition in the family medical history.""
+    },
+    {
+      ""id"": ""544_6. Have the"",
+      ""xref"": 544,
+      ""name"": ""6. Have the"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for 'Other hereditary diseases' (\u5176\u4ed6\u907a\u50b3\u6027\u75be\u75c5) as a condition in the family medical history.""
+    },
+    {
+      ""id"": ""546_6. Relative"",
+      ""xref"": 546,
+      ""name"": ""6. Relative"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to specify the family member (e.g., father, mother) for the family medical history record.""
+    },
+    {
+      ""id"": ""547_6. Diagnosis"",
+      ""xref"": 547,
+      ""name"": ""6. Diagnosis"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the diagnosis or condition of the specified relative.""
+    },
+    {
+      ""id"": ""553_6. Onset age"",
+      ""xref"": 553,
+      ""name"": ""6. Onset age"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the age of onset of the condition for the specified relative.""
+    },
+    {
+      ""id"": ""554_7. Name of Physician"",
+      ""xref"": 554,
+      ""name"": ""7. Name of Physician"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field for the attending physician to enter their full name.""
+    },
+    {
+      ""id"": ""555_7. Contact tel no"",
+      ""xref"": 555,
+      ""name"": ""7. Contact tel no"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field for the attending physician to enter their contact telephone number and address.""
+    },
+    {
+      ""id"": ""548_7. Qualification"",
+      ""xref"": 548,
+      ""name"": ""7. Qualification"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field for the attending physician to enter their medical qualifications.""
+    },
+    {
+      ""id"": ""549_7. Specialty"",
+      ""xref"": 549,
+      ""name"": ""7. Specialty"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field for the attending physician to enter their professional specialty.""
+    },
+    {
+      ""id"": ""550_7. Signatuer of Physician"",
+      ""xref"": 550,
+      ""name"": ""7. Signatuer of Physician"",
+      ""label"": null,
+      ""type"": ""Signature"",
+      ""max_length"": 0,
+      ""description"": ""A space designated for the attending physician's signature.""
+    },
+    {
+      ""id"": ""556_7. Signature Date_dd"",
+      ""xref"": 556,
+      ""name"": ""7. Signature Date_dd"",
+      ""label"": ""7. Signature Date_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field for the physician to enter the day (DD) of signing the form.""
+    },
+    {
+      ""id"": ""551_7. Signature Date_mm"",
+      ""xref"": 551,
+      ""name"": ""7. Signature Date_mm"",
+      ""label"": ""7. Signature Date_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field for the physician to enter the month (MM) of signing the form.""
+    },
+    {
+      ""id"": ""552_7. Signature Date_yyyy"",
+      ""xref"": 552,
+      ""name"": ""7. Signature Date_yyyy"",
+      ""label"": ""7. Signature Date_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A field for the physician to enter the year (YYYY) of signing the form.""
+    }
+  ]
+}","{0: '{\n  ""filledByDoctor"": true,\n  ""filledByPatient"": false,\n  ""rationale"": ""The instruction in the \'重要事項\' (Important Notes) section explicitly states \'必須由主診醫生填寫\' which translates to \'Must be completed by the attending doctor\'. Furthermore, the form requests specific medical information such as \'診斷\' (Diagnosis) and \'國際疾病分類編碼 (ICD-10)\' (International Classification of Diseases code (ICD-10)), which can only be provided by a qualified medical professional.""\n}', 1: '{\n  ""filledByDoctor"": true,\n  ""filledByPatient"": false,\n  ""rationale"": ""The form asks for specific medical details such as \'Diagnosis at the time of discharge\' (出院時的診斷), \'Name of operation\' (手術名稱), and a \'Brief discharge summary\' (出院撮要). Additionally, it requires a medical opinion on whether the treatment could have been performed on an outpatient basis. These are fields that can only be accurately and officially completed by the attending doctor or a hospital representative.""\n}', 2: '{\n  ""filledByDoctor"": true,\n  ""filledByPatient"": false,\n  ""rationale"": ""The form requires detailed medical information that a patient would typically not be able to provide. This includes specific diagnoses like the site and organs involved in a cancer, lymph node involvement, biopsy results, and other diagnostic findings. It also asks for specifics of treatment, including types of therapy (surgery, chemotherapy), drug dosages, and side effects. Furthermore, the form requests a medical prognosis and a formal assessment of the patient\'s ability to perform activities of daily living (ADLs), which are tasks for a qualified medical professional.""\n}', 3: '{\n  ""filledByDoctor"": true,\n  ""filledByPatient"": false,\n  ""rationale"": ""The form is intended to be filled out by the attending doctor. This is evidenced by several key sections. Section 6 asks for information \'According to your record\' (根據你的記錄), addressing a medical professional\'s files. Most definitively, Section 7, \'Declaration and Consent\' (聲明及同意), contains the statement \'I hereby declare that I have treated the patient...\' (本人謹此聲明曾為病人作出診治...). Furthermore, the signature block asks for the \'Name of Physician\' (醫生姓名), \'Qualification\' (醫學資格), \'Specialty\' (專業資格), and \'Signature of Physician\' (醫生簽署).""\n}'}",{},"{
+  ""0"": [
+    {
+      ""id"": ""663_AXA China Region Insurance Company Bermuda Limited"",
+      ""xref"": 663,
+      ""name"": ""AXA China Region Insurance Company Bermuda Limited"",
+      ""label"": ""AXA China Region Insurance Company (Bermuda) Limited"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""Company information for AXA China Region Insurance Company Bermuda Limited, including its address and contact details.""
+    },
+    {
+      ""id"": ""664_Accident Benefit"",
+      ""xref"": 664,
+      ""name"": ""Accident Benefit"",
+      ""label"": ""Accident Benefit (ECARE/CARE/AB)"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select if they are claiming for Accident Benefit. The Chinese label is '\u610f\u5916 (\u500d\u95dc\u61f7 / \u7d9c\u5408\u610f\u5916 / \u7279\u7d1a\u5e73\u5b89)'.""
+    },
+    {
+      ""id"": ""666_Diasbility Income Benefit"",
+      ""xref"": 666,
+      ""name"": ""Diasbility Income Benefit"",
+      ""label"": ""Diasbility Income Benefit (DI)"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select if they are claiming for Disability Income Benefit. The Chinese label is '\u6b98\u75be\u6536\u5165'.""
+    },
+    {
+      ""id"": ""668_Hospital Benefit"",
+      ""xref"": 668,
+      ""name"": ""Hospital Benefit"",
+      ""label"": ""Hospital Benefit"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select if they are claiming for Hospital Benefit. The Chinese label is '\u4f4f\u9662'.""
+    },
+    {
+      ""id"": ""670_Waiver of Premium for Disability"",
+      ""xref"": 670,
+      ""name"": ""Waiver of Premium for Disability"",
+      ""label"": ""Waiver of Premium for Disability (WP)"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select if they are claiming for Waiver of Premium for Disability. The Chinese label is '\u6b98\u75be\u8c41\u514d\u4fdd\u96aa\u8cbb'.""
+    },
+    {
+      ""id"": ""672_Cancer Treatment"",
+      ""xref"": 672,
+      ""name"": ""Cancer Treatment"",
+      ""label"": ""Cancer Treatment"",
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to select if they are claiming for Cancer Treatment. The Chinese label is '\u764c\u75c7\u6cbb\u7642'.""
+    },
+    {
+      ""id"": ""674_1. Name of patient"",
+      ""xref"": 674,
+      ""name"": ""1. Name of patient"",
+      ""label"": ""1. Name of patient"",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the full name of the patient, who is also the insured person. The Chinese label is '\u75c5\u4eba\u59d3\u540d (\u88ab\u4fdd\u4eba)'.""
+    },
+    {
+      ""id"": ""675_1. HKID Card and Passport No"",
+      ""xref"": 675,
+      ""name"": ""1. HKID Card and Passport No"",
+      ""label"": ""1. HKID Card and Passport No."",
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the Hong Kong Identity Card (HKID) number or Passport number of the patient. The Chinese label is '\u9999\u6e2f\u8eab\u4efd\u8b49 / \u8b77\u7167\u865f\u78bc'.""
+    },
+    {
+      ""id"": ""676_1. Did_Smoking"",
+      ""xref"": 676,
+      ""name"": ""1. Did_Smoking"",
+      ""label"": null,
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate if the patient has a smoking habit. The Chinese label is '\u5438\u7159'.""
+    },
+    {
+      ""id"": ""678_1. Did_Smoking_Duration"",
+      ""xref"": 678,
+      ""name"": ""1. Did_Smoking_Duration"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field asks for the duration of the patient's smoking habit. The Chinese label is '\u6301\u7e8c\u6642\u9593'.""
+    },
+    {
+      ""id"": ""679_1. Did_Smoking_Consumption"",
+      ""xref"": 679,
+      ""name"": ""1. Did_Smoking_Consumption"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field asks for the patient's daily cigarette consumption. The Chinese label is '\u6bcf\u5929\u7528\u91cf'.""
+    },
+    {
+      ""id"": ""680_1. Did_Drinking"",
+      ""xref"": 680,
+      ""name"": ""1. Did_Drinking"",
+      ""label"": null,
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate if the patient has an alcohol drinking habit. The Chinese label is '\u98f2\u9152'.""
+    },
+    {
+      ""id"": ""682_1. Did_Drinking_Duration"",
+      ""xref"": 682,
+      ""name"": ""1. Did_Drinking_Duration"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field asks for the duration of the patient's drinking habit. The Chinese label is '\u6301\u7e8c\u6642\u9593'.""
+    },
+    {
+      ""id"": ""683_1. Did_Drinking_Consumption"",
+      ""xref"": 683,
+      ""name"": ""1. Did_Drinking_Consumption"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field asks for the patient's daily alcohol consumption. The Chinese label is '\u6bcf\u5929\u7528\u91cf'.""
+    },
+    {
+      ""id"": ""684_1. Did_Drugs taking"",
+      ""xref"": 684,
+      ""name"": ""1. Did_Drugs taking"",
+      ""label"": null,
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate if the patient is taking any medication or drugs. The Chinese label is '\u670d\u7528\u85e5\u7269'.""
+    },
+    {
+      ""id"": ""686_1. Did_Drugs taking_Duration"",
+      ""xref"": 686,
+      ""name"": ""1. Did_Drugs taking_Duration"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field asks for the duration the patient has been taking medication or drugs. The Chinese label is '\u6301\u7e8c\u6642\u9593'.""
+    },
+    {
+      ""id"": ""687_1. Did_Drugs taking_Consumption"",
+      ""xref"": 687,
+      ""name"": ""1. Did_Drugs taking_Consumption"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field asks for details about the medication or drugs the patient is taking, including dosage. The Chinese label is '\u8a73\u60c5'.""
+    },
+    {
+      ""id"": ""688_2. Date_dd"",
+      ""xref"": 688,
+      ""name"": ""2. Date_dd"",
+      ""label"": ""2. Date_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""This field requires the user to enter the day (DD) of the first medical consultation. The Chinese label is '\u65e5'.""
+    },
+    {
+      ""id"": ""689_2. Date_mm"",
+      ""xref"": 689,
+      ""name"": ""2. Date_mm"",
+      ""label"": ""2. Date_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""This field requires the user to enter the month (MM) of the first medical consultation. The Chinese label is '\u6708'.""
+    },
+    {
+      ""id"": ""690_2. Date_yyyy"",
+      ""xref"": 690,
+      ""name"": ""2. Date_yyyy"",
+      ""label"": ""2. Date_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""This field requires the user to enter the year (YYYY) of the first medical consultation. The Chinese label is '\u5e74'.""
+    },
+    {
+      ""id"": ""691_2. Name of the Doctor"",
+      ""xref"": 691,
+      ""name"": ""2. Name of the Doctor"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the user to enter the full name of the attending doctor. The Chinese label is '\u91ab\u751f\u59d3\u540d'.""
+    },
+    {
+      ""id"": ""692_2. Symptom(s)/complaint(s)"",
+      ""xref"": 692,
+      ""name"": ""2. Symptom(s)/complaint(s)"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires a description of the symptoms or complaints the patient presented during the first consultation. The Chinese label is '\u9996\u6b21\u770b\u8a3a\u6642\u51fa\u73fe\u7684\u75c5\u5fb5'.""
+    },
+    {
+      ""id"": ""693_2. How long had the patient been"",
+      ""xref"": 693,
+      ""name"": ""2. How long had the patient been"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field asks for the duration of the symptoms before the patient's first consultation. The Chinese label is '\u9019\u4e9b\u75c5\u5fb5\u5728\u9996\u6b21\u770b\u8a3a\u524d\u6301\u7e8c\u6642\u9593'.""
+    },
+    {
+      ""id"": ""694_2. Diagnosis"",
+      ""xref"": 694,
+      ""name"": ""2. Diagnosis"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the medical diagnosis provided by the doctor. The user is also asked to provide test results to confirm the diagnosis. The Chinese label is '\u8a3a\u65b7'.""
+    },
+    {
+      ""id"": ""695_2. ICD 10 Codes"",
+      ""xref"": 695,
+      ""name"": ""2. ICD 10 Codes"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires the International Classification of Diseases, 10th Revision (ICD-10) code corresponding to the diagnosis. The Chinese label is '\u570b\u969b\u75be\u75c5\u5206\u985e\u7de8\u78bc (ICD-10)'.""
+    },
+    {
+      ""id"": ""696_2. Date of_dd"",
+      ""xref"": 696,
+      ""name"": ""2. Date of_dd"",
+      ""label"": ""2. Date of_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""This field requires the user to enter the day (DD) on which the accident occurred. The Chinese label is '\u65e5'.""
+    },
+    {
+      ""id"": ""697_2. Date of_mm"",
+      ""xref"": 697,
+      ""name"": ""2. Date of_mm"",
+      ""label"": ""2. Date of_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""This field requires the user to enter the month (MM) in which the accident occurred. The Chinese label is '\u6708'.""
+    },
+    {
+      ""id"": ""698_2. Date of_yyyy"",
+      ""xref"": 698,
+      ""name"": ""2. Date of_yyyy"",
+      ""label"": ""2. Date of_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""This field requires the user to enter the year (YYYY) in which the accident occurred. The Chinese label is '\u5e74'.""
+    },
+    {
+      ""id"": ""699_2. Cause of Injury"",
+      ""xref"": 699,
+      ""name"": ""2. Cause of Injury"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires a description of the cause of the injury. The Chinese label is '\u53d7\u50b7\u539f\u56e0'.""
+    },
+    {
+      ""id"": ""700_2. Nature, Severity of Injury and body parts injured"",
+      ""xref"": 700,
+      ""name"": ""2. Nature, Severity of Injury and body parts injured"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""This field requires a description of the nature and severity of the injury, as well as which body parts were injured. The Chinese label is '\u53d7\u50b7\u7684\u90e8\u4f4d, \u6027\u8cea\u548c\u7a0b\u5ea6'.""
+    }
+  ],
+  ""1"": [
+    {
+      ""id"": ""330_2. Any_Bruise"",
+      ""xref"": 330,
+      ""name"": ""2. Any_Bruise"",
+      ""label"": null,
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate if there are any bruises. This does not include swelling.""
+    },
+    {
+      ""id"": ""331_2. Any_Laceration"",
+      ""xref"": 331,
+      ""name"": ""2. Any_Laceration"",
+      ""label"": null,
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate if there are any lacerations, abrasions, wounds, bleeding, or fractures.""
+    },
+    {
+      ""id"": ""334_2. Any_Other visible wound"",
+      ""xref"": 334,
+      ""name"": ""2. Any_Other visible wound"",
+      ""label"": null,
+      ""type"": ""CheckBox"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate if there are any other visible wounds. If checked, details should be provided in the corresponding specification field.""
+    },
+    {
+      ""id"": ""336_2. Any_Other visible wound_pls specify"",
+      ""xref"": 336,
+      ""name"": ""2. Any_Other visible wound_pls specify"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to specify the details of any other visible wounds if the corresponding checkbox is selected.""
+    },
+    {
+      ""id"": ""337_2. Any_Details"",
+      ""xref"": 337,
+      ""name"": ""2. Any_Details"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide detailed information about the indicated wounds.""
+    },
+    {
+      ""id"": ""343_2. Please check the box_1"",
+      ""xref"": 343,
+      ""name"": ""2. Please check the box_1"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' for the question of whether the incident is related to self-harm.""
+    },
+    {
+      ""id"": ""339_2. Please check the box_1"",
+      ""xref"": 339,
+      ""name"": ""2. Please check the box_1"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' for the question of whether the incident is related to self-harm.""
+    },
+    {
+      ""id"": ""341_2. Please check the box_2"",
+      ""xref"": 341,
+      ""name"": ""2. Please check the box_2"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' for the question of whether the incident is related to being under the influence of alcohol or psychiatric drugs.""
+    },
+    {
+      ""id"": ""348_2. Please check the box_2"",
+      ""xref"": 348,
+      ""name"": ""2. Please check the box_2"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' for the question of whether the incident is related to being under the influence of alcohol or psychiatric drugs.""
+    },
+    {
+      ""id"": ""349_2. Please check the box_3"",
+      ""xref"": 349,
+      ""name"": ""2. Please check the box_3"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' for the question of whether the incident is related to high-risk activities.""
+    },
+    {
+      ""id"": ""344_2. Please check the box_3"",
+      ""xref"": 344,
+      ""name"": ""2. Please check the box_3"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' for the question of whether the incident is related to high-risk activities.""
+    },
+    {
+      ""id"": ""352_2. Please check the box_4"",
+      ""xref"": 352,
+      ""name"": ""2. Please check the box_4"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' for the question of whether the incident is related to AIDS or other sexually transmitted diseases.""
+    },
+    {
+      ""id"": ""346_2. Please check the box_4"",
+      ""xref"": 346,
+      ""name"": ""2. Please check the box_4"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' for the question of whether the incident is related to AIDS or other sexually transmitted diseases.""
+    },
+    {
+      ""id"": ""354_2. Please check the box_5"",
+      ""xref"": 354,
+      ""name"": ""2. Please check the box_5"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' for the question of whether the incident is related to the patient's occupation.""
+    },
+    {
+      ""id"": ""356_2. Please check the box_5"",
+      ""xref"": 356,
+      ""name"": ""2. Please check the box_5"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' for the question of whether the incident is related to the patient's occupation.""
+    },
+    {
+      ""id"": ""359_2. Please check the box_6"",
+      ""xref"": 359,
+      ""name"": ""2. Please check the box_6"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' for the question of whether the incident is related to psychological factors.""
+    },
+    {
+      ""id"": ""361_2. Please check the box_6"",
+      ""xref"": 361,
+      ""name"": ""2. Please check the box_6"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' for the question of whether the incident is related to psychological factors.""
+    },
+    {
+      ""id"": ""358_2. Please check the box_If yes, Please specify"",
+      ""xref"": 358,
+      ""name"": ""2. Please check the box_If yes, Please specify"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide details if 'Yes' was selected for any of the preceding questions about contributing factors (e.g., self-harm, high-risk activities).""
+    },
+    {
+      ""id"": ""370_2. Name and address_Name of the Doctor"",
+      ""xref"": 370,
+      ""name"": ""2. Name and address_Name of the Doctor"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the name of the referring doctor.""
+    },
+    {
+      ""id"": ""371_2. Name and address_Corresponding"",
+      ""xref"": 371,
+      ""name"": ""2. Name and address_Corresponding"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the corresponding address of the referring doctor.""
+    },
+    {
+      ""id"": ""372_3. Name of hospital"",
+      ""xref"": 372,
+      ""name"": ""3. Name of hospital"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the name of the hospital.""
+    },
+    {
+      ""id"": ""367_3. Date of admission_dd"",
+      ""xref"": 367,
+      ""name"": ""3. Date of admission_dd"",
+      ""label"": ""3. Date of admission_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the day (DD) of the hospital admission date.""
+    },
+    {
+      ""id"": ""368_3. Date of admission_mm"",
+      ""xref"": 368,
+      ""name"": ""3. Date of admission_mm"",
+      ""label"": ""3. Date of admission_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the month (MM) of the hospital admission date.""
+    },
+    {
+      ""id"": ""369_3. Date of admission_yyyy"",
+      ""xref"": 369,
+      ""name"": ""3. Date of admission_yyyy"",
+      ""label"": ""3. Date of admission_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A text field for entering the year (YYYY) of the hospital admission date.""
+    },
+    {
+      ""id"": ""362_3. Date of Discharge_dd"",
+      ""xref"": 362,
+      ""name"": ""3. Date of Discharge_dd"",
+      ""label"": ""3. Date of Discharge_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the day (DD) of the hospital discharge date.""
+    },
+    {
+      ""id"": ""363_3. Date of Discharge_mm"",
+      ""xref"": 363,
+      ""name"": ""3. Date of Discharge_mm"",
+      ""label"": ""3. Date of Discharge_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the month (MM) of the hospital discharge date.""
+    },
+    {
+      ""id"": ""364_3. Date of Discharge_yyyy"",
+      ""xref"": 364,
+      ""name"": ""3. Date of Discharge_yyyy"",
+      ""label"": ""3. Date of Discharge_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A text field for entering the year (YYYY) of the hospital discharge date.""
+    },
+    {
+      ""id"": ""365_3. Diagnosis at the time of discharge"",
+      ""xref"": 365,
+      ""name"": ""3. Diagnosis at the time of discharge"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the medical diagnosis at the time of the patient's discharge.""
+    },
+    {
+      ""id"": ""373_3. Any Operation"",
+      ""xref"": 373,
+      ""name"": ""3. Any Operation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' to the question 'Was any surgery performed?'.""
+    },
+    {
+      ""id"": ""376_3. Any Operation_Operation and Surgery Name"",
+      ""xref"": 376,
+      ""name"": ""3. Any Operation_Operation and Surgery Name"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the name of the surgery or operation performed.""
+    },
+    {
+      ""id"": ""375_3. Date_Any Operation_dd"",
+      ""xref"": 375,
+      ""name"": ""3. Date_Any Operation_dd"",
+      ""label"": ""3. Date_Any Operation_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the day (DD) on which the surgery was performed.""
+    },
+    {
+      ""id"": ""381_3. Date_Any Operation__mm"",
+      ""xref"": 381,
+      ""name"": ""3. Date_Any Operation__mm"",
+      ""label"": ""3. Date_Any Operation__mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the month (MM) on which the surgery was performed.""
+    },
+    {
+      ""id"": ""382_3. Date_Any Operation_yyyy"",
+      ""xref"": 382,
+      ""name"": ""3. Date_Any Operation_yyyy"",
+      ""label"": ""3. Date_Any Operation_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A text field for entering the year (YYYY) on which the surgery was performed.""
+    },
+    {
+      ""id"": ""377_3. Any treatment other than Operation"",
+      ""xref"": 377,
+      ""name"": ""3. Any treatment other than Operation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' to the question 'Was any treatment other than surgery received?'.""
+    },
+    {
+      ""id"": ""378_3. Any treatment other than Operation_Treatment Name"",
+      ""xref"": 378,
+      ""name"": ""3. Any treatment other than Operation_Treatment Name"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for entering the name of any non-surgical treatment received.""
+    },
+    {
+      ""id"": ""380_3. Any treatment other than Operation_dd"",
+      ""xref"": 380,
+      ""name"": ""3. Any treatment other than Operation_dd"",
+      ""label"": ""3. Any treatment other than Operation_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the day (DD) on which the non-surgical treatment was administered.""
+    },
+    {
+      ""id"": ""388_3. Any treatment other than Operation_mm"",
+      ""xref"": 388,
+      ""name"": ""3. Any treatment other than Operation_mm"",
+      ""label"": ""3. Any treatment other than Operation_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A text field for entering the month (MM) on which the non-surgical treatment was administered.""
+    },
+    {
+      ""id"": ""389_3. Any treatment other than Operation_yyyy"",
+      ""xref"": 389,
+      ""name"": ""3. Any treatment other than Operation_yyyy"",
+      ""label"": ""3. Any treatment other than Operation_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A text field for entering the year (YYYY) on which the non-surgical treatment was administered.""
+    },
+    {
+      ""id"": ""383_3. Whether above operation"",
+      ""xref"": 383,
+      ""name"": ""3. Whether above operation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' to the question 'Could the above treatment be performed on an outpatient basis?'.""
+    },
+    {
+      ""id"": ""384_3. Whether above"",
+      ""xref"": 384,
+      ""name"": ""3. Whether above"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' to the question 'Could the above treatment be performed on an outpatient basis?'. If 'No' is selected, a reason must be provided.""
+    },
+    {
+      ""id"": ""386_3. Any Operation"",
+      ""xref"": 386,
+      ""name"": ""3. Any Operation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' to the question 'Was any surgery performed?'.""
+    },
+    {
+      ""id"": ""391_3. Any treatment other than Operation"",
+      ""xref"": 391,
+      ""name"": ""3. Any treatment other than Operation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' to the question 'Was any treatment other than surgery received?'.""
+    },
+    {
+      ""id"": ""387_3. Whether above operation"",
+      ""xref"": 387,
+      ""name"": ""3. Whether above operation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A text field for providing the reason why hospitalization was necessary for the treatment, if it could not be performed on an outpatient basis.""
+    },
+    {
+      ""id"": ""395_3. Was the hospitalisation"",
+      ""xref"": 395,
+      ""name"": ""3. Was the hospitalisation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' to the question of whether the hospitalization was for experimental or investigative purposes.""
+    },
+    {
+      ""id"": ""398_3. Was the hospitalisation"",
+      ""xref"": 398,
+      ""name"": ""3. Was the hospitalisation"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' to the question of whether the hospitalization was for experimental or investigative purposes.""
+    },
+    {
+      ""id"": ""399_3. Brief discharge"",
+      ""xref"": 399,
+      ""name"": ""3. Brief discharge"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for a brief discharge summary, including details of the treatment, diagnosis process, results, complications, and/or follow-up plan.""
+    },
+    {
+      ""id"": ""396_3. Did the patient take any home leave"",
+      ""xref"": 396,
+      ""name"": ""3. Did the patient take any home leave"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'No' to the question 'Did the patient take any home leave during the hospital confinement?'.""
+    },
+    {
+      ""id"": ""401_3. Did the patient take any home leave during the hospital conginement"",
+      ""xref"": 401,
+      ""name"": ""3. Did the patient take any home leave during the hospital conginement"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for specifying the period and reason for any home leave taken by the patient during their hospitalization.""
+    },
+    {
+      ""id"": ""402_3. Did the patient take any home leave"",
+      ""xref"": 402,
+      ""name"": ""3. Did the patient take any home leave"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox representing 'Yes' to the question 'Did the patient take any home leave during the hospital confinement?'. If 'Yes' is selected, details must be provided.""
+    }
+  ],
+  ""2"": [
+    {
+      ""id"": ""407_4.Did the patients"",
+      ""xref"": 407,
+      ""name"": ""4.Did the patients"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Yes' (\u662f) to the question 'Does the patient have cancer, malignant or pre-cancerous conditions?'.""
+    },
+    {
+      ""id"": ""405_4.Did the patients"",
+      ""xref"": 405,
+      ""name"": ""4.Did the patients"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'No' (\u5426) to the question 'Does the patient have cancer, malignant or pre-cancerous conditions?'.""
+    },
+    {
+      ""id"": ""409_4. Site and organ involved"",
+      ""xref"": 409,
+      ""name"": ""4. Site and organ involved"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field asking the user to specify the location and organs involved in the cancer or tumor.""
+    },
+    {
+      ""id"": ""406_4. Lymph node involved"",
+      ""xref"": 406,
+      ""name"": ""4. Lymph node involved"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field asking the user to specify if the cancer has spread to the lymph nodes and provide details.""
+    },
+    {
+      ""id"": ""413_4. Was biopsy done for patient"",
+      ""xref"": 413,
+      ""name"": ""4. Was biopsy done for patient"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Yes' (\u6709) to the question 'Has the patient undergone a biopsy?'.""
+    },
+    {
+      ""id"": ""414_4. Was biopsy done for patient"",
+      ""xref"": 414,
+      ""name"": ""4. Was biopsy done for patient"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'No' (\u6c92\u6709) to the question 'Has the patient undergone a biopsy?'.""
+    },
+    {
+      ""id"": ""416_4. Was biopsy done for patient_dd"",
+      ""xref"": 416,
+      ""name"": ""4. Was biopsy done for patient_dd"",
+      ""label"": ""4. Was biopsy done for patient_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the day (\u65e5) of the month the biopsy was performed.""
+    },
+    {
+      ""id"": ""415_4. Was biopsy done for patient_mm"",
+      ""xref"": 415,
+      ""name"": ""4. Was biopsy done for patient_mm"",
+      ""label"": ""4. Was biopsy done for patient_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the month (\u6708) the biopsy was performed.""
+    },
+    {
+      ""id"": ""423_4. Was biopsy done for patient_yyyy"",
+      ""xref"": 423,
+      ""name"": ""4. Was biopsy done for patient_yyyy"",
+      ""label"": ""4. Was biopsy done for patient_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A field to enter the year (\u5e74) the biopsy was performed.""
+    },
+    {
+      ""id"": ""420_4. Biopsy result"",
+      ""xref"": 420,
+      ""name"": ""4. Biopsy result"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the results of the biopsy.""
+    },
+    {
+      ""id"": ""421_4. Other diagnostic"",
+      ""xref"": 421,
+      ""name"": ""4. Other diagnostic"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to enter the results of other diagnostic tests.""
+    },
+    {
+      ""id"": ""422_4. Type of treatment"",
+      ""xref"": 422,
+      ""name"": ""4. Type of treatment"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for 'Surgical treatment' (\u5916\u79d1\u6cbb\u7642) as a type of cancer treatment received.""
+    },
+    {
+      ""id"": ""418_4. Type of treatment"",
+      ""xref"": 418,
+      ""name"": ""4. Type of treatment"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for 'Hormone therapy' (\u8377\u723e\u8499\u6cbb\u7642) as a type of cancer treatment received.""
+    },
+    {
+      ""id"": ""428_4. Type of treatment"",
+      ""xref"": 428,
+      ""name"": ""4. Type of treatment"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for 'Chemotherapy' (\u5316\u7642) as a type of cancer treatment received.""
+    },
+    {
+      ""id"": ""430_4. Type of treatment"",
+      ""xref"": 430,
+      ""name"": ""4. Type of treatment"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for 'Targeted therapy' (\u6a19\u9776\u6cbb\u7642) as a type of cancer treatment received.""
+    },
+    {
+      ""id"": ""429_4. Type of treatment"",
+      ""xref"": 429,
+      ""name"": ""4. Type of treatment"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Label for the 'Date' (\u65e5\u671f) section where the user should input the start date of the corresponding treatment.""
+    },
+    {
+      ""id"": ""433_4. Type of treatment-Other"",
+      ""xref"": 433,
+      ""name"": ""4. Type of treatment-Other"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox for 'Other' (\u5176\u4ed6) types of cancer treatment received.""
+    },
+    {
+      ""id"": ""434_4. Type of treatment_dd"",
+      ""xref"": 434,
+      ""name"": ""4. Type of treatment_dd"",
+      ""label"": ""4. Type of treatment_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the day (\u65e5) of the month a treatment started.""
+    },
+    {
+      ""id"": ""438_4. Type of treatment_mm"",
+      ""xref"": 438,
+      ""name"": ""4. Type of treatment_mm"",
+      ""label"": ""4. Type of treatment_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the month (\u6708) a treatment started.""
+    },
+    {
+      ""id"": ""439_4. Type of treatment_yyyy"",
+      ""xref"": 439,
+      ""name"": ""4. Type of treatment_yyyy"",
+      ""label"": ""4. Type of treatment_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A field to enter the year (\u5e74) a treatment started.""
+    },
+    {
+      ""id"": ""440_4. Please provide details of the"",
+      ""xref"": 440,
+      ""name"": ""4. Please provide details of the"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field asking the user to provide detailed information about the treatments, such as drug dosage, treatment duration, other treatment categories, and any side effects.""
+    },
+    {
+      ""id"": ""435_4. Has the cancer"",
+      ""xref"": 435,
+      ""name"": ""4. Has the cancer"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field asking the user to state whether the cancer has been completely removed or cured.""
+    },
+    {
+      ""id"": ""436_4. Completion_dd"",
+      ""xref"": 436,
+      ""name"": ""4. Completion_dd"",
+      ""label"": ""4. Completion_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the day (\u65e5) of the month when all cancer-related treatments were completed.""
+    },
+    {
+      ""id"": ""437_4. Completion_mm"",
+      ""xref"": 437,
+      ""name"": ""4. Completion_mm"",
+      ""label"": ""4. Completion_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the month (\u6708) when all cancer-related treatments were completed.""
+    },
+    {
+      ""id"": ""424_4. Completion_yyyy"",
+      ""xref"": 424,
+      ""name"": ""4. Completion_yyyy"",
+      ""label"": ""4. Completion_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A field to enter the year (\u5e74) when all cancer-related treatments were completed.""
+    },
+    {
+      ""id"": ""425_5. Specify all physical or mental imparirment"",
+      ""xref"": 425,
+      ""name"": ""5. Specify all physical or mental imparirment"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to specify all physical or mental impairments, including their effects, severity, and duration. A certificate of disability assessment may be required.""
+    },
+    {
+      ""id"": ""426_5. Provide the prognosis for each of the above (if any)"",
+      ""xref"": 426,
+      ""name"": ""5. Provide the prognosis for each of the above (if any)"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to provide the prognosis for each of the impairments listed above, if applicable.""
+    },
+    {
+      ""id"": ""427_5. Patient\u2019s occupation and exact nature of occupational"",
+      ""xref"": 427,
+      ""name"": ""5. Patient\u2019s occupation and exact nature of occupational"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field for the user to state the patient's occupation and the exact nature of their occupational duties.""
+    },
+    {
+      ""id"": ""441_5. some of his job duties_From"",
+      ""xref"": 441,
+      ""name"": ""5. some of his job duties_From"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 10,
+      ""description"": ""A date field to enter the start date ('From') of the period when the patient was unable to perform some of their job duties.""
+    },
+    {
+      ""id"": ""442_5. some of his job duties_To"",
+      ""xref"": 442,
+      ""name"": ""5. some of his job duties_To"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 10,
+      ""description"": ""A date field to enter the end date ('To') of the period when the patient was unable to perform some of their job duties.""
+    },
+    {
+      ""id"": ""443_5. all of his job duties_From"",
+      ""xref"": 443,
+      ""name"": ""5. all of his job duties_From"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 10,
+      ""description"": ""A date field to enter the start date ('From') of the period when the patient was unable to perform all of their job duties.""
+    },
+    {
+      ""id"": ""444_5. all of his job duties_To"",
+      ""xref"": 444,
+      ""name"": ""5. all of his job duties_To"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 10,
+      ""description"": ""A date field to enter the end date ('To') of the period when the patient was unable to perform all of their job duties.""
+    },
+    {
+      ""id"": ""445_5. Date the disability started_dd"",
+      ""xref"": 445,
+      ""name"": ""5. Date the disability started_dd"",
+      ""label"": ""5. Date the disability started_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the day (\u65e5) of the month the disability started.""
+    },
+    {
+      ""id"": ""446_5. Date the disability started_mm"",
+      ""xref"": 446,
+      ""name"": ""5. Date the disability started_mm"",
+      ""label"": ""5. Date the disability started_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the month (\u6708) the disability started.""
+    },
+    {
+      ""id"": ""447_5. Date the disability started_yyyy"",
+      ""xref"": 447,
+      ""name"": ""5. Date the disability started_yyyy"",
+      ""label"": ""5. Date the disability started_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A field to enter the year (\u5e74) the disability started.""
+    },
+    {
+      ""id"": ""448_5. Washing or bathing"",
+      ""xref"": 448,
+      ""name"": ""5. Washing or bathing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs no assistance' (\u4e0d\u9700\u8981\u5354\u52a9) for the activity 'Washing or bathing'.""
+    },
+    {
+      ""id"": ""450_5. Washing or bathing"",
+      ""xref"": 450,
+      ""name"": ""5. Washing or bathing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Occasionally needs assistance or supervision' (\u5076\u723e\u9700\u8981\u5354\u52a9\u6216\u76e3\u5bdf) for the activity 'Washing or bathing'.""
+    },
+    {
+      ""id"": ""452_5. Washing or bathing"",
+      ""xref"": 452,
+      ""name"": ""5. Washing or bathing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs assistance most of the time' (\u5927\u90e8\u5206\u6642\u9593\u90fd\u9700\u8981\u5354\u52a9) for the activity 'Washing or bathing'.""
+    },
+    {
+      ""id"": ""453_5. Washing or bathing"",
+      ""xref"": 453,
+      ""name"": ""5. Washing or bathing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Completely unable to perform independently' (\u5b8c\u5168\u7121\u6cd5\u81ea\u884c\u5b8c\u6210) for the activity 'Washing or bathing'.""
+    },
+    {
+      ""id"": ""454_5. Dressing"",
+      ""xref"": 454,
+      ""name"": ""5. Dressing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs no assistance' (\u4e0d\u9700\u8981\u5354\u52a9) for the activity 'Dressing' (\u63db/\u7a7f\u8863\u670d).""
+    },
+    {
+      ""id"": ""459_5. Dressing"",
+      ""xref"": 459,
+      ""name"": ""5. Dressing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Occasionally needs assistance or supervision' (\u5076\u723e\u9700\u8981\u5354\u52a9\u6216\u76e3\u5bdf) for the activity 'Dressing' (\u63db/\u7a7f\u8863\u670d).""
+    },
+    {
+      ""id"": ""463_5. Dressing"",
+      ""xref"": 463,
+      ""name"": ""5. Dressing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs assistance most of the time' (\u5927\u90e8\u5206\u6642\u9593\u90fd\u9700\u8981\u5354\u52a9) for the activity 'Dressing' (\u63db/\u7a7f\u8863\u670d).""
+    },
+    {
+      ""id"": ""464_5. Dressing"",
+      ""xref"": 464,
+      ""name"": ""5. Dressing"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Completely unable to perform independently' (\u5b8c\u5168\u7121\u6cd5\u81ea\u884c\u5b8c\u6210) for the activity 'Dressing' (\u63db/\u7a7f\u8863\u670d).""
+    },
+    {
+      ""id"": ""466_5. Feeding"",
+      ""xref"": 466,
+      ""name"": ""5. Feeding"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs no assistance' (\u4e0d\u9700\u8981\u5354\u52a9) for the activity 'Feeding' (\u9032\u98df).""
+    },
+    {
+      ""id"": ""468_5. Toileting"",
+      ""xref"": 468,
+      ""name"": ""5. Toileting"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs no assistance' (\u4e0d\u9700\u8981\u5354\u52a9) for the activity 'Toileting' (\u5982\u5ec1).""
+    },
+    {
+      ""id"": ""471_5. Feeding"",
+      ""xref"": 471,
+      ""name"": ""5. Feeding"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs assistance most of the time' (\u5927\u90e8\u5206\u6642\u9593\u90fd\u9700\u8981\u5354\u52a9) for the activity 'Feeding' (\u9032\u98df).""
+    },
+    {
+      ""id"": ""470_5. Feeding"",
+      ""xref"": 470,
+      ""name"": ""5. Feeding"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Completely unable to perform independently' (\u5b8c\u5168\u7121\u6cd5\u81ea\u884c\u5b8c\u6210) for the activity 'Feeding' (\u9032\u98df).""
+    },
+    {
+      ""id"": ""461_5. Feeding"",
+      ""xref"": 461,
+      ""name"": ""5. Feeding"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Occasionally needs assistance or supervision' (\u5076\u723e\u9700\u8981\u5354\u52a9\u6216\u76e3\u5bdf) for the activity 'Feeding' (\u9032\u98df).""
+    },
+    {
+      ""id"": ""462_5. Toileting"",
+      ""xref"": 462,
+      ""name"": ""5. Toileting"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Occasionally needs assistance or supervision' (\u5076\u723e\u9700\u8981\u5354\u52a9\u6216\u76e3\u5bdf) for the activity 'Toileting' (\u5982\u5ec1).""
+    },
+    {
+      ""id"": ""473_5. Toileting"",
+      ""xref"": 473,
+      ""name"": ""5. Toileting"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs assistance most of the time' (\u5927\u90e8\u5206\u6642\u9593\u90fd\u9700\u8981\u5354\u52a9) for the activity 'Toileting' (\u5982\u5ec1).""
+    },
+    {
+      ""id"": ""476_5. Toileting"",
+      ""xref"": 476,
+      ""name"": ""5. Toileting"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Completely unable to perform independently' (\u5b8c\u5168\u7121\u6cd5\u81ea\u884c\u5b8c\u6210) for the activity 'Toileting' (\u5982\u5ec1).""
+    },
+    {
+      ""id"": ""478_5. Transferring"",
+      ""xref"": 478,
+      ""name"": ""5. Transferring"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs no assistance' (\u4e0d\u9700\u8981\u5354\u52a9) for the activity 'Transferring from lying to sitting' (\u79fb\u52d5\u80fd\u529b - \u5f9e\u8eba\u8457\u5230\u5750\u7acb).""
+    },
+    {
+      ""id"": ""481_5. Transferring"",
+      ""xref"": 481,
+      ""name"": ""5. Transferring"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Occasionally needs assistance or supervision' (\u5076\u723e\u9700\u8981\u5354\u52a9\u6216\u76e3\u5bdf) for the activity 'Transferring from lying to sitting'.""
+    },
+    {
+      ""id"": ""480_5. Transferring"",
+      ""xref"": 480,
+      ""name"": ""5. Transferring"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs assistance most of the time' (\u5927\u90e8\u5206\u6642\u9593\u90fd\u9700\u8981\u5354\u52a9) for the activity 'Transferring from lying to sitting'.""
+    },
+    {
+      ""id"": ""486_5. Transferring"",
+      ""xref"": 486,
+      ""name"": ""5. Transferring"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Completely unable to perform independently' (\u5b8c\u5168\u7121\u6cd5\u81ea\u884c\u5b8c\u6210) for the activity 'Transferring from lying to sitting'.""
+    },
+    {
+      ""id"": ""488_5. Mobility"",
+      ""xref"": 488,
+      ""name"": ""5. Mobility"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs no assistance' (\u4e0d\u9700\u8981\u5354\u52a9) for the activity 'Mobility within the same room/floor' (\u6d3b\u52d5\u80fd\u529b - \u5728\u540c\u4e00\u5c64\u5ba4\u5167\u7684\u6d3b\u52d5\u80fd\u529b).""
+    },
+    {
+      ""id"": ""484_5. Mobility"",
+      ""xref"": 484,
+      ""name"": ""5. Mobility"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Occasionally needs assistance or supervision' (\u5076\u723e\u9700\u8981\u5354\u52a9\u6216\u76e3\u5bdf) for the activity 'Mobility within the same room/floor'.""
+    },
+    {
+      ""id"": ""492_5. Mobility"",
+      ""xref"": 492,
+      ""name"": ""5. Mobility"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Needs assistance most of the time' (\u5927\u90e8\u5206\u6642\u9593\u90fd\u9700\u8981\u5354\u52a9) for the activity 'Mobility within the same room/floor'.""
+    },
+    {
+      ""id"": ""491_5. Mobility"",
+      ""xref"": 491,
+      ""name"": ""5. Mobility"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""Checkbox option for 'Completely unable to perform independently' (\u5b8c\u5168\u7121\u6cd5\u81ea\u884c\u5b8c\u6210) for the activity 'Mobility within the same room/floor'.""
+    }
+  ],
+  ""3"": [
+    {
+      ""id"": ""494_6. Has the patient"",
+      ""xref"": 494,
+      ""name"": ""6. Has the patient"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate 'Yes', confirming that the patient has previously suffered from related conditions.""
+    },
+    {
+      ""id"": ""497_6. Has the patient"",
+      ""xref"": 497,
+      ""name"": ""6. Has the patient"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate 'No', confirming that the patient has not previously suffered from related conditions.""
+    },
+    {
+      ""id"": ""495_6. Has the patient previously suffered from related conditions"",
+      ""xref"": 495,
+      ""name"": ""6. Has the patient previously suffered from related conditions"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A question asking if the patient has previously suffered from related conditions. If yes, the user is instructed to provide the consultation date, relevant information, and diagnosis in the fields below.""
+    },
+    {
+      ""id"": ""502_6. According to your record"",
+      ""xref"": 502,
+      ""name"": ""6. According to your record"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate 'Yes' in response to the question 'According to your records, does the patient have a history of the following conditions?'.""
+    },
+    {
+      ""id"": ""504_6. According to your record"",
+      ""xref"": 504,
+      ""name"": ""6. According to your record"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for the user to indicate 'No' in response to the question 'According to your records, does the patient have a history of the following conditions?'.""
+    },
+    {
+      ""id"": ""507_6. According"",
+      ""xref"": 507,
+      ""name"": ""6. According"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate the patient has a history of 'Diabetes' (\u7cd6\u5c3f\u75c5).""
+    },
+    {
+      ""id"": ""500_6. According"",
+      ""xref"": 500,
+      ""name"": ""6. According"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate the patient has a history of 'Hypertension' (\u9ad8\u8840\u58d3).""
+    },
+    {
+      ""id"": ""514_6. According"",
+      ""xref"": 514,
+      ""name"": ""6. According"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate the patient is on 'Long-term medication' (\u9577\u671f\u670d\u85e5).""
+    },
+    {
+      ""id"": ""517_6. According"",
+      ""xref"": 517,
+      ""name"": ""6. According"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate the patient has a history of 'Hepatitis B' (\u4e59\u578b\u809d\u708e).""
+    },
+    {
+      ""id"": ""515_6. According"",
+      ""xref"": 515,
+      ""name"": ""6. According"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate the patient has a history of 'Kidney disease/Nephropathy' (\u814e\u75c5\u8b8a).""
+    },
+    {
+      ""id"": ""508_6. According"",
+      ""xref"": 508,
+      ""name"": ""6. According"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate the patient has a history of 'Other' conditions (\u5176\u4ed6).""
+    },
+    {
+      ""id"": ""506_6. According_Other"",
+      ""xref"": 506,
+      ""name"": ""6. According_Other"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A text field to provide details if the 'Other' checkbox is ticked for the patient's medical history.""
+    },
+    {
+      ""id"": ""525_6. According to"",
+      ""xref"": 525,
+      ""name"": ""6. According to"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A question asking the user to confirm, based on their records, if the patient has a history of specific diseases and to provide details in the subsequent table if the answer is yes.""
+    },
+    {
+      ""id"": ""526_6. Date_dd-1"",
+      ""xref"": 526,
+      ""name"": ""6. Date_dd-1"",
+      ""label"": ""6. Date_dd-1"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the day (DD) of the first consultation or hospitalization date.""
+    },
+    {
+      ""id"": ""527_6. Date_mm-1"",
+      ""xref"": 527,
+      ""name"": ""6. Date_mm-1"",
+      ""label"": ""6. Date_mm-1"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the month (MM) of the first consultation or hospitalization date.""
+    },
+    {
+      ""id"": ""521_6. Date_yyyy-1"",
+      ""xref"": 521,
+      ""name"": ""6. Date_yyyy-1"",
+      ""label"": ""6. Date_yyyy-1"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A field to enter the year (YYYY) of the first consultation or hospitalization date.""
+    },
+    {
+      ""id"": ""522_6. Name of doctor-1"",
+      ""xref"": 522,
+      ""name"": ""6. Name of doctor-1"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the name of the doctor or hospital for the first medical history entry.""
+    },
+    {
+      ""id"": ""523_6. Final Diagnosis-1"",
+      ""xref"": 523,
+      ""name"": ""6. Final Diagnosis-1"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the diagnosis for the first medical history entry.""
+    },
+    {
+      ""id"": ""524_6. Treatments given-1"",
+      ""xref"": 524,
+      ""name"": ""6. Treatments given-1"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the treatments given, including any past or future surgeries, for the first medical history entry.""
+    },
+    {
+      ""id"": ""509_6. Date_dd-2"",
+      ""xref"": 509,
+      ""name"": ""6. Date_dd-2"",
+      ""label"": ""6. Date_dd-2"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the day (DD) of the second consultation or hospitalization date.""
+    },
+    {
+      ""id"": ""510_6. Date_mm-2"",
+      ""xref"": 510,
+      ""name"": ""6. Date_mm-2"",
+      ""label"": ""6. Date_mm-2"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field to enter the month (MM) of the second consultation or hospitalization date.""
+    },
+    {
+      ""id"": ""511_6. Date_yyyy-2"",
+      ""xref"": 511,
+      ""name"": ""6. Date_yyyy-2"",
+      ""label"": ""6. Date_yyyy-2"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A field to enter the year (YYYY) of the second consultation or hospitalization date.""
+    },
+    {
+      ""id"": ""512_6. Name of doctor-2"",
+      ""xref"": 512,
+      ""name"": ""6. Name of doctor-2"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the name of the doctor or hospital for the second medical history entry.""
+    },
+    {
+      ""id"": ""528_6. Final Diagnosis-2"",
+      ""xref"": 528,
+      ""name"": ""6. Final Diagnosis-2"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the diagnosis for the second medical history entry.""
+    },
+    {
+      ""id"": ""529_6. Treatments given-2"",
+      ""xref"": 529,
+      ""name"": ""6. Treatments given-2"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the treatments given, including any past or future surgeries, for the second medical history entry.""
+    },
+    {
+      ""id"": ""530_6. Have the biological parents"",
+      ""xref"": 530,
+      ""name"": ""6. Have the biological parents"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'Yes', confirming that the patient's biological parents, siblings, or children have suffered from the listed diseases before the age of sixty.""
+    },
+    {
+      ""id"": ""531_6. Have the biological parents"",
+      ""xref"": 531,
+      ""name"": ""6. Have the biological parents"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox to indicate 'No', confirming that the patient's biological parents, siblings, or children have not suffered from the listed diseases before the age of sixty.""
+    },
+    {
+      ""id"": ""534_6. Have the"",
+      ""xref"": 534,
+      ""name"": ""6. Have the"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for 'Cancer' (\u764c\u75c7) as a condition in the family medical history.""
+    },
+    {
+      ""id"": ""536_6. Have the"",
+      ""xref"": 536,
+      ""name"": ""6. Have the"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for 'Heart disease' (\u5fc3\u81df\u75c5) as a condition in the family medical history.""
+    },
+    {
+      ""id"": ""538_6. Have the"",
+      ""xref"": 538,
+      ""name"": ""6. Have the"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for 'Stroke' (\u4e2d\u98a8) as a condition in the family medical history.""
+    },
+    {
+      ""id"": ""539_6. Have the"",
+      ""xref"": 539,
+      ""name"": ""6. Have the"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for 'Alzheimer's disease' (\u963f\u8332\u6d77\u9ed8\u75c7) as a condition in the family medical history.""
+    },
+    {
+      ""id"": ""540_6. Have the"",
+      ""xref"": 540,
+      ""name"": ""6. Have the"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for 'Diabetes' (\u7cd6\u5c3f\u75c5) as a condition in the family medical history.""
+    },
+    {
+      ""id"": ""537_6. Have the"",
+      ""xref"": 537,
+      ""name"": ""6. Have the"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for 'Polycystic kidney disease' (\u591a\u56ca\u6027\u814e\u75c5\u8b8a) as a condition in the family medical history.""
+    },
+    {
+      ""id"": ""544_6. Have the"",
+      ""xref"": 544,
+      ""name"": ""6. Have the"",
+      ""label"": null,
+      ""type"": ""RadioButton"",
+      ""max_length"": 0,
+      ""description"": ""A checkbox for 'Other hereditary diseases' (\u5176\u4ed6\u907a\u50b3\u6027\u75be\u75c5) as a condition in the family medical history.""
+    },
+    {
+      ""id"": ""546_6. Relative"",
+      ""xref"": 546,
+      ""name"": ""6. Relative"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to specify the family member (e.g., father, mother) for the family medical history record.""
+    },
+    {
+      ""id"": ""547_6. Diagnosis"",
+      ""xref"": 547,
+      ""name"": ""6. Diagnosis"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the diagnosis or condition of the specified relative.""
+    },
+    {
+      ""id"": ""553_6. Onset age"",
+      ""xref"": 553,
+      ""name"": ""6. Onset age"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field to enter the age of onset of the condition for the specified relative.""
+    },
+    {
+      ""id"": ""554_7. Name of Physician"",
+      ""xref"": 554,
+      ""name"": ""7. Name of Physician"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field for the attending physician to enter their full name.""
+    },
+    {
+      ""id"": ""555_7. Contact tel no"",
+      ""xref"": 555,
+      ""name"": ""7. Contact tel no"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field for the attending physician to enter their contact telephone number and address.""
+    },
+    {
+      ""id"": ""548_7. Qualification"",
+      ""xref"": 548,
+      ""name"": ""7. Qualification"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field for the attending physician to enter their medical qualifications.""
+    },
+    {
+      ""id"": ""549_7. Specialty"",
+      ""xref"": 549,
+      ""name"": ""7. Specialty"",
+      ""label"": null,
+      ""type"": ""Text"",
+      ""max_length"": 0,
+      ""description"": ""A field for the attending physician to enter their professional specialty.""
+    },
+    {
+      ""id"": ""550_7. Signatuer of Physician"",
+      ""xref"": 550,
+      ""name"": ""7. Signatuer of Physician"",
+      ""label"": null,
+      ""type"": ""Signature"",
+      ""max_length"": 0,
+      ""description"": ""A space designated for the attending physician's signature.""
+    },
+    {
+      ""id"": ""556_7. Signature Date_dd"",
+      ""xref"": 556,
+      ""name"": ""7. Signature Date_dd"",
+      ""label"": ""7. Signature Date_dd"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field for the physician to enter the day (DD) of signing the form.""
+    },
+    {
+      ""id"": ""551_7. Signature Date_mm"",
+      ""xref"": 551,
+      ""name"": ""7. Signature Date_mm"",
+      ""label"": ""7. Signature Date_mm"",
+      ""type"": ""Text"",
+      ""max_length"": 2,
+      ""description"": ""A field for the physician to enter the month (MM) of signing the form.""
+    },
+    {
+      ""id"": ""552_7. Signature Date_yyyy"",
+      ""xref"": 552,
+      ""name"": ""7. Signature Date_yyyy"",
+      ""label"": ""7. Signature Date_yyyy"",
+      ""type"": ""Text"",
+      ""max_length"": 4,
+      ""description"": ""A field for the physician to enter the year (YYYY) of signing the form.""
+    }
+  ]
+}"
