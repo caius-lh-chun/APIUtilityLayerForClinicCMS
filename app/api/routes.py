@@ -1,5 +1,5 @@
 from fastapi import APIRouter,  HTTPException, Query
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse,StreamingResponse
 from app.services.auto_fill_service import FormService
 from app.models.form_fill_data import FormRequest
 import os
@@ -38,16 +38,25 @@ class DownloadRequest(BaseModel):
 
 @router.post("/download-pdf")
 def download_pdf(request: DownloadRequest):
+    form_service = FormService()
+    result = form_service.download_pdf(request.filename)
+    return StreamingResponse(
+        result,
+        media_type="application/pdf",
+        headers={
+            "Content-Disposition": f"attachment; filename={request.filename}"
+        }
+    )
     # Basic validation: only .pdf files, no path traversal
-    filename = request.filename
+    # filename = request.filename
 
-    if not filename.endswith(".pdf") or "/" in filename or "\\" in filename:
-        raise HTTPException(status_code=400, detail="Invalid filename")
+    # if not filename.endswith(".pdf") or "/" in filename or "\\" in filename:
+    #     raise HTTPException(status_code=400, detail="Invalid filename")
 
-    file_path = FILLED_PDF_DIR / filename
-    print(file_path)
+    # file_path = FILLED_PDF_DIR / filename
+    # print(file_path)
 
-    # if not file_path.is_file():
-    #     raise HTTPException(status_code=404, detail="File not found")
+    # # if not file_path.is_file():
+    # #     raise HTTPException(status_code=404, detail="File not found")
 
-    return FileResponse(path=file_path, filename=filename, media_type="application/pdf")
+    # return FileResponse(path=file_path, filename=filename, media_type="application/pdf")

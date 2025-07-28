@@ -5,6 +5,8 @@ from pathlib import Path
 from google import genai
 from datetime import datetime
 from dotenv import load_dotenv
+from . import supabase_service
+from io import BytesIO
 import time
 import fitz
 import os
@@ -14,6 +16,7 @@ try:
 
     base_dir = Path(__file__).resolve().parent.parent
     load_dotenv(dotenv_path=base_dir / ".env")  # Works locally, no error if .env missing
+
 except ImportError:
     pass  # dotenv not installed in prod or not needed
 
@@ -25,6 +28,7 @@ class FormService:
     filled_in_pdf_template_dir = base_dir / "filled_pdfs"
 
     api_key = os.getenv("GEMINI_API_KEY")
+    supa_base_mode = os.getenv("SUPABASE_MODE")
     client = genai.Client(api_key=api_key)
 
 
@@ -32,12 +36,20 @@ class FormService:
         # Initialize service dependencies here (e.g., DB, external APIs)
         pass
 
+    def download_pdf(self, filename):
+
+        if self.supa_base_mode:
+
+            file_bytes = supabase_service.download_from_supabase_storage_filled_forms(filename)
+
+            # Wrap bytes in a BytesIO stream for StreamingResponse
+            file_like = BytesIO(file_bytes)
+            return file_like
 
     def update_form(self, update_dto):
 
         required_object = {
             "filled_pdf_file_name": None,
-            # "filled_pdf_dict_raw": None
         }
 
         filename = update_dto.pdf_name
@@ -58,22 +70,10 @@ class FormService:
             "filled_pdf_dict_raw": None
         }
 
-
-        # Business logic goes here.
-        # For example, validate, save to DB, send email, etc.
-
-        # Dummy implementation:
-        # full_name = f"{form_data.first_name} {form_data.last_name}"
-
         filename = form_data.pdf_name
         print(f"processing {filename}")
         summary = form_data.summary
         print(f"received summary {summary}")
-
-    #     demo purpose: valid file names
-    #     array(['AIA hospital OPCLMF03.pdf.coredownload.inline.pdf',
-    #    'AXA hospitalization Claim Form -GE_HK_Fillable.pdf',
-    #    'Prudential hospital claim form.pdf'], dtype=object)
 
 
         pdf_schema = self.get_schema(filenamepdf=f'{filename}')
@@ -225,17 +225,22 @@ class FormService:
         # __file__ = .../app/services/auto_fill_service.py
         # base_dir = Path(__file__).resolve().parent.parent  # goes up from services/ to app/
         # csv_path = base_dir / "data_schema_20250714_165434_updated.csv"
-
-        data_schema_df = pd.read_csv(self.csv_path)
-        data_schema_df['data_schema_pdf_raw'] = data_schema_df['data_schema_pdf_raw'].apply(json.loads)
-
-        required_schema = data_schema_df.loc[data_schema_df['filename']==filenamepdf, 'data_schema_pdf_raw']
-
-        if not required_schema.empty:
-            result = required_schema.iloc[0]
-            return result
+        if self.supa_base_mode:
+            ## return the json.loads of data_schema_pdf_raw
+            return json.loads(supabase_service.search_pdf_schema_by_filename(filenamepdf))
+            
         else:
-            raise ValueError("No such schema")
+
+            data_schema_df = pd.read_csv(self.csv_path)
+            data_schema_df['data_schema_pdf_raw'] = data_schema_df['data_schema_pdf_raw'].apply(json.loads)
+
+            required_schema = data_schema_df.loc[data_schema_df['filename']==filenamepdf, 'data_schema_pdf_raw']
+
+            if not required_schema.empty:
+                result = required_schema.iloc[0]
+                return result
+            else:
+                raise ValueError("No such schema")
         
 
     def find_xref_index(self, xref, data):
@@ -245,7 +250,14 @@ class FormService:
 
 
     def update_pdf_fields(self, updated_field:list, filename:str):
-        pdf_document = fitz.open(self.filled_in_pdf_template_dir / filename)
+
+        if self.supa_base_mode:
+
+            pdf_document_supabase = supabase_service.download_from_supabase_storage_filled_forms(filename)
+            pdf_document = fitz.open(stream=pdf_document_supabase)
+
+        else:
+            pdf_document = fitz.open(self.filled_in_pdf_template_dir / filename)
         # print(f'The document should have these page_index {updated_field.keys()}')
         # print(f'The document has {len(updated_field)}')
         print(f"updating {filename}")
@@ -279,7 +291,14 @@ class FormService:
         
         ## overwrite previous PDF if update mode
         saved_file_name = filename
-        pdf_document.save(self.filled_in_pdf_template_dir / filename, incremental=True, encryption=fitz.PDF_ENCRYPT_KEEP)
+
+        if self.supa_base_mode:
+            pdf_document_bytes = pdf_document.write()
+            supabase_response = supabase_service.update_to_supabase_filled_forms(pdf_document_bytes, saved_file_name)
+
+        else:
+            pdf_document.save(self.filled_in_pdf_template_dir / filename, incremental=True, encryption=fitz.PDF_ENCRYPT_KEEP)
+
         pdf_document.close()
         return saved_file_name
 
@@ -288,9 +307,14 @@ class FormService:
 
     def fill_pdf_fields(self, filled_in_dict:dict, filename: str):
 
-
         ## create mode vs update mode -> else
-        pdf_document = fitz.open(self.pdf_template_dir / filename)
+
+        if self.supa_base_mode:
+            pdf_document_bytes = supabase_service.download_from_supabase_storage_form_templates(filename)
+            pdf_document = fitz.open(stream=pdf_document_bytes)
+
+        else:
+            pdf_document = fitz.open(self.pdf_template_dir / filename)
 
         print(f'The document should have these page_index {filled_in_dict.keys()}')
         print(f'The document has {len(pdf_document)}')
@@ -317,17 +341,18 @@ class FormService:
                     if index is not None:
                         widget.field_value = field_value_page[index]['value']
                         widget.update()
-                    # if xref in field_xref:
 
-                    #     index = find_xref_index
-
-                    #     widget.field_value = field_values[field_name]
-                    #     widget.update()
-
-        ## create mode vs update mode -> else
 
         saved_file_name = f'{filename}_filled_at_{datetime.now().strftime("%Y%m%d_%H%M%S")}.pdf'
-        pdf_document.save(self.filled_in_pdf_template_dir / saved_file_name)
+
+        if self.supa_base_mode:
+            pdf_document_bytes_to_be_saved = pdf_document.write()
+            supabase_result = supabase_service.update_to_supabase_filled_forms(pdf_document_bytes_to_be_saved,
+                                                                               saved_file_name)
+        else:
+            pdf_document.save(self.filled_in_pdf_template_dir / saved_file_name)
+
+        
         pdf_document.close()
         return saved_file_name
 
