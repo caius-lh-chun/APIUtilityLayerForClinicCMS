@@ -72,3 +72,49 @@ def download_from_supabase_storage_form_templates(uploaded_name):
         .download(f"{uploaded_name}")
     )
     return response
+
+
+def insert_filled_record_to_supabase(
+    filled_filename: str,
+    filled_dict: dict):
+    """Insert a new PDF template."""
+    data = {
+        "filename": filled_filename,
+        "filled_dict": json.dumps(filled_dict)
+    }
+    # Remove None or NaN values (if pandas is used)
+
+    response_insert = supabase_client.table("filled_pdfs").insert(data).execute()
+    return response_insert
+
+def get_filled_record_from_supabase(
+          filled_filename):
+     
+        response = (supabase_client.
+                table("filled_pdfs").
+                select("filled_dict").
+                eq("filename", filled_filename).
+                execute())
+        
+        return response.data[0]['filled_dict']
+
+
+
+def update_filled_record(
+    filled_filename: str,
+    filled_dict: dict):
+    """Insert a new PDF template."""
+    data = {
+        "filename": filled_filename,
+        "filled_dict": json.dumps(filled_dict)
+    }
+    # Remove None or NaN values (if pandas is used)
+
+    response_update = (supabase_client.table("filled_pdfs")
+                       .update({"filled_dict":filled_dict})
+                       .eq("filename",filled_filename)
+                       .execute())
+    return response_update
+
+
+# .update({"name": "piano"})    .eq("id", 1)    .execute())

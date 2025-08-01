@@ -38,12 +38,46 @@ class FormService:
 
     def download_pdf(self, filename):
 
+        template_filename = filename.split("_")[0]
         if self.supa_base_mode:
 
-            file_bytes = supabase_service.download_from_supabase_storage_filled_forms(filename)
+            
+            ## get template then retrieve latest field_list dict for update and real time fill for download
+            file_bytes = supabase_service.download_from_supabase_storage_form_templates(template_filename)
+            updated_field = json.loads(supabase_service.get_filled_record_from_supabase(filename))['field_list']
+            pdf_document = fitz.open(stream=file_bytes)
+
+
+            to_update_dict_list = {int(e['id'].split("_")[0]): e for e in updated_field}
+
+            
+            for pageNum in range(0, len(pdf_document)):
+                page = pdf_document.load_page(pageNum)
+                widget_list = page.widgets()
+
+                if widget_list:
+                    for widget in widget_list:
+
+                        xref = widget.xref
+
+                        # for jsonObject in updated_field:
+                        #     currentXref = jsonObject['id'].split("_")[0]
+                        #     print(f"currentXref is {currentXref}")
+
+                        #     if currentXref == xref:
+                        #         widget.field_value = jsonObject['value']
+                        #         widget.update()
+                    
+                        if xref in to_update_dict_list:
+                            print(f'updating xref id: {xref}')
+                            widget.field_value = to_update_dict_list[xref].get('value')
+                            widget.update()
+
+            updated_bytes = pdf_document.write()
+            pdf_document.close()
 
             # Wrap bytes in a BytesIO stream for StreamingResponse
-            file_like = BytesIO(file_bytes)
+            file_like = BytesIO(updated_bytes)
             return file_like
 
     def update_form(self, update_dto):
@@ -125,8 +159,11 @@ class FormService:
         required_object['filled_pdf_file_name'] = saved_file_name
         required_object['filled_pdf_dict_raw'] = return_dict
 
-        pre_defined_json = self.get_preview_dict(filled_dict=filled_in_dict)
-        required_object['predefined_json'] = pre_defined_json
+        if self.supa_base_mode:
+            saved_response = supabase_service.insert_filled_record_to_supabase(saved_file_name, return_dict)
+
+        # pre_defined_json = self.get_preview_dict(filled_dict=filled_in_dict)
+        # required_object['predefined_json'] = pre_defined_json
 
         ## also LLM to get relevant fields to be returned to frontend for preview
 
@@ -155,27 +192,27 @@ class FormService:
                 'value': <what you decided should be value for this widget>
         ] 
         """
-    def fill_predefined_json(self, filled_fields_per_page)->str:
-        return f"""
-            You are a seasoned PyMuPDF developer working for a clinic and you have nursing experience
-            Your job is to translate the raw PyMuPDF widget values into a human-readable JSON
-            Field description what each values they represent:
-            {filled_fields_per_page}
+    # def fill_predefined_json(self, filled_fields_per_page)->str:
+    #     return f"""
+    #         You are a seasoned PyMuPDF developer working for a clinic and you have nursing experience
+    #         Your job is to translate the raw PyMuPDF widget values into a human-readable JSON
+    #         Field description what each values they represent:
+    #         {filled_fields_per_page}
 
-            Output a single JSON objects as follows, if that value was not given, DO NOT make up values for it:
-                "PatientAdmissionDate": "",
-                "PatientDischargeDate": "",
-                "HospitalName": "",
-                "HospitalAddress": "",
-                "ReasonForHospitalization": "",
-                "DiagnosisCodeICD10Codes": "",
-                "TreatmentDescription": "",
-                "AttendingDoctorName": "",
-                "AttendingDoctorRegistrationNumber": "",
-                "DischargeStatus": "",
-                "PrescribedMedicine": "",
-                "InvestigationsConducted": ""
-        """
+    #         Output a single JSON objects as follows, if that value was not given, DO NOT make up values for it:
+    #             "PatientAdmissionDate": "",
+    #             "PatientDischargeDate": "",
+    #             "HospitalName": "",
+    #             "HospitalAddress": "",
+    #             "ReasonForHospitalization": "",
+    #             "DiagnosisCodeICD10Codes": "",
+    #             "TreatmentDescription": "",
+    #             "AttendingDoctorName": "",
+    #             "AttendingDoctorRegistrationNumber": "",
+    #             "DischargeStatus": "",
+    #             "PrescribedMedicine": "",
+    #             "InvestigationsConducted": ""
+    #     """
     
     def invoking_gemini(self, 
                         path_to_image, prompt, max_retries=10, retry_count=0):
@@ -253,53 +290,55 @@ class FormService:
 
         if self.supa_base_mode:
 
-            pdf_document_supabase = supabase_service.download_from_supabase_storage_filled_forms(filename)
-            pdf_document = fitz.open(stream=pdf_document_supabase)
+            required_dict = {'field_list':updated_field}
+            update_response = supabase_service.update_filled_record(filename, required_dict)
+            # pdf_document_supabase = supabase_service.download_from_supabase_storage_filled_forms(filename)
+            # pdf_document = fitz.open(stream=pdf_document_supabase)
 
-        else:
-            pdf_document = fitz.open(self.filled_in_pdf_template_dir / filename)
-        # print(f'The document should have these page_index {updated_field.keys()}')
-        # print(f'The document has {len(updated_field)}')
-        print(f"updating {filename}")
+        # else:
+        #     pdf_document = fitz.open(self.filled_in_pdf_template_dir / filename)
+        # # print(f'The document should have these page_index {updated_field.keys()}')
+        # # print(f'The document has {len(updated_field)}')
+        # print(f"updating {filename}")
 
 
-        to_update_dict_list = {int(e['id'].split("_")[0]): e for e in updated_field}
+        # to_update_dict_list = {int(e['id'].split("_")[0]): e for e in updated_field}
 
 
-        for pageNum in range(0, len(pdf_document)):
-            page = pdf_document.load_page(pageNum)
-            widget_list = page.widgets()
+        # for pageNum in range(0, len(pdf_document)):
+        #     page = pdf_document.load_page(pageNum)
+        #     widget_list = page.widgets()
 
-            if widget_list:
-                for widget in widget_list:
+        #     if widget_list:
+        #         for widget in widget_list:
 
-                    xref = widget.xref
+        #             xref = widget.xref
 
-                    # for jsonObject in updated_field:
-                    #     currentXref = jsonObject['id'].split("_")[0]
-                    #     print(f"currentXref is {currentXref}")
+        #             # for jsonObject in updated_field:
+        #             #     currentXref = jsonObject['id'].split("_")[0]
+        #             #     print(f"currentXref is {currentXref}")
 
-                    #     if currentXref == xref:
-                    #         widget.field_value = jsonObject['value']
-                    #         widget.update()
+        #             #     if currentXref == xref:
+        #             #         widget.field_value = jsonObject['value']
+        #             #         widget.update()
                 
-                    if xref in to_update_dict_list:
-                        print(f'updating xref id: {xref}')
-                        widget.field_value = to_update_dict_list[xref].get('value')
-                        widget.update()
+        #             if xref in to_update_dict_list:
+        #                 print(f'updating xref id: {xref}')
+        #                 widget.field_value = to_update_dict_list[xref].get('value')
+        #                 widget.update()
 
         
-        ## overwrite previous PDF if update mode
+        # ## overwrite previous PDF if update mode
         saved_file_name = filename
 
-        if self.supa_base_mode:
-            pdf_document_bytes = pdf_document.write()
-            supabase_response = supabase_service.update_to_supabase_filled_forms(pdf_document_bytes, saved_file_name)
+        # if self.supa_base_mode:
+        #     pdf_document_bytes = pdf_document.write()
+        #     supabase_response = supabase_service.update_to_supabase_filled_forms(pdf_document_bytes, saved_file_name)
 
-        else:
-            pdf_document.save(self.filled_in_pdf_template_dir / filename, incremental=True, encryption=fitz.PDF_ENCRYPT_KEEP)
+        # else:
+        #     pdf_document.save(self.filled_in_pdf_template_dir / filename, incremental=True, encryption=fitz.PDF_ENCRYPT_KEEP)
 
-        pdf_document.close()
+        # pdf_document.close()
         return saved_file_name
 
 
@@ -345,12 +384,12 @@ class FormService:
 
         saved_file_name = f'{filename}_filled_at_{datetime.now().strftime("%Y%m%d_%H%M%S")}.pdf'
 
-        if self.supa_base_mode:
-            pdf_document_bytes_to_be_saved = pdf_document.write()
-            supabase_result = supabase_service.update_to_supabase_filled_forms(pdf_document_bytes_to_be_saved,
-                                                                               saved_file_name)
-        else:
-            pdf_document.save(self.filled_in_pdf_template_dir / saved_file_name)
+        # if self.supa_base_mode:
+        #     pdf_document_bytes_to_be_saved = pdf_document.write()
+        #     supabase_result = supabase_service.update_to_supabase_filled_forms(pdf_document_bytes_to_be_saved,
+        #                                                                        saved_file_name)
+        # else:
+        #     pdf_document.save(self.filled_in_pdf_template_dir / saved_file_name)
 
         
         pdf_document.close()
