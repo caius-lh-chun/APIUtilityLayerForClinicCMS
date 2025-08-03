@@ -1,15 +1,19 @@
 import pandas as pd
 import json
-from app.models.form_fill_data import FormRequest
+from app.models.form_fill_data import *
+from app.models.data_enums import *
+from app.models.supbase_form_snapshot import *
+from fastapi.responses import FileResponse,StreamingResponse
 from pathlib import Path
 from google import genai
 from datetime import datetime
 from dotenv import load_dotenv
-from . import supabase_service
+from . import supabase_service, gemini_service
 from io import BytesIO
 import time
 import fitz
 import os
+from ..prompts import auto_fill_prompts
 
 try:
     from dotenv import load_dotenv
@@ -36,19 +40,43 @@ class FormService:
         # Initialize service dependencies here (e.g., DB, external APIs)
         pass
 
-    def download_pdf(self, filename):
+    def download_pdf(self, request:DownloadRequest):
 
-        template_filename = filename.split("_")[0]
+        # template_filename = filename.split("_")[0]
+
+        ticket_id = request.ticket_id
         if self.supa_base_mode:
 
             
             ## get template then retrieve latest field_list dict for update and real time fill for download
+
+            latest_version_record = supabase_service.get_latest_version_of_form_snapshots(ticket_id)
+            template_filename = latest_version_record['pdf_file_name']
+            print(f"current template is {template_filename}")
+            updated_field = latest_version_record['form_data']
+            print(f"current update field is {updated_field}")
+
             file_bytes = supabase_service.download_from_supabase_storage_form_templates(template_filename)
-            updated_field = json.loads(supabase_service.get_filled_record_from_supabase(filename))['field_list']
+            # updated_field = json.loads(supabase_service.get_filled_record_from_supabase(filename))['field_list']
+            
             pdf_document = fitz.open(stream=file_bytes)
 
+            # {
+            #     "259_rbQ8": null,
+            #     "266_rbQ8": null,
+            #     "233_txtID": null,
+            #     "255_txtQ6": "Back sebaceous cyst",
+            #     "261_txtQ7": "Excision of back mass under Local Anesthesia (LA)"
+            # }
 
-            to_update_dict_list = {int(e['id'].split("_")[0]): e for e in updated_field}
+            to_update_dict_list = {}
+
+            for key, value in updated_field.items():
+                append_key = int(key.split("_")[0])
+                to_update_dict_list[append_key] = value
+
+
+            # to_update_dict_list = {int(e['id'].split("_")[0]): e for e in updated_field}
 
             
             for pageNum in range(0, len(pdf_document)):
@@ -68,9 +96,9 @@ class FormService:
                         #         widget.field_value = jsonObject['value']
                         #         widget.update()
                     
-                        if xref in to_update_dict_list:
+                        if xref in to_update_dict_list.keys():
                             print(f'updating xref id: {xref}')
-                            widget.field_value = to_update_dict_list[xref].get('value')
+                            widget.field_value = to_update_dict_list[xref]
                             widget.update()
 
             updated_bytes = pdf_document.write()
@@ -78,206 +106,209 @@ class FormService:
 
             # Wrap bytes in a BytesIO stream for StreamingResponse
             file_like = BytesIO(updated_bytes)
-            return file_like
+
+            return StreamingResponse(
+                file_like,
+                media_type="application/pdf",
+                headers={
+                    "Content-Disposition": f"attachment; filename={template_filename}_{ticket_id}.pdf"
+                }
+            )
 
     def update_form(self, update_dto):
 
-        required_object = {
-            "filled_pdf_file_name": None,
-        }
+        # class FormUpdateRequest(BaseModel):
+        #     ticket_id: str = Field(..., example = "dcd924cb-60a3-4756-b94a-9695002de8e8")
+        #     form_id: str = Field(..., example = "aia-opclmf03")
+        #     pdf_name: str = Field(..., example = "AIA hospital OPCLMF03.pdf.coredownload.inline.pdf")
+        #     form_data: dict = Field(..., example = 
+        #             {
+        #                 "259_rbQ8": None,
+        #                 "266_rbQ8": None,
+        #                 "233_txtID": None,
+        #                 "255_txtQ6": "Back sebaceous cyst",
+        #                 "261_txtQ7": "Excision of back mass under Local Anesthesia (LA)",
+        #                 "275_txtQ3": "Back nodule x 2 months, possible pain, increase in size.",
+        #                 "281_rbQ9f": "Yes"
+        #             }         
+        #                                 )
+            
+        # class FormUpdateResponse(BaseModel):
+        #     form_snapshots_id: str = Field(..., example = "24a72aa8-1b61-4c0e-ac07-d868c83c7622")
+        #     form_snapshots_message: str = Field(..., example = "Form Snapshots ID 24a72aa8-1b61-4c0e-ac07-d868c83c7622 Version 4 has been created")
 
-        filename = update_dto.pdf_name
-        list_for_update_widget = update_dto.field_list
 
-        saved_file_name = self.update_pdf_fields(list_for_update_widget, filename)
+        template_name = update_dto.pdf_name #template name to find Enums
+        # form_id = update_dto.form_id #form_id (optional) -> depends which one Eric wants to search by
+        ## find by form_id whether have or not first, if not insert a new version starting zero
+        form_data_dict = update_dto.form_data #the form_data JSON
+        ticket_id = update_dto.ticket_id
 
-        required_object['filled_pdf_file_name'] = saved_file_name
+        current_ticket_form_snapshots = supabase_service.search_form_snapshots_by_ticket_id(ticket_id)
+        current_form_enum = form_templates.find_by_filename(template_name)
 
-        return required_object
+        if len(current_ticket_form_snapshots) == 0:
+            
+            print("Create new snapshots")
+            current_version = 1
+
+            formSnapshot = FormSnapshot(
+                ticket_id= ticket_id,
+                form_id = current_form_enum.form_id,
+                insurance_company=current_form_enum.company_name,
+                pdf_file_name= current_form_enum.template_name,
+                form_name= current_form_enum.form_name,
+                form_data= form_data_dict,
+                version=current_version,
+                status= 'draft' # assume start from 1
+            )
+
+            response = supabase_service.insert_new_form_snapshots_for_update(formSnapshot)
+
+            print(response)
+
+            if response:
+                return FormUpdateResponse(
+                    form_snapshots_id=response[0]['id'],
+                    form_snapshots_message= f"Form Snapshots ID {response[0]['id']} Version {current_version} has been created")
+        else:
+
+            current_version = len(current_ticket_form_snapshots) + 1
+
+            formSnapshot = FormSnapshot(
+                ticket_id= ticket_id,
+                form_id = current_form_enum.form_id,
+                insurance_company=current_form_enum.company_name,
+                form_name= current_form_enum.form_name,
+                pdf_file_name= current_form_enum.template_name,
+                form_data= form_data_dict,
+                version=current_version, # assume start from 1
+                status= 'draft'
+            )
+
+            response = supabase_service.insert_new_form_snapshots_for_update(formSnapshot)
+
+            print(response)
+
+            if response:
+                return FormUpdateResponse(
+                    form_snapshots_id=response[0]['id'],
+                    form_snapshots_message= f"Form Snapshots ID {response[0]['id']} Version {current_version} has been created")
 
 
-    def process_form(self, form_data: FormRequest) -> dict:
+        # class FormSnapshot(BaseModel):
+        #     ticket_id: str ##UUID
+        #     form_id: str
+        #     insurance_company: str
+        #     form_name: str
+        #     form_data: dict
+        #     pdf_file_name: str
+        #     version: int
+        #     status: str ## status logic?
+        #     ## optional created at and updated at date, ride on default create behavior?
 
-        required_object = {
-            "filled_pdf_file_name": None,
-            "predefined_json": None,
-            "filled_pdf_dict_raw": None
-        }
+
+        # saved_file_name = self.update_pdf_fields(list_for_update_widget, filename)
+
+        # required_object['filled_pdf_file_name'] = saved_file_name
+
+        # return required_object
+
+
+    def process_form(self, form_data: FormRequest) -> FormResponse:
+
 
         filename = form_data.pdf_name
         print(f"processing {filename}")
         summary = form_data.summary
         print(f"received summary {summary}")
 
-
         pdf_schema = self.get_schema(filenamepdf=f'{filename}')
         print(f"retried schema")
 
         ## after get schema, fill in PDF and save somewhere and return defined fields from here
-
         filled_in_dict = {}
+        transformed_schema = {}
 
-        for page, widget in pdf_schema.items():
-            prompt_for_task = self.fill_fields_prompt(widget,summary)
-            result = self.invoking_gemini(path_to_image=None, prompt=prompt_for_task)
-            filled_in_dict[page] = result
+        for page, widgets in pdf_schema.items():
+            ## get a transformed schema
+            for e in widgets:
+                transformed_schema[e['id']] = e['description']
+
+        print(f"schema transformed as: {transformed_schema}")
+        prompt_for_task = auto_fill_prompts.fill_fields_prompt(transformed_schema,summary)
+        result = gemini_service.invoking_gemini(path_to_image=None, prompt=prompt_for_task)
+
+        ## this part change to whole file at once
+        # for page, widget in pdf_schema.items():
+        #     prompt_for_task = auto_fill_prompts.fill_fields_prompt(widget,summary)
+        #     result = gemini_service.invoking_gemini(path_to_image=None, prompt=prompt_for_task)
+        #     filled_in_dict[page] = result
 
         ## after load json, add id for each element
+        print(f"from LLM: {result}")
 
-        print(filled_in_dict[page])
+        dict_result = json.loads(result)
 
-        return_dict = {
-            "field_list" : []
-        }
+        # return_dict = {
+        #     "field_list" : []
+        # }
 
-        for page, pageJsonList in filled_in_dict.items():
+        for page, widgets in pdf_schema.items():
+            ## get a composed filled / not filled schema
+            for e in widgets:
+                if e['id'] not in list(dict_result.keys()):
+                    dict_result[e['id']] = None
+
+
+        # for page, pageJsonList in filled_in_dict.items():
             
-            pageJsonList = json.loads(pageJsonList)
-            pageJsonDict = {e['xref']: e for e in pageJsonList}
+        #     pageJsonList = json.loads(pageJsonList)
+        #     pageJsonDict = {e['xref']: e for e in pageJsonList}
 
-            for x in pdf_schema[page]:
-                toFillXref = x['xref']
-                newObject = {
-                    'id': f"{toFillXref}_{x['name']}",
-                    'value': None  # default
-                }
+        #     for x in pdf_schema[page]:
+        #         toFillXref = x['xref']
+        #         newObject = {
+        #             'id': f"{toFillXref}_{x['name']}",
+        #             'value': None  # default
+        #         }
                 
-                if toFillXref in pageJsonDict:
-                    newObject['value'] = pageJsonDict[toFillXref].get('value')
+        #         if toFillXref in pageJsonDict:
+        #             newObject['value'] = pageJsonDict[toFillXref].get('value')
                 
-                return_dict["field_list"].append(newObject)
+        #         return_dict["field_list"].append(newObject)
             
-        
+        # saved_file_name = self.fill_pdf_fields(filled_in_dict=filled_in_dict,filename=filename)
 
-        print(f"retrieved filled dict JSON")
-
-        saved_file_name = self.fill_pdf_fields(filled_in_dict=filled_in_dict,filename=filename)
+        saved_file_name = f'{filename}_filled_at_{datetime.now().strftime("%Y%m%d_%H%M%S")}.pdf'
 
         print(f"saved PDF as {saved_file_name}")
 
 
-        required_object['filled_pdf_file_name'] = saved_file_name
-        required_object['filled_pdf_dict_raw'] = return_dict
+        # required_object['filled_pdf_file_name'] = saved_file_name
+        # required_object['filled_pdf_dict_raw'] = return_dict
 
-        if self.supa_base_mode:
-            saved_response = supabase_service.insert_filled_record_to_supabase(saved_file_name, return_dict)
+        # if self.supa_base_mode:
+        #     saved_response = supabase_service.insert_filled_record_to_supabase(saved_file_name, return_dict)
 
         # pre_defined_json = self.get_preview_dict(filled_dict=filled_in_dict)
         # required_object['predefined_json'] = pre_defined_json
 
         ## also LLM to get relevant fields to be returned to frontend for preview
 
-        return required_object
-    
-    def get_preview_dict(self, filled_dict):
-        prompt = self.fill_predefined_json(filled_dict)
-        result = self.invoking_gemini(None, prompt)
-        return json.loads(result)
-    
-    def fill_fields_prompt(self, fields, source_info: str) -> str:
-        return f"""
-            You are a seasoned PyMuPDF developer working for a clinic and you have nursing experience
-            Your job is to fill the following form fields using the provided materials.
-            Field description will tell you which values they expect:
-            {json.dumps(fields, indent=2)}
-
-            Materials:
-            - The following summary written by the doctor on duty
-            {source_info}
-
-            Output a list of JSON objects as follows:
-        [
-                'xref': <original xref>,
-                'name': <original name>,
-                'value': <what you decided should be value for this widget>
-        ] 
-        """
-    # def fill_predefined_json(self, filled_fields_per_page)->str:
-    #     return f"""
-    #         You are a seasoned PyMuPDF developer working for a clinic and you have nursing experience
-    #         Your job is to translate the raw PyMuPDF widget values into a human-readable JSON
-    #         Field description what each values they represent:
-    #         {filled_fields_per_page}
-
-    #         Output a single JSON objects as follows, if that value was not given, DO NOT make up values for it:
-    #             "PatientAdmissionDate": "",
-    #             "PatientDischargeDate": "",
-    #             "HospitalName": "",
-    #             "HospitalAddress": "",
-    #             "ReasonForHospitalization": "",
-    #             "DiagnosisCodeICD10Codes": "",
-    #             "TreatmentDescription": "",
-    #             "AttendingDoctorName": "",
-    #             "AttendingDoctorRegistrationNumber": "",
-    #             "DischargeStatus": "",
-    #             "PrescribedMedicine": "",
-    #             "InvestigationsConducted": ""
-    #     """
-    
-    def invoking_gemini(self, 
-                        path_to_image, prompt, max_retries=10, retry_count=0):
         
-        client = self.client
 
-        try:
-            start_time = time.time()  # record start time
+        formResponse = FormResponse(filled_pdf_dict = dict_result)
+        
+        print(f"result returned: \n {formResponse.model_dump()}")
 
-            if path_to_image is not None:
-                myfile = client.files.upload(file=path_to_image)
-                contents = [myfile, "\n\n", prompt]
-            else:
-                contents = ["\n\n", prompt]
-
-            result = client.models.generate_content(
-                # model="gemini-2.5-pro",
-                model = "gemini-2.0-flash",
-                contents=contents,
-                config={"response_mime_type": "application/json"}
-            )
-            end_time = time.time()  # record end time
-            duration = end_time - start_time
-            print(f"This successful call to LLM took {duration:.4f} seconds")
-
-            return result.text
-
-        except genai.errors.APIError as e:
-            if hasattr(e, "code") and e.code in [429, 500, 502, 503]:
-                print(f"retrying for {retry_count}")
-                end_time = time.time()  # record end time
-                duration = end_time - start_time
-                print(f"This unsuccessful call to LLM took {duration:.4f} seconds")
-                if retry_count < max_retries:
-                    # wait_time = 2 ** retry_count  # exponential backoff: 1s, 2s, 4s, ...
-                    # time.sleep(wait_time)
-                    return self.invoking_gemini(path_to_image, prompt, max_retries, retry_count + 1)
-                else:
-                    print(f"Max retries reached ({max_retries}). Raising exception.")
-                    raise
-            else:
-                raise
+        return formResponse
+    
     
     def get_schema(self, filenamepdf):
-        #csv example for quick demo
-
-        # __file__ = .../app/services/auto_fill_service.py
-        # base_dir = Path(__file__).resolve().parent.parent  # goes up from services/ to app/
-        # csv_path = base_dir / "data_schema_20250714_165434_updated.csv"
         if self.supa_base_mode:
             ## return the json.loads of data_schema_pdf_raw
             return json.loads(supabase_service.search_pdf_schema_by_filename(filenamepdf))
-            
-        else:
-
-            data_schema_df = pd.read_csv(self.csv_path)
-            data_schema_df['data_schema_pdf_raw'] = data_schema_df['data_schema_pdf_raw'].apply(json.loads)
-
-            required_schema = data_schema_df.loc[data_schema_df['filename']==filenamepdf, 'data_schema_pdf_raw']
-
-            if not required_schema.empty:
-                result = required_schema.iloc[0]
-                return result
-            else:
-                raise ValueError("No such schema")
         
 
     def find_xref_index(self, xref, data):
@@ -286,59 +317,17 @@ class FormService:
                 return index
 
 
+    ## TODO: rewrite logic as follows:
+    ## take in ticket id, form-id (get from Enum)
     def update_pdf_fields(self, updated_field:list, filename:str):
 
         if self.supa_base_mode:
 
             required_dict = {'field_list':updated_field}
             update_response = supabase_service.update_filled_record(filename, required_dict)
-            # pdf_document_supabase = supabase_service.download_from_supabase_storage_filled_forms(filename)
-            # pdf_document = fitz.open(stream=pdf_document_supabase)
 
-        # else:
-        #     pdf_document = fitz.open(self.filled_in_pdf_template_dir / filename)
-        # # print(f'The document should have these page_index {updated_field.keys()}')
-        # # print(f'The document has {len(updated_field)}')
-        # print(f"updating {filename}")
-
-
-        # to_update_dict_list = {int(e['id'].split("_")[0]): e for e in updated_field}
-
-
-        # for pageNum in range(0, len(pdf_document)):
-        #     page = pdf_document.load_page(pageNum)
-        #     widget_list = page.widgets()
-
-        #     if widget_list:
-        #         for widget in widget_list:
-
-        #             xref = widget.xref
-
-        #             # for jsonObject in updated_field:
-        #             #     currentXref = jsonObject['id'].split("_")[0]
-        #             #     print(f"currentXref is {currentXref}")
-
-        #             #     if currentXref == xref:
-        #             #         widget.field_value = jsonObject['value']
-        #             #         widget.update()
-                
-        #             if xref in to_update_dict_list:
-        #                 print(f'updating xref id: {xref}')
-        #                 widget.field_value = to_update_dict_list[xref].get('value')
-        #                 widget.update()
-
-        
-        # ## overwrite previous PDF if update mode
         saved_file_name = filename
 
-        # if self.supa_base_mode:
-        #     pdf_document_bytes = pdf_document.write()
-        #     supabase_response = supabase_service.update_to_supabase_filled_forms(pdf_document_bytes, saved_file_name)
-
-        # else:
-        #     pdf_document.save(self.filled_in_pdf_template_dir / filename, incremental=True, encryption=fitz.PDF_ENCRYPT_KEEP)
-
-        # pdf_document.close()
         return saved_file_name
 
 
